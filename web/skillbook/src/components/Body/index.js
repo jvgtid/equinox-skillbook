@@ -9,6 +9,7 @@ import './index.css';
 class Body extends React.Component {
     state = {
         login: true,
+        view: 'explore'
     };
 
     enterSite = () => {
@@ -20,11 +21,18 @@ class Body extends React.Component {
         if (this.state.login) {
             content =  <LoginBox enterSite={ this.enterSite }/>;
         } else {
-            content = [
-                <Header />,
-                <Sidebar />,
-                <Landing />
-            ];
+            if (this.state.view === 'home') {
+                content = [
+                    <Header />,
+                    <Sidebar />,
+                    <Landing />
+                ];
+            } else {
+                content = [
+                    <Header />,
+                    <Landing />
+                ];
+            }
         }
 
         return (
