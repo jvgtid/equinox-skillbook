@@ -1,2 +1,2 @@
-# equinox_skillbook
+# equinox-skillbook
 Equinox SkillBook project
