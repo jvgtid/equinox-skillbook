@@ -23,8 +23,8 @@ class Collaborator:
         self.languages_used = languages_used
         self.login = login
 
-    def __sum__(self, other_collaborator):
-        language_idxs = map(lambda x: x.key, self.languages_used)
+    def __add__(self, other_collaborator):
+        language_idxs = list(map(lambda x: x.key, self.languages_used))
         languages = []
 
         for language in other_collaborator.languages_used:
@@ -32,7 +32,7 @@ class Collaborator:
             new_language = language
 
             if idx >= 0:
-                new_language += self.languages_used[idx]
+                new_language = new_language + self.languages_used[idx]
 
             languages.append(new_language)
 

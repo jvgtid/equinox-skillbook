@@ -1,0 +1,1 @@
+{"id": "Telefonica/niji-ops-scripts", "name": "ops_scripts", "description": "Utils for Niji", "date_creation": "2019-02-18", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Go": 1587582, "Python": 116732, "Erlang": 99867, "Shell": 86548, "Makefile": 32319, "Gherkin": 27850, "PowerShell": 5558, "Roff": 1365, "Batchfile": 183}}

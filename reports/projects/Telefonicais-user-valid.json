@@ -1,0 +1,1 @@
+{"id": "Telefonica/is-user-valid", "name": "is-user-valid", "description": "Really simple service to check if a user is valid in your ldap", "date_creation": "2015-09-30", "date_last_release": "2016-03-07", "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 6304, "Python": 3866, "Shell": 1667, "Nginx": 817}}

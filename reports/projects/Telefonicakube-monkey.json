@@ -1,0 +1,1 @@
+{"id": "Telefonica/kube-monkey", "name": "# kube-monkey", "description": "An implementation of Netflix's Chaos Monkey for Kubernetes clusters", "date_creation": "2018-01-16", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Go": 28433, "Makefile": 916}}

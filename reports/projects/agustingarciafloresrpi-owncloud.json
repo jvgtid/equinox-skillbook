@@ -1,0 +1,1 @@
+{"id": "agustingarciaflores/rpi-owncloud", "name": "OwnCloud on Docker on a Respberry Pi", "description": "Dockerfiles for creating Docker images (http://docker.io)", "date_creation": "2018-02-02", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Shell": 1583}}

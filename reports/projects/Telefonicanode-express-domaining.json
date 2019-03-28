@@ -1,0 +1,1 @@
+{"id": "Telefonica/node-express-domaining", "name": "express-domaining", "description": "Express middleware to automatically create and destroy a domain.", "date_creation": "2015-06-24", "date_last_release": "2016-10-13", "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 5732}}

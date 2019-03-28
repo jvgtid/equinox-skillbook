@@ -1,0 +1,1 @@
+{"id": "franciscomoma/eol-lambda", "name": "EOL lambda - An example of Amazon Lambda function written in Python", "description": "An Amazon Lambda test that returns Elotrolado.net news as json", "date_creation": "2018-10-07", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 2088}}
