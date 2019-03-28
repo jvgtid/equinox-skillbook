@@ -1,0 +1,31 @@
+.sidebar-container {
+    height: calc(100% - 95px);
+    float: left;
+    width: calc(16% - 20px);
+    padding: 20px;
+    background-color: #e2e2e2;
+    justify-content: space-between;
+}
+
+.sidebar-container .user-name {
+    font-size: 18px;
+}
+
+.user-name {
+    margin-bottom: 14%;
+}
+.user-img {
+    position: relative;
+}
+.img {
+    height: 65%;
+    width: 65%;
+    background: #fff;
+    border-radius: 50%;
+    border: 4px solid #63ace5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

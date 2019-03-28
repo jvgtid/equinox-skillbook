@@ -1,0 +1,21 @@
+.header-container {
+    background-color: #5e5e5e;
+    color: #fff;
+    height: 55px;
+    box-shadow: 0px 1px 7px 1px rgba(1, 1, 1, 0.4);
+}
+
+.header-button {
+    padding: 0 27px;
+    font-size: 18px;
+    line-height: 54px;
+    height: 55px;
+    cursor: pointer;
+    border-right: 2px solid #8e8e8e;
+    background-color: #5e5e5e;
+    user-select: none;
+}
+.header-button:hover {
+    transition: background-color linear 0.3s;
+    background-color: #696969;
+}
