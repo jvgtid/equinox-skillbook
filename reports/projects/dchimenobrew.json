@@ -1,0 +1,16 @@
+{
+  "id": "dchimeno/brew",
+  "name": "Homebrew",
+  "description": "\ud83c\udf7a The missing package manager for macOS",
+  "date_creation": "2018-08-22",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Ruby": 2011615,
+    "Roff": 71645,
+    "Shell": 64769,
+    "HTML": 11559,
+    "PostScript": 485
+  }
+}

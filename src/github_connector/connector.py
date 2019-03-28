@@ -1,5 +1,3 @@
-import itertools
-import operator
 import re
 from collections import defaultdict
 
@@ -123,7 +121,7 @@ def load_collaborators_for_repo(g, repo):
             mail = user.email
             picture = user.avatar_url
             projects = [repo.name]
-            coworkers = user.collaborators
+            coworkers = [] if not user.collaborators else user.collaborators
             languages_used = get_languages(g, user.login, repo)
             login = col.login
 
@@ -150,7 +148,7 @@ def load(g):
     collaborators = {}
     for collaborator in cols:
         if collaborator.id in collaborators:
-            collaborators[collaborator.id] += collaborator
+            collaborators[collaborator.id] = collaborator + collaborators[collaborator.id]
         else:
             collaborators[collaborator.id] = collaborator
 

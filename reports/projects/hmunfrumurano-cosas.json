@@ -1,0 +1,13 @@
+{
+  "id": "hmunfru/murano-cosas",
+  "name": "murano-cosas",
+  "description": null,
+  "date_creation": "2015-08-06",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 28201,
+    "Shell": 6043
+  }
+}

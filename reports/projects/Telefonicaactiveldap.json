@@ -1,0 +1,13 @@
+{
+  "id": "Telefonica/activeldap",
+  "name": "",
+  "description": "ActiveLdap provides an object oriented interface to LDAP.",
+  "date_creation": "2017-09-08",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Ruby": 566909,
+    "Shell": 683
+  }
+}

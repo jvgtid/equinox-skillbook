@@ -1,0 +1,12 @@
+{
+  "id": "Telefonica/alastria-node",
+  "name": "ALASTRIA #",
+  "description": "How to install a node in Alastria",
+  "date_creation": "2017-10-25",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Shell": 8188
+  }
+}

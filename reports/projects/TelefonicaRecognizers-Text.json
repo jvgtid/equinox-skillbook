@@ -1,0 +1,22 @@
+{
+  "id": "Telefonica/Recognizers-Text",
+  "name": "Microsoft Recognizers Text Overview",
+  "description": "Microsoft.Recognizers.Text provides recognition and resolution of numbers, units, and date/time expressed in multiple languages (CN, EN, FR, ES, and PT. Partial support for DE, JA, KO, NL). Contributions are greatly welcome! Packages are available at https://www.nuget.org/profiles/Recognizers.Text and https://www.npmjs.com/~recognizers.text",
+  "date_creation": "2019-01-24",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "C#": 4122131,
+    "Java": 2295092,
+    "JavaScript": 1804127,
+    "Python": 1633547,
+    "TypeScript": 1540227,
+    "Batchfile": 18795,
+    "HTML": 6764,
+    "PowerShell": 1418,
+    "Dockerfile": 1358,
+    "Shell": 1313,
+    "ASP": 131
+  }
+}

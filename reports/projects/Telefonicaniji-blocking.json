@@ -1,0 +1,18 @@
+{
+  "id": "Telefonica/niji-blocking",
+  "name": "/artifacts/browse/simple/General/docker/awazza/niji-blocking)",
+  "description": null,
+  "date_creation": "2019-02-14",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "HTML": 46230,
+    "Go": 13257,
+    "Makefile": 10348,
+    "CSS": 5616,
+    "Shell": 5378,
+    "JavaScript": 4199,
+    "Dockerfile": 1457
+  }
+}

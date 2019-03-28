@@ -1,0 +1,12 @@
+{
+  "id": "Edorka/dh-dns-updater",
+  "name": "dh-dns-updater",
+  "description": "Python daemon to update a host's record using Dreamhost  API",
+  "date_creation": "2016-10-14",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 3475
+  }
+}

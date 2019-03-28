@@ -1,0 +1,13 @@
+{
+  "id": "Edorka/blas",
+  "name": "Base Layer for Application Services",
+  "description": "Base Layer for Application Services",
+  "date_creation": "2015-03-16",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 21157,
+    "HTML": 255
+  }
+}

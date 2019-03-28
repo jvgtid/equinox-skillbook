@@ -1,2 +1,5 @@
 PyGithub==1.43.5
 python-redmine==2.2.1
+Flask==1.0.2
+Flask-JWT==0.3.2
+Flask-RESTful==0.3.7

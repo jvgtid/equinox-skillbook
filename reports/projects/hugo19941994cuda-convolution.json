@@ -1,0 +1,13 @@
+{
+  "id": "hugo19941994/cuda-convolution",
+  "name": "",
+  "description": null,
+  "date_creation": "2018-03-04",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "C++": 2932036,
+    "Cuda": 5466
+  }
+}

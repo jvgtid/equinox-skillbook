@@ -1,0 +1,13 @@
+{
+  "id": "Telefonica/edm-mock-auth",
+  "name": "edm-mock-auth",
+  "description": "A mock OpenID Connect identity provider for EDM testing",
+  "date_creation": "2017-10-02",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 7294,
+    "HTML": 4891
+  }
+}

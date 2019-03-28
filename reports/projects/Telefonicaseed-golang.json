@@ -1,0 +1,16 @@
+{
+  "id": "Telefonica/seed-golang",
+  "name": "/artifacts/browse/tree/General/docker/telefonica/seed-golang)",
+  "description": "Seed for golang projects",
+  "date_creation": "2017-11-19",
+  "date_last_release": "2018-04-05",
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Go": 16285,
+    "Makefile": 8761,
+    "Shell": 5233,
+    "Python": 4007,
+    "Gherkin": 3361
+  }
+}

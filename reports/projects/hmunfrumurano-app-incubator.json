@@ -1,0 +1,14 @@
+{
+  "id": "hmunfru/murano-app-incubator",
+  "name": "",
+  "description": "Incubator for Murano applications",
+  "date_creation": "2016-11-16",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "PowerShell": 175817,
+    "Shell": 166317,
+    "Python": 24391
+  }
+}

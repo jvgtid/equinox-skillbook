@@ -1,0 +1,12 @@
+{
+  "id": "Telefonica/phone",
+  "name": "# What is node-phone?",
+  "description": "With a given country and phone number, validate and format the MOBILE phone number to E.164 standard",
+  "date_creation": "2017-05-25",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 67807
+  }
+}

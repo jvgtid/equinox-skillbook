@@ -1,0 +1,16 @@
+{
+  "id": "Telefonica/niji-widget",
+  "name": "Niji Widget - La Superilla",
+  "description": null,
+  "date_creation": "2019-02-18",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 132788,
+    "CSS": 10497,
+    "Shell": 3020,
+    "Python": 2560,
+    "Dockerfile": 287
+  }
+}

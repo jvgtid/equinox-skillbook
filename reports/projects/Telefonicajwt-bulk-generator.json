@@ -1,0 +1,12 @@
+{
+  "id": "Telefonica/jwt-bulk-generator",
+  "name": "jwt-bulk-generator",
+  "description": "Script to generate JWT tokens and store them in a csv file",
+  "date_creation": "2015-10-08",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 2866
+  }
+}

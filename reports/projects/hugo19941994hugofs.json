@@ -1,0 +1,16 @@
+{
+  "id": "hugo19941994/hugofs",
+  "name": "HugoFS website",
+  "description": "My personal website",
+  "date_creation": "2016-07-31",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "TypeScript": 20887,
+    "CSS": 12361,
+    "HTML": 5624,
+    "JavaScript": 1132,
+    "Shell": 332
+  }
+}

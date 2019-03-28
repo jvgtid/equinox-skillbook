@@ -1,0 +1,13 @@
+{
+  "id": "dchimeno/homebrew-core",
+  "name": "Homebrew Core",
+  "description": "\ud83c\udf7b Default formulae for the missing package manager for macOS",
+  "date_creation": "2018-08-22",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Ruby": 8189196,
+    "Perl": 628
+  }
+}

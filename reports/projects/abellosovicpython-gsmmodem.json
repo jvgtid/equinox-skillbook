@@ -1,0 +1,12 @@
+{
+  "id": "abellosovic/python-gsmmodem",
+  "name": "",
+  "description": "Python module to control a GSM modem attached to the system: send/receive SMS messages, handle calls, etc",
+  "date_creation": "2018-03-07",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 415204
+  }
+}

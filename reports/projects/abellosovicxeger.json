@@ -1,0 +1,12 @@
+{
+  "id": "abellosovic/xeger",
+  "name": "default limit = 10",
+  "description": "Library to generate random strings from regular expressions.",
+  "date_creation": "2017-11-23",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 9124
+  }
+}

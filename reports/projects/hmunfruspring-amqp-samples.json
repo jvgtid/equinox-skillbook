@@ -1,0 +1,14 @@
+{
+  "id": "hmunfru/spring-amqp-samples",
+  "name": "Build Instructions #",
+  "description": "Sample for Spring AMQP",
+  "date_creation": "2015-10-08",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Java": 105570,
+    "CSS": 20702,
+    "JavaScript": 18694
+  }
+}

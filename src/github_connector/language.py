@@ -17,7 +17,7 @@ class Language:
         self.last_period = last_period
         self.projects_used = projects_used
 
-    def __sum__(self, other_language):
+    def __add__(self, other_language):
         return Language(
             self.key,
             max(self.last_commit_date, other_language.last_comit_date),

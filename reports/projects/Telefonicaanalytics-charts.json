@@ -1,0 +1,14 @@
+{
+  "id": "Telefonica/analytics-charts",
+  "name": "Analytics Charts",
+  "description": "React + D3 library for chart components. It stores different charts that follows the LUCA design model and allows a huge layer of customization",
+  "date_creation": "2018-11-19",
+  "date_last_release": "2019-03-22",
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 453812,
+    "CSS": 18769,
+    "HTML": 1572
+  }
+}

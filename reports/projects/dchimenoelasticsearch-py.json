@@ -1,0 +1,13 @@
+{
+  "id": "dchimeno/elasticsearch-py",
+  "name": "doctype",
+  "description": "Official Python low-level client for Elasticsearch.",
+  "date_creation": "2018-04-11",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 370518,
+    "Shell": 536
+  }
+}

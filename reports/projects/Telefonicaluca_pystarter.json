@@ -1,0 +1,33 @@
+{
+  "id": "Telefonica/luca_pystarter",
+  "name": "LUCA Python/Django starter",
+  "description": "Starter structure for python/django projects",
+  "date_creation": "2018-11-21",
+  "date_last_release": null,
+  "contributors": [
+    "epgtid",
+    "Edorka",
+    "hmunfru",
+    "acgtid",
+    "alvarosperez",
+    "villenavg",
+    "hugo19941994",
+    "franciscomoma",
+    "afgtid",
+    "mgs95",
+    "rpellon",
+    "dchimeno",
+    "safuente",
+    "oscar-marin",
+    "joseangelmontesmeana",
+    "pmjtid",
+    "moasl"
+  ],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 24918,
+    "Shell": 5081,
+    "Dockerfile": 1114,
+    "Makefile": 884
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "Telefonica/niji-statistics",
+  "name": "statistics-backend)",
+  "description": null,
+  "date_creation": "2019-02-18",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Go": 4143004,
+    "HTML": 108104,
+    "Erlang": 99867,
+    "Shell": 62085,
+    "Makefile": 36830,
+    "PowerShell": 5558,
+    "Python": 4675,
+    "Dockerfile": 1100,
+    "Assembly": 472,
+    "Batchfile": 183
+  }
+}

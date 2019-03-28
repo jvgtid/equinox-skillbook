@@ -1,0 +1,12 @@
+{
+  "id": "Telefonica/gymnos",
+  "name": "Gymnos",
+  "description": "A training platform for AI models",
+  "date_creation": "2018-12-03",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 61078
+  }
+}

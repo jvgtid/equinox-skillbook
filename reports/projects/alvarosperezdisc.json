@@ -1,0 +1,14 @@
+{
+  "id": "alvarosperez/disc",
+  "name": "disc ![gittip: hughsk](http://img.shields.io/gittip/hughsk.svg) ![npm](http://img.shields.io/npm/dm/disc.svg)  ![stable](http://img.shields.io/badge/stability-stable-green.svg) #",
+  "description": ":chart_with_upwards_trend: Visualise the module tree of browserify project bundles and track down bloat.",
+  "date_creation": "2016-08-05",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 22758,
+    "CSS": 2818,
+    "HTML": 543
+  }
+}

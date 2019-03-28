@@ -1,0 +1,17 @@
+{
+  "id": "abellosovic/codekatas",
+  "name": "",
+  "description": "Code tests",
+  "date_creation": "2016-12-07",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 15989,
+    "Swift": 9712,
+    "Python": 9454,
+    "Objective-C": 2904,
+    "Java": 632,
+    "PHP": 625
+  }
+}

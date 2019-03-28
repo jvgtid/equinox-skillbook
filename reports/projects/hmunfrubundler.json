@@ -1,0 +1,13 @@
+{
+  "id": "hmunfru/bundler",
+  "name": "Bundler: a gem to bundle gems",
+  "description": "Manage your Ruby application's gem dependencies",
+  "date_creation": "2017-02-07",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Ruby": 1433660,
+    "Shell": 131
+  }
+}

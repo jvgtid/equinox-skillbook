@@ -1,0 +1,12 @@
+{
+  "id": "Edorka/blockpy",
+  "name": "BlockPy",
+  "description": "Minimal blockchain implementation",
+  "date_creation": "2018-02-17",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 37611
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "Telefonica/object-storage",
+  "name": "object-storage",
+  "description": "Tool to upload and keep objects in a AWS S3 or Azure Blob storage",
+  "date_creation": "2016-12-01",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "TypeScript": 6878
+  }
+}

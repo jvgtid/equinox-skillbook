@@ -1,0 +1,13 @@
+{
+  "id": "dchimeno/pydot",
+  "name": "",
+  "description": "Python interface to Graphviz's Dot language",
+  "date_creation": "2018-08-08",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 81037,
+    "PostScript": 453
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "jvgtid/equinox-skillbook",
+  "name": "equinox-skillbook",
+  "description": "Equinox SkillBook project",
+  "date_creation": "2019-03-28",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 63789,
+    "Python": 12661,
+    "CSS": 10203,
+    "HTML": 1693
+  }
+}

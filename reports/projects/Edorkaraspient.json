@@ -1,0 +1,12 @@
+{
+  "id": "Edorka/raspient",
+  "name": "raspient",
+  "description": "Small solution to retrieve and watch ambiental sensor from a RPi",
+  "date_creation": "2016-11-10",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 7620
+  }
+}

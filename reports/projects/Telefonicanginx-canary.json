@@ -1,0 +1,14 @@
+{
+  "id": "Telefonica/nginx-canary",
+  "name": "nginx-canary",
+  "description": "nginx with canary release strategy",
+  "date_creation": "2016-11-17",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Lua": 9168,
+    "Shell": 6406,
+    "Nginx": 1110
+  }
+}

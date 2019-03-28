@@ -1,0 +1,16 @@
+{
+  "id": "Telefonica/toolium",
+  "name": "running-tests>`_ to know",
+  "description": "Wrapper tool of Selenium and Appium libraries to test web and mobile applications in a single project",
+  "date_creation": "2015-10-21",
+  "date_last_release": "2019-03-18",
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 381188,
+    "Makefile": 4395,
+    "CSS": 1301,
+    "JavaScript": 734,
+    "HTML": 724
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "hugo19941994/space-invaders-emu",
+  "name": "space-invaders-emu",
+  "description": "Space Invaders emulator",
+  "date_creation": "2014-11-30",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "C++": 34719,
+    "Objective-C": 1883,
+    "C": 195
+  }
+}

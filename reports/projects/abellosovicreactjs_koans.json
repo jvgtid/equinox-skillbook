@@ -1,0 +1,14 @@
+{
+  "id": "abellosovic/reactjs_koans",
+  "name": "React.js Koans",
+  "description": "Learn basics of React.js making the tests pass",
+  "date_creation": "2016-09-22",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 40172,
+    "CSS": 3184,
+    "HTML": 2180
+  }
+}

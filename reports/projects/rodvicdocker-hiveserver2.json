@@ -1,0 +1,12 @@
+{
+  "id": "rodvic/docker-hiveserver2",
+  "name": "docker-hiveserver2",
+  "description": "hiroyuking/docker-hiveserver2",
+  "date_creation": "2018-06-05",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Shell": 112
+  }
+}

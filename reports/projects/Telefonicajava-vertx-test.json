@@ -1,0 +1,10 @@
+{
+  "id": "Telefonica/java-vertx-test",
+  "name": "",
+  "description": "Mocks to simplify unit testing in vertx projects",
+  "date_creation": "2015-07-28",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

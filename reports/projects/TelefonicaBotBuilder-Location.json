@@ -1,0 +1,16 @@
+{
+  "id": "Telefonica/BotBuilder-Location",
+  "name": "Microsoft Location Control for Microsoft Bot Framework",
+  "description": "An open-source location picker control for Microsoft Bot Framework powered by Azure Maps and Bing  Maps REST services. ",
+  "date_creation": "2018-10-02",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "C#": 136290,
+    "TypeScript": 48859,
+    "JavaScript": 48223,
+    "HTML": 444,
+    "ASP": 119
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "hmunfru/webapp",
+  "name": "# License",
+  "description": "Docker Fundamentals Python Sample WebApp",
+  "date_creation": "2015-10-06",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 632
+  }
+}

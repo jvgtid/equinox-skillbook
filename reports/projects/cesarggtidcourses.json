@@ -1,0 +1,18 @@
+{
+  "id": "cesarggtid/courses",
+  "name": "## Data Science Specialization",
+  "description": "Course materials for the Data Science Specialization: https://www.coursera.org/specialization/jhudatascience/1",
+  "date_creation": "2014-12-08",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 2648337,
+    "CSS": 571813,
+    "TeX": 48408,
+    "R": 42512,
+    "Makefile": 2143,
+    "Prolog": 1848,
+    "Shell": 478
+  }
+}

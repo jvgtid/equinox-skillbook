@@ -1,0 +1,12 @@
+{
+  "id": "Telefonica/cancan",
+  "name": "@article is already loaded and authorized",
+  "description": "Authorization Gem for Ruby on Rails.",
+  "date_creation": "2017-11-30",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Ruby": 144988
+  }
+}

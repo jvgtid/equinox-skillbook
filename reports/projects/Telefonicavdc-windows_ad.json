@@ -1,0 +1,14 @@
+{
+  "id": "Telefonica/vdc-windows_ad",
+  "name": "#Introduction",
+  "description": "Puppet module for installing and configuring a Windows Active Directory.",
+  "date_creation": "2017-09-07",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Puppet": 38332,
+    "Ruby": 4278,
+    "HTML": 71
+  }
+}

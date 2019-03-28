@@ -1,0 +1,15 @@
+{
+  "id": "abellosovic/django-ckeditor",
+  "name": ". support to django-storages (works with S3)",
+  "description": "Django admin CKEditor integration.",
+  "date_creation": "2017-01-26",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 164480,
+    "CSS": 114967,
+    "Python": 35134,
+    "HTML": 14732
+  }
+}

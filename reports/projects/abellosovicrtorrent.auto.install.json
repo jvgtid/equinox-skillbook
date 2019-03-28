@@ -1,0 +1,12 @@
+{
+  "id": "abellosovic/rtorrent.auto.install",
+  "name": "Rtorrent + Rutorrent Auto Install Script by Patrick Kerwood",
+  "description": "Auto install script for rtorrent with Rutorrent as GUI.",
+  "date_creation": "2015-06-22",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Shell": 136904
+  }
+}

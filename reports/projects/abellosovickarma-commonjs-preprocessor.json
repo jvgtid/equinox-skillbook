@@ -1,0 +1,13 @@
+{
+  "id": "abellosovic/karma-commonjs-preprocessor",
+  "name": "DEPRECATED WARNING",
+  "description": "A Karma plugin. Wrap JS or Coffee Files into Commonjs on the fly.",
+  "date_creation": "2017-02-08",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 2289,
+    "CoffeeScript": 664
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "XavierVal/hadoop",
+  "name": "# Hadoop 2.8.0 Ecosystem",
+  "description": null,
+  "date_creation": "2017-07-03",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Shell": 124468,
+    "Julia": 1437
+  }
+}

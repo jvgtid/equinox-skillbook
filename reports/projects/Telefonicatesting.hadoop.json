@@ -1,0 +1,12 @@
+{
+  "id": "Telefonica/testing.hadoop",
+  "name": "testing.hadoop",
+  "description": "Automatic launcher for hadoop-unit from Python",
+  "date_creation": "2018-08-23",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 13188
+  }
+}

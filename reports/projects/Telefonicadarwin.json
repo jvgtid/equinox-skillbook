@@ -1,0 +1,20 @@
+{
+  "id": "Telefonica/darwin",
+  "name": "Darwin",
+  "description": "Play Framework 1.x module. This module resolves: user management, API auth, db abstraction, maling, basic web desing, companny products integration, etc..",
+  "date_creation": "2017-07-11",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Java": 483819,
+    "HTML": 229258,
+    "Gherkin": 55210,
+    "CSS": 39422,
+    "Python": 35642,
+    "JavaScript": 27646,
+    "PHP": 22797,
+    "Shell": 6323,
+    "Pascal": 702
+  }
+}

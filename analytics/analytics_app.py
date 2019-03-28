@@ -25,9 +25,14 @@ items = []
 
 # Endpoints for user specific info & generic landing info
 class UserInfo(Resource):
+    parser = reqparse.RequestParser()
+    parser.add_argument('user_mail', type = str, 
+                        required = False, 
+                        help = "None")
     
-    def get(self, user_id):
-        print(user_id)
+    def get(self):
+        data = UserInfo.parser.parse_args()
+        print(data['user_mail'])
         dct_user_info = {'user_id':'123456', 
                          'name':'Javi', 
                          'languages_used':{'scala':
@@ -85,7 +90,7 @@ class GenericInfo(Resource):
     
 
 # Añadir el recurso y definir como es el ENDPOINT
-api.add_resource(UserInfo, '/user_info/<int:user_id>')
+api.add_resource(UserInfo, '/user_info')
 api.add_resource(UpdateUserInterest, '/update_user_interest/<int:user_id>')
 api.add_resource(CheckItem, '/check_item')
 api.add_resource(GenericInfo, '/generic_info')

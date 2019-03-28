@@ -1,0 +1,12 @@
+{
+  "id": "Edorka/about-elliptic-curves",
+  "name": "about-elliptic-curves",
+  "description": "Explanations about elliptic curve cypher",
+  "date_creation": "2018-09-22",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Jupyter Notebook": 37170
+  }
+}

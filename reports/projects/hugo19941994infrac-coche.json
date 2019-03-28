@@ -1,0 +1,15 @@
+{
+  "id": "hugo19941994/infrac-coche",
+  "name": "UEM - Sistema de Detecci\u00f3n, Alerta y Registro de Infracciones de Tr\u00e1fico",
+  "description": "Android App to detect traffic violations",
+  "date_creation": "2016-05-31",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "C++": 3960733,
+    "Java": 908113,
+    "C": 109482,
+    "Objective-C": 27133
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "santifinland/TECI",
+  "name": "TECI",
+  "description": null,
+  "date_creation": "2015-09-17",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "R": 68907,
+    "Python": 49046,
+    "MATLAB": 42850,
+    "Scala": 3579,
+    "Shell": 2823,
+    "M": 139
+  }
+}

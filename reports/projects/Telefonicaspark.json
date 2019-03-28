@@ -1,0 +1,31 @@
+{
+  "id": "Telefonica/spark",
+  "name": "Apache Spark",
+  "description": "Apache Spark",
+  "date_creation": "2019-01-15",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Scala": 27914609,
+    "Java": 3434507,
+    "Python": 2842525,
+    "HiveQL": 1823426,
+    "R": 1151675,
+    "Shell": 203315,
+    "JavaScript": 196695,
+    "PLpgSQL": 191716,
+    "q": 146878,
+    "HTML": 70197,
+    "ANTLR": 35161,
+    "Thrift": 33605,
+    "Batchfile": 30468,
+    "CSS": 26884,
+    "Roff": 15677,
+    "Makefile": 9397,
+    "Dockerfile": 8760,
+    "PowerShell": 3856,
+    "SQLPL": 3603,
+    "C": 1493
+  }
+}

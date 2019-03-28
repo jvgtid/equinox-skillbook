@@ -1,0 +1,20 @@
+{
+  "id": "hugo19941994/cv-parser",
+  "name": "CV Parser",
+  "description": "Procesamiento de CV",
+  "date_creation": "2015-11-06",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "HTML": 182966,
+    "CSS": 166648,
+    "JavaScript": 148263,
+    "Python": 79623,
+    "PHP": 52444,
+    "Java": 27803,
+    "Hack": 2865,
+    "Shell": 2439,
+    "Dockerfile": 604
+  }
+}

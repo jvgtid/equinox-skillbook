@@ -1,0 +1,12 @@
+{
+  "id": "Telefonica/java-plainmap",
+  "name": "plainmap",
+  "description": "Java library to access elements in a hierarchical map as a simple map",
+  "date_creation": "2015-07-17",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Java": 54202
+  }
+}

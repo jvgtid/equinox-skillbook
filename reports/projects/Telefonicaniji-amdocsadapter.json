@@ -1,0 +1,18 @@
+{
+  "id": "Telefonica/niji-amdocsadapter",
+  "name": "/artifacts/browse/simple/General/docker/awazza/niji-amdocsadapter)",
+  "description": null,
+  "date_creation": "2019-02-18",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 51439,
+    "Go": 47954,
+    "Gherkin": 45077,
+    "Groovy": 17646,
+    "Makefile": 9580,
+    "Shell": 6860,
+    "Dockerfile": 1935
+  }
+}

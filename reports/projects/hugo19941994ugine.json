@@ -1,0 +1,16 @@
+{
+  "id": "hugo19941994/ugine",
+  "name": "",
+  "description": "OpenGL based game engine",
+  "date_creation": "2018-03-11",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "C": 3126108,
+    "C++": 2091104,
+    "Objective-C": 54591,
+    "GLSL": 3643,
+    "CMake": 2770
+  }
+}

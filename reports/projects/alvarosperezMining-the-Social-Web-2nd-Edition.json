@@ -1,0 +1,16 @@
+{
+  "id": "alvarosperez/Mining-the-Social-Web-2nd-Edition",
+  "name": "# Summary",
+  "description": "The official online compendium for Mining the Social Web, 2nd Edition (O'Reilly, 2013)",
+  "date_creation": "2015-05-07",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "HTML": 4139974,
+    "Ruby": 156877,
+    "Shell": 4544,
+    "Python": 2278,
+    "CSS": 2071
+  }
+}

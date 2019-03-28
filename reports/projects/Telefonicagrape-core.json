@@ -1,0 +1,16 @@
+{
+  "id": "Telefonica/grape-core",
+  "name": "GRAPE: Grammar Annotation Pattern Engine",
+  "description": null,
+  "date_creation": "2018-10-15",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "C++": 8839662,
+    "Shell": 153200,
+    "CMake": 63397,
+    "Java": 41395,
+    "C": 1043
+  }
+}

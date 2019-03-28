@@ -1,0 +1,18 @@
+{
+  "id": "Telefonica/traefik",
+  "name": "overview)** .",
+  "description": "Tr\u00e6fik, a modern reverse proxy",
+  "date_creation": "2017-11-23",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Go": 1855119,
+    "HTML": 35279,
+    "TypeScript": 23193,
+    "Shell": 22910,
+    "CSS": 7953,
+    "Makefile": 4522,
+    "JavaScript": 1645
+  }
+}

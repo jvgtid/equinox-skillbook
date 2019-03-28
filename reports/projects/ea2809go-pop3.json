@@ -1,0 +1,12 @@
+{
+  "id": "ea2809/go-pop3",
+  "name": "#Usage",
+  "description": "Simple POP3 Client in Go Language",
+  "date_creation": "2017-09-15",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Go": 21400
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "AlbertoBarbado/ml_course",
+  "name": "",
+  "description": "Materials for the ML course",
+  "date_creation": "2018-11-23",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "HTML": 5457825,
+    "Jupyter Notebook": 2007971,
+    "Python": 53405
+  }
+}

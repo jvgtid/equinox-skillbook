@@ -1,0 +1,13 @@
+{
+  "id": "ea2809/fisa-nvim-config",
+  "name": "",
+  "description": "my neovim configuration (lot of python, autocompletion, fuzzy finder, etc, ...)",
+  "date_creation": "2018-11-18",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Vim script": 10520,
+    "Python": 7956
+  }
+}
