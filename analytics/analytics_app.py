@@ -9,8 +9,10 @@ Created on Thu Mar 28 16:32:41 2019
 # Librerías de Flask
 from flask import Flask
 from flask_restful import Resource, Api
-from flask import request 
+from flask import request
+from flask_cors import CORS
 from flask_restful import reqparse 
+import json
 
 # Librerías de los modelos
 import pickle
@@ -19,6 +21,7 @@ import re
 
 # Variables Flask
 app = Flask(__name__)
+CORS(app)
 api = Api(app) 
 items = []
 
@@ -31,13 +34,10 @@ class UserInfo(Resource):
                         help = "None")
     
     def get(self):
-        data = UserInfo.parser.parse_args()
-        print(data['user_mail'])
-        dct_user_info = {'user_id':'123456', 
-                         'name':'Javi', 
-                         'languages_used':{'scala':
-                             {'last_commit_date':'2019-04-01'}}}
-        return dct_user_info
+        print(request.args.get('user_mail'))
+        users_all = json.loads(open('../reports/database/users/users_all.json').read())
+        print(users_all)
+        return users_all
     
     
 # Change user current interest
@@ -73,12 +73,13 @@ class CheckItem(Resource):
     parser.add_argument('check_item', type = str, 
                         required = False, 
                         help = "None")
-    
     def get(self):
-        data = CheckItem.parser.parse_args()
-        print(data['check_item'])
+        print(request.args.get('check_item'))
+        items_all = json.loads(open('../reports/database/projects/projects_all.json').read())
         
-        return data
+        return items_all
+    
+    
     
 # Generic info from all users
 class GenericInfo(Resource):

@@ -47,6 +47,8 @@ class Explore extends React.Component {
 
     componentDidMount = () => {
         // TODO: Fetch API
+
+        // TODO: rank projects & people by skills and connections
     }
 
     setView = (name) => {
@@ -58,9 +60,9 @@ class Explore extends React.Component {
         let button = <div><button onClick={() => { this.setView('projects') }} >Projects</button> <button onClick={() => { this.setView('people') }}>People</button></div>;
 
         if (this.state.view === 'projects') {
-            view = <Projects projects={this.state.projects}></Projects>;
+        view = [<br/>, <strong>By skills</strong>, <Projects projects={this.state.projects}></Projects>,<br/>, <strong>By connections</strong>, <Projects projects={this.state.projects}></Projects>];
         } else if (this.state.view === 'people') {
-            view = <People people={this.state.people}></People>;
+        view = [<br/>, <strong>By skills</strong>, <People people={this.state.people}></People>, <br/>, <strong>By connections</strong>, <People people={this.state.people}></People>];
         } else if (this.state.view === 'search') {
             view = <People people={this.state.people}></People>;
             button = null;
