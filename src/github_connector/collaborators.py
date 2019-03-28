@@ -28,7 +28,12 @@ class Collaborator:
         languages = []
 
         for language in other_collaborator.languages_used:
-            idx = language_idxs.index(language.key)
+
+            try:
+                idx = language_idxs.index(language.key)
+            except ValueError:
+                idx = -1
+
             new_language = language
 
             if idx >= 0:
@@ -40,8 +45,8 @@ class Collaborator:
             self.id,
             self.mail,
             self.picture,
-            self.projects + other_collaborator.projects,
-            self.coworkers + other_collaborator.coworkers,
+            set(self.projects + other_collaborator.projects),
+            set(self.coworkers + other_collaborator.coworkers),
             languages,
             self.login
         )
