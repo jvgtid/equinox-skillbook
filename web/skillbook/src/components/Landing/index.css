@@ -1,0 +1,6 @@
+.landing-container {
+    height: calc(100% - 55px);
+    float: left;
+    width: 84%;
+    background-color: #F4F4F4;
+}

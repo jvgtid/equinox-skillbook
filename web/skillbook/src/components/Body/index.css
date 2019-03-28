@@ -1,0 +1,17 @@
+.body-container {
+    background-color: #FAFAFA;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-family: Roboto;
+}
+
+.flex-horizontal, .flex-vertical {
+    display: flex;
+}
+.flex-horizontal {
+    flex-direction: row;
+}
+.flex-vertical {
+    flex-direction: column;
+}
