@@ -5,17 +5,17 @@
     width: 31%;
 }
 
-div.header {
+div.pHeader {
     min-height: 56px;
 }
 
-div.header > strong {
+div.pHeader > strong {
     display: block;
     text-align: left;
     margin-left: 70px;
 }
 
-div.header > span {
+div.pHeader > span {
     display: block;
     text-align: left;
     margin-left: 70px;

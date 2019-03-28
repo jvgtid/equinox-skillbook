@@ -7,7 +7,7 @@ class PeopleBox extends React.Component {
     render() {
         return (
             <div className='box'>
-                <div className='header'>
+                <div className='pHeader'>
                     <a className='avatar' href={this.props.person.url}>
                         <img src={this.props.person.avatar}></img>
                     </a>
