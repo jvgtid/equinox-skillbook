@@ -1,6 +1,23 @@
 .landing-container {
+    position: relative;
     height: calc(100% - 55px);
     float: left;
     width: calc(84% - 20px);
     background-color: #F4F4F4;
+    flex-wrap: wrap;
+}
+
+.landing-chart {
+    position: relative;
+    height: calc(50% - 50px);
+    width: calc(50% - 50px);
+    margin: 13px;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px -1px rgba(1, 1, 1, 0.2);
+}
+
+.landing-chart:nth-child(3), .landing-chart:nth-child(4) {
+    margin-top: 5px;
 }

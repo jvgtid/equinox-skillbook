@@ -24,8 +24,8 @@ class Body extends React.Component {
             content = [<Header />];
             if (this.state.view === 'home') {
                 content = content.concat([
-                    <Sidebar />,
-                    <Landing />
+                    <Landing />,
+                    <Sidebar />
                 ]);
             } else {
                 content = content.concat([

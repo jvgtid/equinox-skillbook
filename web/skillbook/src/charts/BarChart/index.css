@@ -1,0 +1,58 @@
+.LucaBarChart_container {
+    position: relative;
+    width: fit-content;
+    user-select: none;
+}
+
+.LucaBarChart_tooltip {
+    position: absolute;
+    background-color: black;
+    opacity: 0;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    pointer-events: none;
+    transition: opacity linear 0.3s;
+}
+
+.LucaBarChart_tooltip:after {
+    content: '';
+    position: absolute;
+    left: calc(50% - 6px);
+    top: 100%;
+    border: 6px solid transparent;
+    border-top-color: #000;
+}
+
+.LucaBarChart_barLine {
+    stroke-width: 1px;
+    stroke-dasharray: 1, 2;
+    stroke: #9e9e9e;
+    opacity: 0;
+    shape-rendering: crispedges;
+}
+
+.LucaBarChart_container .tick line {
+    stroke-dasharray: 4, 4;
+    stroke: rgb(221, 221, 221);
+    shape-rendering: crispedges;
+}
+
+.BarChart_axisLine {
+    stroke-width: 2px;
+    stroke: #d7dce6;
+    shape-rendering: crispedges;
+}
+
+.LucaBarChart_container text {
+    font-size: 13px;
+}
+
+.LucaBarChart_pointer {
+    cursor: pointer;
+}
+
+.LucaBarChart_yAxis .tick line, .LucaBarChart_xAxis .tick line {
+    stroke-dasharray: none !important;
+}

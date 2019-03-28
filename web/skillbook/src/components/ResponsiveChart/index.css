@@ -1,0 +1,6 @@
+.dashboard-responsive-chart-component {
+    min-width: 200px;
+    min-height: 200px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
