@@ -1,0 +1,43 @@
+.box {
+    margin: 10px;
+    padding: 7px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+div.projects {
+    text-align: left;
+}
+
+div.projects span {
+    position: absolute;
+    text-align: right;
+    right: 10px;
+    top: 15px;
+    position: absolute;
+    top: 4px;
+    color: white;
+    background-color: red;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    line-height: 18px;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.techs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.techItem {
+    margin: 5px;
+    border-radius: 4px;
+    border: 2px solid #000;
+    padding: 2px;
+}

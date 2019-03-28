@@ -1,0 +1,30 @@
+.box {
+    border-radius: 4px;
+    position:relative;
+    min-height: 150px;
+    width: 31%;
+}
+
+div.header {
+    min-height: 56px;
+}
+
+div.header > strong {
+    display: block;
+    text-align: left;
+    margin-left: 70px;
+}
+
+div.header > span {
+    display: block;
+    text-align: left;
+    margin-left: 70px;
+    color: grey;
+}
+
+a.avatar > img {
+    position: absolute;
+    left: 10px;
+    border-radius: 4px;
+    max-width: 55px;
+}
