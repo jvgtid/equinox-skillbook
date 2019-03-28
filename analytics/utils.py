@@ -9,6 +9,9 @@ import numpy as np
 import pandas as pd
 from os import listdir
 import json
+from datetime import datetime
+from dateutil import parser
+
 
 
 def save_to_json(path, file):
@@ -41,9 +44,27 @@ def process_scoring():
     
     list_users = listdir('../reports/users')
     list_projects = listdir('../reports/projects')
+    baseline = (360*2)/15 # 1 year in 2 projects and 15 days since last commit
     
     for path_user in list_users:
         # Load user
         user = json.loads(open('../reports/users/' + path_user).read())
+        for language in user['languages_used']:
+            first_commit_date = user['languages_used'][language]['first_commit_date']
+            first_commit_date = parser.parse(first_commit_date)
+            last_commit_date = user['languages_used'][language]['last_commit_date']
+            last_commit_date = parser.parse(last_commit_date)
+            diff_days = (last_commit_date - first_commit_date).days
+            projects_used = user['languages_used'][language]['projects_used']
+            last_period = user['languages_used'][language]['last_period']
+            reference = (diff_days*projects_used)/last_period
+            score = np.round((reference*3.33)/baseline)
+            
+            if score > 10:
+                score = 10
+            user['languages_used'][language]['score'] = score
+            
+        save_to_json(path="../reports/database/users/" + path_user, file=user)
+
 
     

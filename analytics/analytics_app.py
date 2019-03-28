@@ -31,8 +31,7 @@ class UserInfo(Resource):
                         help = "None")
     
     def get(self):
-        data = UserInfo.parser.parse_args()
-        print(data['user_mail'])
+        print(request.args.get('user_mail'))
         dct_user_info = {'user_id':'123456', 
                          'name':'Javi', 
                          'languages_used':{'scala':
