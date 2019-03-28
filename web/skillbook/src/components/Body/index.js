@@ -9,7 +9,7 @@ import './index.css';
 class Body extends React.Component {
     state = {
         login: true,
-        view: 'explore'
+        view: 'home'
     };
 
     enterSite = () => {
@@ -21,17 +21,16 @@ class Body extends React.Component {
         if (this.state.login) {
             content =  <LoginBox enterSite={ this.enterSite }/>;
         } else {
+            content = [<Header />];
             if (this.state.view === 'home') {
-                content = [
-                    <Header />,
+                content = content.concat([
                     <Sidebar />,
                     <Landing />
-                ];
+                ]);
             } else {
-                content = [
-                    <Header />,
+                content = content.concat([
                     <Landing />
-                ];
+                ]);
             }
         }
 
