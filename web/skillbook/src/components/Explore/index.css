@@ -1,0 +1,13 @@
+.left-half {
+    float: left;
+    width: 50%;
+}
+
+.right-half {
+    float: left;
+    width: 50%;
+}
+
+.search {
+    margin: 20px;
+}

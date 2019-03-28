@@ -3,6 +3,7 @@ import LoginBox from '../LoginBox';
 import Header from '../Header';
 import Sidebar from '../Sidebar';
 import Landing from '../Landing';
+import Explore from '../Explore';
 import './index.css';
 
 
@@ -10,6 +11,11 @@ class Body extends React.Component {
     state = {
         login: true,
         view: 'home'
+    };
+
+    changeView = (pageName) => {
+        this.setState({ view: pageName })
+        
     };
 
     enterSite = () => {
@@ -21,7 +27,7 @@ class Body extends React.Component {
         if (this.state.login) {
             content =  <LoginBox enterSite={ this.enterSite }/>;
         } else {
-            content = [<Header />];
+            content = [<Header changeView={ this.changeView } />];
             if (this.state.view === 'home') {
                 content = content.concat([
                     <Landing />,
@@ -29,7 +35,7 @@ class Body extends React.Component {
                 ]);
             } else {
                 content = content.concat([
-                    <Landing />
+                    <Explore />
                 ]);
             }
         }
