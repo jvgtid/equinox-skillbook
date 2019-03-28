@@ -1,0 +1,42 @@
+.skills-container {
+    height: 35%;
+}
+.skills-content {
+    height: 75%;
+    text-align: left;
+    margin-left: 20px;
+    overflow-y: auto;
+}
+
+.skills-title {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+.skill > div {
+    margin-bottom: 3px;
+}
+
+.skills-content::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.skills-content::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.skills-content::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+	background-color: #63ace5;
+}

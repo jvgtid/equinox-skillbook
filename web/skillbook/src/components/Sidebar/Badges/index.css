@@ -1,0 +1,46 @@
+.badges-content {
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.badges-title {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.badge {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    flex-shrink: 0;
+}
+
+.badge path {
+    transform: translate(2px,2px);
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    background-color: #ffffffa3;
+    margin-top: -6px;
+}
+
+.badge .value {position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    display: initial;
+    margin-top: -6px;
+}
