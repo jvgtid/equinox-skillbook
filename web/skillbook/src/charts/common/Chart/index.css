@@ -1,0 +1,59 @@
+.Chart_container {
+    position: relative;
+    width: fit-content;
+    user-select: none;
+}
+
+.Chart_tooltip {
+    position: absolute;
+    background-color: black;
+    opacity: 0;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    pointer-events: none;
+    transition: opacity linear 0.3s;
+    width: fit-content;
+}
+
+.Chart_tooltipPeak {
+    position: absolute;
+    left: calc(50% - 4px);
+    top: calc(100% - 5px);
+    z-index: -1;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    pointer-events: none;
+}
+
+.Chart_tooltip:after {
+    content: '';
+    height: 10px;
+    width: 30px;
+    position: absolute;
+    left: calc(50% - 15px);
+    top: calc(100% - 10px);
+    background-color: black;
+    z-index: -1;
+}
+
+.Chart_container .tick line {
+    stroke-dasharray: 4, 4;
+    stroke: rgb(221, 221, 221);
+    shape-rendering: crispedges;
+}
+
+.Chart_container text {
+    font-size: 13px;
+}
+
+.Chart_pointer {
+    cursor: pointer;
+}

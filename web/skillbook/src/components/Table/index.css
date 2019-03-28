@@ -1,0 +1,40 @@
+.table {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .row {
+    display: flex;
+}
+.header div, .row div {
+    flex: 1;
+    padding: 0.9rem 1.4em;
+}
+.header {
+    background-color: rgb(238, 238, 238);
+}
+.header div {
+    cursor: pointer;
+}
+
+.col-1 {
+    text-align: left;
+}
+.col-2 {
+    text-align: right;
+}
+.green {
+    color: #0abd0a;
+}
+.red {
+    color: red;
+}
+
+.row {
+    border: 0 solid #bfbfbf;
+    border-bottom-width: 1px;
+}
+.row:last-child {
+    border-bottom-width: 0;
+}
