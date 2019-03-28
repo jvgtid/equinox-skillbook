@@ -37,7 +37,14 @@ class UserInfo(Resource):
         print(request.args.get('user_mail'))
         users_all = json.loads(open('../reports/database/users/users_all.json').read())
         print(users_all)
-        return users_all
+        
+        user_final = {}
+        mail = request.args.get('user_mail')
+        for user, values in users_all.items():
+            if values['mail'] == mail:
+                user_final = users_all[user]
+        
+        return user_final if len(user_final) > 0 else 404
     
     
 # Change user current interest
@@ -75,9 +82,18 @@ class CheckItem(Resource):
                         help = "None")
     def get(self):
         print(request.args.get('check_item'))
-        items_all = json.loads(open('../reports/database/projects/projects_all.json').read())
         
-        return items_all
+        users_all = json.loads(open('../reports/database/users/users_all.json').read())
+        print(users_all)
+        users_final = {}
+        
+        language_query = request.args.get('check_item')
+        
+        for user, values in users_all.items():
+            if language_query in list(values['languages_used'].keys()):
+                users_final[user] = values
+                
+        return users_final if len(users_final) > 0 else 404
     
     
     
@@ -85,9 +101,17 @@ class CheckItem(Resource):
 class GenericInfo(Resource):
     
     def get(self):
-        dct_all_users = {}
-        return dct_all_users
+        users_all = json.loads(open('../reports/database/users/users_all.json').read())
+        
+        return users_all
     
+
+# Generic info from all projects
+class GenericInfoProjects(Resource):
+    
+    def get(self):
+        projects_all = json.loads(open('../reports/database/projects/projects_all.json').read())
+        return projects_all
     
 
 # Añadir el recurso y definir como es el ENDPOINT
@@ -95,6 +119,7 @@ api.add_resource(UserInfo, '/user_info')
 api.add_resource(UpdateUserInterest, '/update_user_interest/<int:user_id>')
 api.add_resource(CheckItem, '/check_item')
 api.add_resource(GenericInfo, '/generic_info')
+api.add_resource(GenericInfoProjects, '/generic_info_projects')
 
 app.run(port = 5000, debug = True)
 
