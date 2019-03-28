@@ -1,1 +1,13 @@
-{"id": "alvarosperez/Clusterize.js", "name": "Clusterize.js", "description": "Tiny vanilla JS plugin to display large data sets easily", "date_creation": "2016-07-08", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 12809, "CSS": 744}}
+{
+  "id": "alvarosperez/Clusterize.js",
+  "name": "Clusterize.js",
+  "description": "Tiny vanilla JS plugin to display large data sets easily",
+  "date_creation": "2016-07-08",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 12809,
+    "CSS": 744
+  }
+}

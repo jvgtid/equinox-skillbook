@@ -1,1 +1,13 @@
-{"id": "Telefonica/language-model-converter", "name": "language-model-converter", "description": "Language model converter yaml <-> json for LUIS", "date_creation": "2016-12-01", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"TypeScript": 42734, "JavaScript": 45}}
+{
+  "id": "Telefonica/language-model-converter",
+  "name": "language-model-converter",
+  "description": "Language model converter yaml <-> json for LUIS",
+  "date_creation": "2016-12-01",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "TypeScript": 42734,
+    "JavaScript": 45
+  }
+}

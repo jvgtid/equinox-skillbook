@@ -1,1 +1,12 @@
-{"id": "mgs95/mi_pandilla", "name": "mi_pandilla", "description": null, "date_creation": "2016-11-27", "date_last_release": null, "contributors": ["mgs95"], "libraries_used": "", "tags_languages": {"Java": 165295}}
+{
+  "id": "mgs95/mi_pandilla",
+  "name": "mi_pandilla",
+  "description": null,
+  "date_creation": "2016-11-27",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Java": 165295
+  }
+}

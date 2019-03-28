@@ -1,1 +1,15 @@
-{"id": "hugo19941994/movie-pepper-front", "name": "Movie Pepper Frontend", "description": "Movie Pepper frontend", "date_creation": "2017-07-18", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Vue": 10795, "JavaScript": 2702, "HTML": 654, "CSS": 465}}
+{
+  "id": "hugo19941994/movie-pepper-front",
+  "name": "Movie Pepper Frontend",
+  "description": "Movie Pepper frontend",
+  "date_creation": "2017-07-18",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Vue": 10795,
+    "JavaScript": 2702,
+    "HTML": 654,
+    "CSS": 465
+  }
+}

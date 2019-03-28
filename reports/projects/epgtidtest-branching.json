@@ -1,1 +1,12 @@
-{"id": "epgtid/test-branching", "name": "test-branching", "description": "Testing repo for the https://github.com/jaimevalero78/shell-microservice-exposer utility", "date_creation": "2018-12-18", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Shell": 20}}
+{
+  "id": "epgtid/test-branching",
+  "name": "test-branching",
+  "description": "Testing repo for the https://github.com/jaimevalero78/shell-microservice-exposer utility",
+  "date_creation": "2018-12-18",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Shell": 20
+  }
+}

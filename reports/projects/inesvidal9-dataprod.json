@@ -1,1 +1,14 @@
-{"id": "inesvidal/9-dataprod", "name": "", "description": "Coursera Data specialization - Data products course - 9", "date_creation": "2016-02-11", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 295250, "CSS": 49532, "HTML": 11236}}
+{
+  "id": "inesvidal/9-dataprod",
+  "name": "",
+  "description": "Coursera Data specialization - Data products course - 9",
+  "date_creation": "2016-02-11",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 295250,
+    "CSS": 49532,
+    "HTML": 11236
+  }
+}

@@ -1,1 +1,12 @@
-{"id": "Roizus/BurnChat", "name": "BurnChat", "description": "Self-Destructing Message Android App", "date_creation": "2016-01-23", "date_last_release": "2016-03-04", "contributors": [], "libraries_used": "", "tags_languages": {"Java": 70774}}
+{
+  "id": "Roizus/BurnChat",
+  "name": "BurnChat",
+  "description": "Self-Destructing Message Android App",
+  "date_creation": "2016-01-23",
+  "date_last_release": "2016-03-04",
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Java": 70774
+  }
+}

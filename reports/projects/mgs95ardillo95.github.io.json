@@ -1,1 +1,14 @@
-{"id": "mgs95/ardillo95.github.io", "name": "# Website Performance Optimization portfolio project", "description": null, "date_creation": "2018-08-08", "date_last_release": null, "contributors": ["mgs95"], "libraries_used": "", "tags_languages": {"JavaScript": 23073, "HTML": 21228, "CSS": 649}}
+{
+  "id": "mgs95/ardillo95.github.io",
+  "name": "# Website Performance Optimization portfolio project",
+  "description": null,
+  "date_creation": "2018-08-08",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 23073,
+    "HTML": 21228,
+    "CSS": 649
+  }
+}

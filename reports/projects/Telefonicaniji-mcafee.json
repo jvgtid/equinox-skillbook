@@ -1,1 +1,18 @@
-{"id": "Telefonica/niji-mcafee", "name": "/artifacts/browse/simple/General/docker/awazza/niji-mcafee)", "description": null, "date_creation": "2019-02-18", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Gherkin": 191472, "Go": 139642, "Python": 84423, "Groovy": 24826, "Makefile": 9578, "Shell": 6344, "Dockerfile": 2720}}
+{
+  "id": "Telefonica/niji-mcafee",
+  "name": "/artifacts/browse/simple/General/docker/awazza/niji-mcafee)",
+  "description": null,
+  "date_creation": "2019-02-18",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Gherkin": 191472,
+    "Go": 139642,
+    "Python": 84423,
+    "Groovy": 24826,
+    "Makefile": 9578,
+    "Shell": 6344,
+    "Dockerfile": 2720
+  }
+}

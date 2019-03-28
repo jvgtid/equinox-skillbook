@@ -1,1 +1,13 @@
-{"id": "Telefonica/node-server-terminate", "name": "server-terminate", "description": "Allow terminating a server in an orderly fashion", "date_creation": "2015-09-17", "date_last_release": "2018-01-22", "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 23863, "TypeScript": 2192}}
+{
+  "id": "Telefonica/node-server-terminate",
+  "name": "server-terminate",
+  "description": "Allow terminating a server in an orderly fashion",
+  "date_creation": "2015-09-17",
+  "date_last_release": "2018-01-22",
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 23863,
+    "TypeScript": 2192
+  }
+}

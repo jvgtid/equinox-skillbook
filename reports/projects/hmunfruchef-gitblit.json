@@ -1,1 +1,10 @@
-{"id": "hmunfru/chef-gitblit", "name": "", "description": "Chef cookbook for GitBlit (experimental!)", "date_creation": "2013-02-28", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "hmunfru/chef-gitblit",
+  "name": "",
+  "description": "Chef cookbook for GitBlit (experimental!)",
+  "date_creation": "2013-02-28",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

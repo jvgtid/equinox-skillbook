@@ -1,1 +1,13 @@
-{"id": "Edorka/flask-limiter", "name": "!/alisaifee/flask-limiter?branch=master", "description": "rate limiting extension for flask applications", "date_creation": "2016-05-12", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 102578, "Shell": 1188}}
+{
+  "id": "Edorka/flask-limiter",
+  "name": "!/alisaifee/flask-limiter?branch=master",
+  "description": "rate limiting extension for flask applications",
+  "date_creation": "2016-05-12",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 102578,
+    "Shell": 1188
+  }
+}

@@ -1,1 +1,12 @@
-{"id": "cesarggtid/shiny", "name": "", "description": null, "date_creation": "2015-03-22", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"R": 3470}}
+{
+  "id": "cesarggtid/shiny",
+  "name": "",
+  "description": null,
+  "date_creation": "2015-03-22",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "R": 3470
+  }
+}

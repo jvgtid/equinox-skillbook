@@ -1,1 +1,13 @@
-{"id": "abellosovic/simpleYoutubeMP3Downloader", "name": "Simple Youtube MP3 Downloader", "description": "Download audio from youtube", "date_creation": "2016-06-20", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 2474, "HTML": 702}}
+{
+  "id": "abellosovic/simpleYoutubeMP3Downloader",
+  "name": "Simple Youtube MP3 Downloader",
+  "description": "Download audio from youtube",
+  "date_creation": "2016-06-20",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 2474,
+    "HTML": 702
+  }
+}

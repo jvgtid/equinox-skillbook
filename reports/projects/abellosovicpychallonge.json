@@ -1,1 +1,12 @@
-{"id": "abellosovic/pychallonge", "name": "pychallonge", "description": "Python bindings for the CHALLONGE! API", "date_creation": "2018-08-29", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 15857}}
+{
+  "id": "abellosovic/pychallonge",
+  "name": "pychallonge",
+  "description": "Python bindings for the CHALLONGE! API",
+  "date_creation": "2018-08-29",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 15857
+  }
+}

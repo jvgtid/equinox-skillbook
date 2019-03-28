@@ -1,1 +1,10 @@
-{"id": "hmunfru/jbehave-tutorial", "name": "JBehave Selenium Tutorials on the Etsy.com website", "description": null, "date_creation": "2013-06-19", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "hmunfru/jbehave-tutorial",
+  "name": "JBehave Selenium Tutorials on the Etsy.com website",
+  "description": null,
+  "date_creation": "2013-06-19",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

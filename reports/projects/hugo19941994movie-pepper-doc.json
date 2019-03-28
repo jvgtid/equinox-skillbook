@@ -1,1 +1,13 @@
-{"id": "hugo19941994/movie-pepper-doc", "name": "Movie Pepper Doc", "description": "Movie Pepper documentation & presentation", "date_creation": "2017-07-18", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"TeX": 214919, "Makefile": 580}}
+{
+  "id": "hugo19941994/movie-pepper-doc",
+  "name": "Movie Pepper Doc",
+  "description": "Movie Pepper documentation & presentation",
+  "date_creation": "2017-07-18",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "TeX": 214919,
+    "Makefile": 580
+  }
+}

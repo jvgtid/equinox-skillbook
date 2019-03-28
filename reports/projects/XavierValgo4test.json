@@ -1,1 +1,13 @@
-{"id": "XavierVal/go4test", "name": "", "description": "A simple example of using Go for testing webservices", "date_creation": "2014-11-06", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Go": 8585, "Shell": 3553}}
+{
+  "id": "XavierVal/go4test",
+  "name": "",
+  "description": "A simple example of using Go for testing webservices",
+  "date_creation": "2014-11-06",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Go": 8585,
+    "Shell": 3553
+  }
+}

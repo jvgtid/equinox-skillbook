@@ -1,1 +1,10 @@
-{"id": "pratid/django-background-task", "name": "lookup user by id and send them a message", "description": "A database-backed work queue for Django", "date_creation": "2013-11-26", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "pratid/django-background-task",
+  "name": "lookup user by id and send them a message",
+  "description": "A database-backed work queue for Django",
+  "date_creation": "2013-11-26",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

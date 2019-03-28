@@ -1,1 +1,13 @@
-{"id": "rodvic/shade", "name": "Initialize and turn on debug logging", "description": "Client library for OpenStack containing Infra business logic", "date_creation": "2017-02-15", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 1307916, "Shell": 7907}}
+{
+  "id": "rodvic/shade",
+  "name": "Initialize and turn on debug logging",
+  "description": "Client library for OpenStack containing Infra business logic",
+  "date_creation": "2017-02-15",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 1307916,
+    "Shell": 7907
+  }
+}

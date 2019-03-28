@@ -1,1 +1,15 @@
-{"id": "franciscomoma/practicaDjango", "name": "Plataforma de blogging Fblog", "description": null, "date_creation": "2017-03-19", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 48514, "HTML": 6816, "JavaScript": 951, "Shell": 161}}
+{
+  "id": "franciscomoma/practicaDjango",
+  "name": "Plataforma de blogging Fblog",
+  "description": null,
+  "date_creation": "2017-03-19",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 48514,
+    "HTML": 6816,
+    "JavaScript": 951,
+    "Shell": 161
+  }
+}

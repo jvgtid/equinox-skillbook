@@ -1,1 +1,10 @@
-{"id": "pratid/markdown-cheat-sheet", "name": "# Description", "description": "A cheat sheet for the Markdown syntax, written in Markdown...", "date_creation": "2014-05-27", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "pratid/markdown-cheat-sheet",
+  "name": "# Description",
+  "description": "A cheat sheet for the Markdown syntax, written in Markdown...",
+  "date_creation": "2014-05-27",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

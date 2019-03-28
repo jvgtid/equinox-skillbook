@@ -1,1 +1,12 @@
-{"id": "inesvidal/3-Getdata", "name": "3-Getdata", "description": null, "date_creation": "2016-03-09", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"R": 21692}}
+{
+  "id": "inesvidal/3-Getdata",
+  "name": "3-Getdata",
+  "description": null,
+  "date_creation": "2016-03-09",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "R": 21692
+  }
+}

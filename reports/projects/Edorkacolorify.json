@@ -1,1 +1,14 @@
-{"id": "Edorka/colorify", "name": "colorify", "description": "Small test on vanillaJS", "date_creation": "2016-08-15", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 6438, "HTML": 1521, "CSS": 801}}
+{
+  "id": "Edorka/colorify",
+  "name": "colorify",
+  "description": "Small test on vanillaJS",
+  "date_creation": "2016-08-15",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 6438,
+    "HTML": 1521,
+    "CSS": 801
+  }
+}

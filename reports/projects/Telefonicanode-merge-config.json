@@ -1,1 +1,12 @@
-{"id": "Telefonica/node-merge-config", "name": "merge-config", "description": "Merge multiple configuration sources: JSON and YAML files, directories, environment properties and command-line arguments.", "date_creation": "2015-06-24", "date_last_release": "2016-02-18", "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 13022}}
+{
+  "id": "Telefonica/node-merge-config",
+  "name": "merge-config",
+  "description": "Merge multiple configuration sources: JSON and YAML files, directories, environment properties and command-line arguments.",
+  "date_creation": "2015-06-24",
+  "date_last_release": "2016-02-18",
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 13022
+  }
+}

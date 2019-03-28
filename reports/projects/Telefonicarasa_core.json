@@ -1,1 +1,16 @@
-{"id": "Telefonica/rasa_core", "name": "Rasa Core", "description": "\ud83e\udd16 Open source chatbot framework with machine learning-based dialogue management - Build contextual AI assistants", "date_creation": "2019-02-27", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 919200, "HTML": 3462, "Makefile": 856, "Shell": 817, "Dockerfile": 705}}
+{
+  "id": "Telefonica/rasa_core",
+  "name": "Rasa Core",
+  "description": "\ud83e\udd16 Open source chatbot framework with machine learning-based dialogue management - Build contextual AI assistants",
+  "date_creation": "2019-02-27",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 919200,
+    "HTML": 3462,
+    "Makefile": 856,
+    "Shell": 817,
+    "Dockerfile": 705
+  }
+}

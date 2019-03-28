@@ -1,1 +1,13 @@
-{"id": "Telefonica/burrow_exporter", "name": "burrow-exporter", "description": "Prometheus exporter for burrow", "date_creation": "2018-06-22", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Go": 19232, "Shell": 567}}
+{
+  "id": "Telefonica/burrow_exporter",
+  "name": "burrow-exporter",
+  "description": "Prometheus exporter for burrow",
+  "date_creation": "2018-06-22",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Go": 19232,
+    "Shell": 567
+  }
+}

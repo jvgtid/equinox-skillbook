@@ -1,1 +1,10 @@
-{"id": "alvarosperez/tid-x", "name": "Welcome to TID-X!", "description": "Repository for organising TID-x event. 23/24 Feb 2018. Madrid", "date_creation": "2017-11-07", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "alvarosperez/tid-x",
+  "name": "Welcome to TID-X!",
+  "description": "Repository for organising TID-x event. 23/24 Feb 2018. Madrid",
+  "date_creation": "2017-11-07",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

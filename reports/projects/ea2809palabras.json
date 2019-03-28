@@ -1,1 +1,10 @@
-{"id": "ea2809/palabras", "name": "", "description": "Listado de palabras", "date_creation": "2018-03-03", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "ea2809/palabras",
+  "name": "",
+  "description": "Listado de palabras",
+  "date_creation": "2018-03-03",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

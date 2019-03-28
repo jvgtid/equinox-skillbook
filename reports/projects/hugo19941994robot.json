@@ -1,1 +1,14 @@
-{"id": "hugo19941994/robot", "name": "Human Rescue Bot", "description": "Software for HRB", "date_creation": "2016-02-26", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Arduino": 9538, "Python": 6056, "Shell": 812}}
+{
+  "id": "hugo19941994/robot",
+  "name": "Human Rescue Bot",
+  "description": "Software for HRB",
+  "date_creation": "2016-02-26",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Arduino": 9538,
+    "Python": 6056,
+    "Shell": 812
+  }
+}

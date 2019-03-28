@@ -1,1 +1,13 @@
-{"id": "Telefonica/phb-tailormade-challenge", "name": "", "description": null, "date_creation": "2018-05-02", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 373374, "Shell": 1474}}
+{
+  "id": "Telefonica/phb-tailormade-challenge",
+  "name": "",
+  "description": null,
+  "date_creation": "2018-05-02",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 373374,
+    "Shell": 1474
+  }
+}

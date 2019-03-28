@@ -1,1 +1,14 @@
-{"id": "alvarosperez/leaflet-providers", "name": "what-is-free)</sup> tile providers.", "description": "An extension to Leaflet that contains configurations for various free tile providers.", "date_creation": "2018-05-09", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 35577, "HTML": 11852, "CSS": 5897}}
+{
+  "id": "alvarosperez/leaflet-providers",
+  "name": "what-is-free)</sup> tile providers.",
+  "description": "An extension to Leaflet that contains configurations for various free tile providers.",
+  "date_creation": "2018-05-09",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 35577,
+    "HTML": 11852,
+    "CSS": 5897
+  }
+}

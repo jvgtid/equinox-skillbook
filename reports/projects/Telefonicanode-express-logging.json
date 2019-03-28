@@ -1,1 +1,12 @@
-{"id": "Telefonica/node-express-logging", "name": "express-logging", "description": "Express middleware to log, using a configurable logger, each request and response.", "date_creation": "2015-06-24", "date_last_release": "2016-05-25", "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 14779}}
+{
+  "id": "Telefonica/node-express-logging",
+  "name": "express-logging",
+  "description": "Express middleware to log, using a configurable logger, each request and response.",
+  "date_creation": "2015-06-24",
+  "date_last_release": "2016-05-25",
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 14779
+  }
+}

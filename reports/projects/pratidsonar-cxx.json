@@ -1,1 +1,10 @@
-{"id": "pratid/sonar-cxx", "name": "# SonarQube C++ Community plugin", "description": "This repository contains a SonarQube plugin implementing C++ support.", "date_creation": "2014-11-10", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "pratid/sonar-cxx",
+  "name": "# SonarQube C++ Community plugin",
+  "description": "This repository contains a SonarQube plugin implementing C++ support.",
+  "date_creation": "2014-11-10",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

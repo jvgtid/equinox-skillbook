@@ -1,1 +1,10 @@
-{"id": "hmunfru/cucumber-jvm", "name": "# Documentation", "description": "Cucumber for the JVM", "date_creation": "2013-06-12", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "hmunfru/cucumber-jvm",
+  "name": "# Documentation",
+  "description": "Cucumber for the JVM",
+  "date_creation": "2013-06-12",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

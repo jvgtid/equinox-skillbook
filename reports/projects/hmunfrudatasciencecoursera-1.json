@@ -1,1 +1,14 @@
-{"id": "hmunfru/datasciencecoursera-1", "name": "", "description": "Programming assignments for John Hopkings/Coursera Data Science Specialization", "date_creation": "2016-04-25", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"HTML": 7124986, "R": 147210, "CSS": 1510}}
+{
+  "id": "hmunfru/datasciencecoursera-1",
+  "name": "",
+  "description": "Programming assignments for John Hopkings/Coursera Data Science Specialization",
+  "date_creation": "2016-04-25",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "HTML": 7124986,
+    "R": 147210,
+    "CSS": 1510
+  }
+}

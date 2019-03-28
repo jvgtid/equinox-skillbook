@@ -1,1 +1,12 @@
-{"id": "cesarggtid/GettingCleaningData", "name": "", "description": "Coursera Getting and Cleaning Data course repository", "date_creation": "2014-09-21", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"R": 3169}}
+{
+  "id": "cesarggtid/GettingCleaningData",
+  "name": "",
+  "description": "Coursera Getting and Cleaning Data course repository",
+  "date_creation": "2014-09-21",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "R": 3169
+  }
+}

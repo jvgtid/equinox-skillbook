@@ -1,1 +1,14 @@
-{"id": "hmunfru/python", "name": "# **THIS COOKBOOK IS DEPRECATED**", "description": "THIS COOKBOOK IS DEPRECATED \u2013 Chef cookbook to install Python and related tools", "date_creation": "2016-11-29", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 1654898, "Ruby": 32740, "Shell": 1108}}
+{
+  "id": "hmunfru/python",
+  "name": "# **THIS COOKBOOK IS DEPRECATED**",
+  "description": "THIS COOKBOOK IS DEPRECATED \u2013 Chef cookbook to install Python and related tools",
+  "date_creation": "2016-11-29",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 1654898,
+    "Ruby": 32740,
+    "Shell": 1108
+  }
+}

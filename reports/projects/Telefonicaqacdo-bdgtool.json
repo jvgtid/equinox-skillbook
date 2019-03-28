@@ -1,1 +1,16 @@
-{"id": "Telefonica/qacdo-bdgtool", "name": "BDGTool", "description": "Big Data Generation Tool for testing purposes. AKA /bidiy\u00ed/ https://qacdo.e-paths.com/bdgtool-docs/", "date_creation": "2018-10-15", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 103141, "Gherkin": 69243, "Groovy": 8569, "Shell": 1113, "Dockerfile": 963}}
+{
+  "id": "Telefonica/qacdo-bdgtool",
+  "name": "BDGTool",
+  "description": "Big Data Generation Tool for testing purposes. AKA /bidiy\u00ed/ https://qacdo.e-paths.com/bdgtool-docs/",
+  "date_creation": "2018-10-15",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 103141,
+    "Gherkin": 69243,
+    "Groovy": 8569,
+    "Shell": 1113,
+    "Dockerfile": 963
+  }
+}

@@ -1,1 +1,17 @@
-{"id": "Telefonica/niji-backoffice", "name": "niji-fe-backoffice", "description": null, "date_creation": "2019-02-18", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 92997, "CSS": 6779, "Shell": 3033, "Python": 519, "HTML": 481, "Dockerfile": 286}}
+{
+  "id": "Telefonica/niji-backoffice",
+  "name": "niji-fe-backoffice",
+  "description": null,
+  "date_creation": "2019-02-18",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 92997,
+    "CSS": 6779,
+    "Shell": 3033,
+    "Python": 519,
+    "HTML": 481,
+    "Dockerfile": 286
+  }
+}

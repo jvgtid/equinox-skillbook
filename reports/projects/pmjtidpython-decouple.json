@@ -1,1 +1,12 @@
-{"id": "pmjtid/python-decouple", "name": ". store parameters in *ini* or *.env* files;", "description": "Strict separation of config from code.", "date_creation": "2019-03-12", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 16156}}
+{
+  "id": "pmjtid/python-decouple",
+  "name": ". store parameters in *ini* or *.env* files;",
+  "description": "Strict separation of config from code.",
+  "date_creation": "2019-03-12",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 16156
+  }
+}

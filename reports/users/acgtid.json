@@ -1,1 +1,13 @@
-{"id": "Arturo Canales", "mail": "arturo.canalesgonzalez@telefonica.com", "picture": "https://avatars1.githubusercontent.com/u/2330639?v=4", "projects": ["Analytics Charts", "LUCA Python/Django starter"], "coworkers": [], "languages_used": [], "login": "acgtid"}
+{
+  "id": "Arturo Canales",
+  "mail": "arturo.canalesgonzalez@telefonica.com",
+  "picture": "https://avatars1.githubusercontent.com/u/2330639?v=4",
+  "projects": [
+    "Lucacomms Project",
+    "LUCA Fleet",
+    "HAL9000"
+  ],
+  "coworkers": [],
+  "languages_used": [],
+  "login": "acgtid"
+}

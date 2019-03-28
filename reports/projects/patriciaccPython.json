@@ -1,1 +1,13 @@
-{"id": "patriciacc/Python", "name": "mapreduce", "description": null, "date_creation": "2018-02-26", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 6838, "Shell": 1115}}
+{
+  "id": "patriciacc/Python",
+  "name": "mapreduce",
+  "description": null,
+  "date_creation": "2018-02-26",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 6838,
+    "Shell": 1115
+  }
+}

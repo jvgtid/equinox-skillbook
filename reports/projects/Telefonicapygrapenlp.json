@@ -1,1 +1,12 @@
-{"id": "Telefonica/pygrapenlp", "name": "", "description": "Python package enabling the usage of grapenlp-core library from Python", "date_creation": "2018-10-23", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 63488}}
+{
+  "id": "Telefonica/pygrapenlp",
+  "name": "",
+  "description": "Python package enabling the usage of grapenlp-core library from Python",
+  "date_creation": "2018-10-23",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 63488
+  }
+}

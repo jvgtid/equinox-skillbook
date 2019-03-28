@@ -1,1 +1,13 @@
-{"id": "Telefonica/iot-utils", "name": "General utilities", "description": "IOT operation Utilities & systems management tools - Ansible Scripting Python WinSSH OpenStack VirtualBox MySQL Postgress MongoDB DevOPS Admin", "date_creation": "2016-03-18", "date_last_release": "2016-09-13", "contributors": [], "libraries_used": "", "tags_languages": {"Shell": 56443, "JavaScript": 1376}}
+{
+  "id": "Telefonica/iot-utils",
+  "name": "General utilities",
+  "description": "IOT operation Utilities & systems management tools - Ansible Scripting Python WinSSH OpenStack VirtualBox MySQL Postgress MongoDB DevOPS Admin",
+  "date_creation": "2016-03-18",
+  "date_last_release": "2016-09-13",
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Shell": 56443,
+    "JavaScript": 1376
+  }
+}

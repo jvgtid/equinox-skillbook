@@ -1,1 +1,22 @@
-{"id": "villenavg/gaia", "name": "Gaia", "description": "Gaia is a HTML5-based Phone UI for the Boot 2 Gecko Project. NOTE: For details of what branches are used for what releases, see", "date_creation": "2015-06-01", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 32859536, "HTML": 2744154, "Java": 1972767, "CSS": 1415341, "Python": 1331814, "Makefile": 55820, "Shell": 54412, "DIGITAL Command Language": 10122, "Batchfile": 6705, "GLSL": 1238, "Erlang": 889}}
+{
+  "id": "villenavg/gaia",
+  "name": "Gaia",
+  "description": "Gaia is a HTML5-based Phone UI for the Boot 2 Gecko Project. NOTE: For details of what branches are used for what releases, see",
+  "date_creation": "2015-06-01",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 32859536,
+    "HTML": 2744154,
+    "Java": 1972767,
+    "CSS": 1415341,
+    "Python": 1331814,
+    "Makefile": 55820,
+    "Shell": 54412,
+    "DIGITAL Command Language": 10122,
+    "Batchfile": 6705,
+    "GLSL": 1238,
+    "Erlang": 889
+  }
+}

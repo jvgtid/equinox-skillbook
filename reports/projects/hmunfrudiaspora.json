@@ -1,1 +1,10 @@
-{"id": "hmunfru/diaspora", "name": "Diaspora", "description": "Distributed and contextual social networking", "date_creation": "2012-03-16", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "hmunfru/diaspora",
+  "name": "Diaspora",
+  "description": "Distributed and contextual social networking",
+  "date_creation": "2012-03-16",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

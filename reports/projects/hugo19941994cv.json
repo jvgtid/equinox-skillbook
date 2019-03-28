@@ -1,1 +1,13 @@
-{"id": "hugo19941994/cv", "name": "My R\u00e9sum\u00e9", "description": "CV written in LaTeX", "date_creation": "2016-06-01", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"TeX": 9693, "Makefile": 274}}
+{
+  "id": "hugo19941994/cv",
+  "name": "My R\u00e9sum\u00e9",
+  "description": "CV written in LaTeX",
+  "date_creation": "2016-06-01",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "TeX": 9693,
+    "Makefile": 274
+  }
+}

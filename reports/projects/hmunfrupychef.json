@@ -1,1 +1,10 @@
-{"id": "hmunfru/pychef", "name": "", "description": "Python library to interact with the Chef server API", "date_creation": "2013-08-20", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "hmunfru/pychef",
+  "name": "",
+  "description": "Python library to interact with the Chef server API",
+  "date_creation": "2013-08-20",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

@@ -1,1 +1,12 @@
-{"id": "abellosovic/python-redsys", "name": "The amount must be defined as decimal and pre-formated with only two decimals", "description": "A simple, clean and less dependant client for handle payments through RedSys.", "date_creation": "2019-02-04", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 16109}}
+{
+  "id": "abellosovic/python-redsys",
+  "name": "The amount must be defined as decimal and pre-formated with only two decimals",
+  "description": "A simple, clean and less dependant client for handle payments through RedSys.",
+  "date_creation": "2019-02-04",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 16109
+  }
+}

@@ -1,1 +1,13 @@
-{"id": "hmunfru/big-data", "name": "os.environ", "description": "NYU Big Data class programming assignments. Using Python, Hadoop Streaming and Bash.", "date_creation": "2018-04-10", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 36476, "Shell": 8473}}
+{
+  "id": "hmunfru/big-data",
+  "name": "os.environ",
+  "description": "NYU Big Data class programming assignments. Using Python, Hadoop Streaming and Bash.",
+  "date_creation": "2018-04-10",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 36476,
+    "Shell": 8473
+  }
+}

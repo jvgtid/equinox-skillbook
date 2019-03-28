@@ -1,1 +1,15 @@
-{"id": "Edorka/atomtory", "name": "atomtory", "description": "Small example project, a REST API and an AngularJS inventory", "date_creation": "2016-02-19", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 22133, "Python": 14556, "HTML": 13445, "CSS": 1823}}
+{
+  "id": "Edorka/atomtory",
+  "name": "atomtory",
+  "description": "Small example project, a REST API and an AngularJS inventory",
+  "date_creation": "2016-02-19",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 22133,
+    "Python": 14556,
+    "HTML": 13445,
+    "CSS": 1823
+  }
+}

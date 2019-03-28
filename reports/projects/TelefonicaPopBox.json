@@ -1,1 +1,10 @@
-{"id": "Telefonica/PopBox", "name": "#Simple High-Performance High-Scalability Inbox Notification Service", "description": "Simple High-Performance High-Scalability Inbox Notification Service", "date_creation": "2013-05-16", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "Telefonica/PopBox",
+  "name": "#Simple High-Performance High-Scalability Inbox Notification Service",
+  "description": "Simple High-Performance High-Scalability Inbox Notification Service",
+  "date_creation": "2013-05-16",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

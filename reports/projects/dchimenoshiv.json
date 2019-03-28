@@ -1,1 +1,12 @@
-{"id": "dchimeno/shiv", "name": "shiv", "description": "shiv is a command line utility for building fully self contained Python zipapps as outlined in PEP 441, but with all their dependencies included.", "date_creation": "2018-10-30", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 31833}}
+{
+  "id": "dchimeno/shiv",
+  "name": "shiv",
+  "description": "shiv is a command line utility for building fully self contained Python zipapps as outlined in PEP 441, but with all their dependencies included.",
+  "date_creation": "2018-10-30",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 31833
+  }
+}

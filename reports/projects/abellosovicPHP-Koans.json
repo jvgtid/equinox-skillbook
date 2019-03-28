@@ -1,1 +1,12 @@
-{"id": "abellosovic/PHP-Koans", "name": "Prerequisites", "description": "PHP programming exercises.", "date_creation": "2016-09-22", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"PHP": 24010}}
+{
+  "id": "abellosovic/PHP-Koans",
+  "name": "Prerequisites",
+  "description": "PHP programming exercises.",
+  "date_creation": "2016-09-22",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "PHP": 24010
+  }
+}

@@ -1,1 +1,12 @@
-{"id": "Telefonica/seed-bot", "name": "seed-bot", "description": "Seed bot project", "date_creation": "2016-11-02", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"TypeScript": 3099}}
+{
+  "id": "Telefonica/seed-bot",
+  "name": "seed-bot",
+  "description": "Seed bot project",
+  "date_creation": "2016-11-02",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "TypeScript": 3099
+  }
+}

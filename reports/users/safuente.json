@@ -1,1 +1,11 @@
-{"id": "Santiago Alvarez", "mail": "safuente@airongroup.net", "picture": "https://avatars1.githubusercontent.com/u/40025316?v=4", "projects": ["LUCA Python/Django starter"], "coworkers": [], "languages_used": [], "login": "safuente"}
+{
+  "id": "Santiago Alvarez",
+  "mail": "safuente@airongroup.net",
+  "picture": "https://avatars1.githubusercontent.com/u/40025316?v=4",
+  "projects": [
+    "LUCA Python/Django starter"
+  ],
+  "coworkers": [],
+  "languages_used": [],
+  "login": "safuente"
+}

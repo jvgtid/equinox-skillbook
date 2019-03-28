@@ -1,1 +1,10 @@
-{"id": "Telefonica/java-vertx-logger", "name": "", "description": "Logger library for vert.x platform with TDAF logging format", "date_creation": "2015-07-28", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "Telefonica/java-vertx-logger",
+  "name": "",
+  "description": "Logger library for vert.x platform with TDAF logging format",
+  "date_creation": "2015-07-28",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

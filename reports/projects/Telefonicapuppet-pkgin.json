@@ -1,1 +1,13 @@
-{"id": "Telefonica/puppet-pkgin", "name": "# PDI aditions", "description": "A Puppet package provider for pkgin, a binary package manager for pkgsrc.", "date_creation": "2013-09-27", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Ruby": 52566, "Puppet": 338}}
+{
+  "id": "Telefonica/puppet-pkgin",
+  "name": "# PDI aditions",
+  "description": "A Puppet package provider for pkgin, a binary package manager for pkgsrc.",
+  "date_creation": "2013-09-27",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Ruby": 52566,
+    "Puppet": 338
+  }
+}

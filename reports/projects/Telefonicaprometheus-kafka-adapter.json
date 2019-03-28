@@ -1,1 +1,13 @@
-{"id": "Telefonica/prometheus-kafka-adapter", "name": "prometheus-kafka-adapter", "description": "Use Kafka as a remote storage database for Prometheus (remote write only)", "date_creation": "2018-10-02", "date_last_release": "2019-02-27", "contributors": [], "libraries_used": "", "tags_languages": {"Go": 13853, "Dockerfile": 431}}
+{
+  "id": "Telefonica/prometheus-kafka-adapter",
+  "name": "prometheus-kafka-adapter",
+  "description": "Use Kafka as a remote storage database for Prometheus (remote write only)",
+  "date_creation": "2018-10-02",
+  "date_last_release": "2019-02-27",
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Go": 13853,
+    "Dockerfile": 431
+  }
+}

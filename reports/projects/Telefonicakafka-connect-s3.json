@@ -1,1 +1,13 @@
-{"id": "Telefonica/kafka-connect-s3", "name": "Kafka Connect S3", "description": "A Kafka-Connect Sink for S3 with no Hadoop dependencies.", "date_creation": "2018-11-13", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Java": 145855, "Python": 16837}}
+{
+  "id": "Telefonica/kafka-connect-s3",
+  "name": "Kafka Connect S3",
+  "description": "A Kafka-Connect Sink for S3 with no Hadoop dependencies.",
+  "date_creation": "2018-11-13",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Java": 145855,
+    "Python": 16837
+  }
+}

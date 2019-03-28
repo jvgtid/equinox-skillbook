@@ -1,1 +1,13 @@
-{"id": "abellosovic/pyapi-gitlab", "name": "Looking for contributors", "description": "pyapi-gitlab is a python wrapper for the Gitlab API.", "date_creation": "2016-07-19", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 99708, "Shell": 3331}}
+{
+  "id": "abellosovic/pyapi-gitlab",
+  "name": "Looking for contributors",
+  "description": "pyapi-gitlab is a python wrapper for the Gitlab API.",
+  "date_creation": "2016-07-19",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 99708,
+    "Shell": 3331
+  }
+}

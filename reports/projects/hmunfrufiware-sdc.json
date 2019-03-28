@@ -1,1 +1,14 @@
-{"id": "hmunfru/fiware-sdc", "name": "# Software Deployment and Configuration for Fiware", "description": "Software Deployment and Configuration for Fiware", "date_creation": "2014-04-11", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Java": 1134184, "Python": 23011, "Shell": 5302}}
+{
+  "id": "hmunfru/fiware-sdc",
+  "name": "# Software Deployment and Configuration for Fiware",
+  "description": "Software Deployment and Configuration for Fiware",
+  "date_creation": "2014-04-11",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Java": 1134184,
+    "Python": 23011,
+    "Shell": 5302
+  }
+}

@@ -1,1 +1,12 @@
-{"id": "abellosovic/docker-jmeter-server", "name": "JMeter in Server Mode", "description": "Docker image for JMeter in server mode", "date_creation": "2016-06-16", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Shell": 838}}
+{
+  "id": "abellosovic/docker-jmeter-server",
+  "name": "JMeter in Server Mode",
+  "description": "Docker image for JMeter in server mode",
+  "date_creation": "2016-06-16",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Shell": 838
+  }
+}

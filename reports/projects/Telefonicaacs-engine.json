@@ -1,1 +1,19 @@
-{"id": "Telefonica/acs-engine", "name": "Microsoft Azure Container Service Engine - Builds Docker Enabled Clusters", "description": "DEPRECATED FORK - Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.", "date_creation": "2018-02-01", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Go": 1101874, "Perl 6": 267140, "Shell": 123597, "Perl": 49849, "PowerShell": 42213, "Groovy": 24761, "Python": 6095, "Makefile": 5600}}
+{
+  "id": "Telefonica/acs-engine",
+  "name": "Microsoft Azure Container Service Engine - Builds Docker Enabled Clusters",
+  "description": "DEPRECATED FORK - Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.",
+  "date_creation": "2018-02-01",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Go": 1101874,
+    "Perl 6": 267140,
+    "Shell": 123597,
+    "Perl": 49849,
+    "PowerShell": 42213,
+    "Groovy": 24761,
+    "Python": 6095,
+    "Makefile": 5600
+  }
+}

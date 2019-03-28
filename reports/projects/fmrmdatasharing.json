@@ -1,1 +1,10 @@
-{"id": "fmrm/datasharing", "name": "## The raw data", "description": "The Leek group guide to data sharing ", "date_creation": "2015-01-15", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {}}
+{
+  "id": "fmrm/datasharing",
+  "name": "## The raw data",
+  "description": "The Leek group guide to data sharing ",
+  "date_creation": "2015-01-15",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {}
+}

@@ -1,1 +1,14 @@
-{"id": "Telefonica/post-buildkite-plugin", "name": "Post buildkite plugin", "description": "Post jobs recovery buildkite plugin (WIP)", "date_creation": "2018-09-20", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 21919, "Shell": 736, "Dockerfile": 130}}
+{
+  "id": "Telefonica/post-buildkite-plugin",
+  "name": "Post buildkite plugin",
+  "description": "Post jobs recovery buildkite plugin (WIP)",
+  "date_creation": "2018-09-20",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 21919,
+    "Shell": 736,
+    "Dockerfile": 130
+  }
+}

@@ -1,1 +1,12 @@
-{"id": "Telefonica/designate-enhancedhandler", "name": "designate-enhancedhandler", "description": "Designate handler to manage notifications from Nova and Neutron", "date_creation": "2016-01-12", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 30754}}
+{
+  "id": "Telefonica/designate-enhancedhandler",
+  "name": "designate-enhancedhandler",
+  "description": "Designate handler to manage notifications from Nova and Neutron",
+  "date_creation": "2016-01-12",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 30754
+  }
+}

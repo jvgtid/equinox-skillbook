@@ -1,1 +1,15 @@
-{"id": "Edorka/ParkyZen", "name": "ParkyZen", "description": "Mobile web message board for parking lot users.", "date_creation": "2018-03-27", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 20032, "Python": 5925, "HTML": 1590, "CSS": 700}}
+{
+  "id": "Edorka/ParkyZen",
+  "name": "ParkyZen",
+  "description": "Mobile web message board for parking lot users.",
+  "date_creation": "2018-03-27",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 20032,
+    "Python": 5925,
+    "HTML": 1590,
+    "CSS": 700
+  }
+}

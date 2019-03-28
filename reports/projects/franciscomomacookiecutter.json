@@ -1,1 +1,14 @@
-{"id": "franciscomoma/cookiecutter", "name": "Create project from the cookiecutter-pypackage.git repo template", "description": "A command-line utility that creates projects from cookiecutters (project templates). E.g. Python package projects, jQuery plugin projects.", "date_creation": "2019-03-25", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Python": 215812, "Makefile": 3206, "Shell": 161}}
+{
+  "id": "franciscomoma/cookiecutter",
+  "name": "Create project from the cookiecutter-pypackage.git repo template",
+  "description": "A command-line utility that creates projects from cookiecutters (project templates). E.g. Python package projects, jQuery plugin projects.",
+  "date_creation": "2019-03-25",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Python": 215812,
+    "Makefile": 3206,
+    "Shell": 161
+  }
+}

@@ -1,1 +1,13 @@
-{"id": "Edorka/ardutector", "name": "", "description": "Arduino movement detector and remote reporter", "date_creation": "2014-03-20", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Arduino": 6339, "C++": 4900}}
+{
+  "id": "Edorka/ardutector",
+  "name": "",
+  "description": "Arduino movement detector and remote reporter",
+  "date_creation": "2014-03-20",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Arduino": 6339,
+    "C++": 4900
+  }
+}

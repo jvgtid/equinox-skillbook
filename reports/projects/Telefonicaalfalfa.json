@@ -1,1 +1,13 @@
-{"id": "Telefonica/alfalfa", "name": "alfalfa [![npm version](https://badge.fury.io/js/alfalfa.svg)](http://badge.fury.io/js/alfalfa) ![Typescript](https://img.shields.io/badge/TypeScript-.ts-blue.svg)", "description": "Opinionated startup for node services and applications to remove plumbing and boilerplate", "date_creation": "2016-09-26", "date_last_release": "2016-10-19", "contributors": [], "libraries_used": "", "tags_languages": {"TypeScript": 25553, "JavaScript": 5001}}
+{
+  "id": "Telefonica/alfalfa",
+  "name": "alfalfa [![npm version](https://badge.fury.io/js/alfalfa.svg)](http://badge.fury.io/js/alfalfa) ![Typescript](https://img.shields.io/badge/TypeScript-.ts-blue.svg)",
+  "description": "Opinionated startup for node services and applications to remove plumbing and boilerplate",
+  "date_creation": "2016-09-26",
+  "date_last_release": "2016-10-19",
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "TypeScript": 25553,
+    "JavaScript": 5001
+  }
+}

@@ -1,1 +1,13 @@
-{"id": "Edorka/taolu", "name": "", "description": "inscription for wushu championships", "date_creation": "2014-10-13", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 75626, "CSS": 1622}}
+{
+  "id": "Edorka/taolu",
+  "name": "",
+  "description": "inscription for wushu championships",
+  "date_creation": "2014-10-13",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 75626,
+    "CSS": 1622
+  }
+}

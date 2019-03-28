@@ -1,1 +1,13 @@
-{"id": "Edorka/generator-flask-api", "name": "Flask REST API Generator", "description": "A Yeoman generator for RESTful Flask APIs.", "date_creation": "2016-06-22", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 66113, "Python": 4592}}
+{
+  "id": "Edorka/generator-flask-api",
+  "name": "Flask REST API Generator",
+  "description": "A Yeoman generator for RESTful Flask APIs.",
+  "date_creation": "2016-06-22",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 66113,
+    "Python": 4592
+  }
+}

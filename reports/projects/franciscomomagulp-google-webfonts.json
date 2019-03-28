@@ -1,1 +1,14 @@
-{"id": "franciscomoma/gulp-google-webfonts", "name": "gulp-google-webfonts", "description": "JS: Google-webfont Gulp-plugin", "date_creation": "2017-01-30", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"JavaScript": 8885, "Shell": 1827, "Makefile": 345}}
+{
+  "id": "franciscomoma/gulp-google-webfonts",
+  "name": "gulp-google-webfonts",
+  "description": "JS: Google-webfont Gulp-plugin",
+  "date_creation": "2017-01-30",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "JavaScript": 8885,
+    "Shell": 1827,
+    "Makefile": 345
+  }
+}

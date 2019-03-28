@@ -1,1 +1,15 @@
-{"id": "hmunfru/chef-mongodb", "name": "MongoDB Cookbook", "description": "MongoDB Chef cookbook", "date_creation": "2016-02-04", "date_last_release": null, "contributors": [], "libraries_used": "", "tags_languages": {"Ruby": 62568, "Shell": 13747, "HTML": 1136, "Makefile": 455}}
+{
+  "id": "hmunfru/chef-mongodb",
+  "name": "MongoDB Cookbook",
+  "description": "MongoDB Chef cookbook",
+  "date_creation": "2016-02-04",
+  "date_last_release": null,
+  "contributors": [],
+  "libraries_used": "",
+  "tags_languages": {
+    "Ruby": 62568,
+    "Shell": 13747,
+    "HTML": 1136,
+    "Makefile": 455
+  }
+}
