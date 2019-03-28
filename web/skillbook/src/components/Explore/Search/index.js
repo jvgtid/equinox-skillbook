@@ -18,7 +18,7 @@ class Search extends React.Component {
         return (
             <div className='search'>
                 <form onSubmit={this.handleSubmit}>
-                Search for a skill: <input type='text' value={this.state.value} onChange={this.handleChange} />
+                ¿Qué tecnología quieres aprender? <input type='text' value={this.state.value} onChange={this.handleChange} />
                 </form>
             </div>
         );

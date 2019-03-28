@@ -11,3 +11,25 @@
 .search {
     margin: 20px;
 }
+
+.explore-buttons button {
+    width: 50%;
+    transition-duration: 0.4s;
+    background-color: #fff;
+    color: #000;
+    border: 0 solid #63ace5;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    height: 59px;
+    font-size: 18px;
+    outline: 0;
+    margin: 25px 0;
+    border-radius: 0;
+}
+.explore-buttons button:hover {
+    background-color: #63ace5 !important;
+    color: white;
+}
+.active {
+    background-color: #f1f1f1 !important;
+}

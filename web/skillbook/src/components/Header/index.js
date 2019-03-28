@@ -4,10 +4,10 @@ import './index.css';
 class Header extends React.Component {
     state = {
         homeStyle: {
-            backgroundColor: '#6e6e6e',
+            backgroundColor: '#6f7571',
         },
         exploreStyle: {
-            backgroundColor: '#5e5e5e',
+            backgroundColor: '#606d69',
         }
     };
 
@@ -16,10 +16,10 @@ class Header extends React.Component {
         // ugly
         this.setState({
             homeStyle: {
-                backgroundColor: name === 'home' ? '#6e6e6e' : '#5e5e5e',
+                backgroundColor: name === 'home' ? '#6f7571' : '#606d69',
             },
             exploreStyle: {
-                backgroundColor: name === 'explore' ? '#6e6e6e' : '#5e5e5e',
+                backgroundColor: name === 'explore' ? '#6f7571' : '#606d69',
             }
         })
     }

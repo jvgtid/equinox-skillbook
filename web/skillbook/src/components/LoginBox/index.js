@@ -1,4 +1,5 @@
 import React from 'react';
+import {makeRequest} from "../../utils/request";
 import './index.css';
 
 class LoginBox extends React.Component {
@@ -19,37 +20,11 @@ class LoginBox extends React.Component {
 
         this.props.enterSite();
 
-        let headers = new Headers();
-        headers.append('Content-Type', 'application/json');
-        const requestOptions = {
-            method: 'GET',
-            headers: headers,
+        const onSuccess = (response) => {
+            console.log('IT WORKS', response);
         };
 
-        let url = new URL("http://localhost:5000/user_info");
-        const params = { user_mail: 'marianogs_95@hotmail.com' };
-        Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
-
-        fetch(url, requestOptions)
-            .then(response => {
-                if (!response.ok) {
-                    return Promise.reject();
-                }
-                console.log('AAA');
-                return response.json();
-            })
-            .then(response => {
-                if (response.status === 200) {
-                    return { ...response};
-                }
-                console.log('AAA');
-
-                // Error
-                return { ...response};
-            });
-
-
-        console.log('LOGIN ATTEMPT');
+        makeRequest('user_info', { user_mail: 'marianogs_95@hotmail.com' }, onSuccess);
     };
 
     render() {
