@@ -19,6 +19,36 @@ class LoginBox extends React.Component {
 
         this.props.enterSite();
 
+        let headers = new Headers();
+        headers.append('Content-Type', 'application/json');
+        const requestOptions = {
+            method: 'GET',
+            headers: headers,
+        };
+
+        let url = new URL("http://localhost:5000/user_info");
+        const params = { user_mail: 'marianogs_95@hotmail.com' };
+        Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
+
+        fetch(url, requestOptions)
+            .then(response => {
+                if (!response.ok) {
+                    return Promise.reject();
+                }
+                console.log('AAA');
+                return response.json();
+            })
+            .then(response => {
+                if (response.status === 200) {
+                    return { ...response};
+                }
+                console.log('AAA');
+
+                // Error
+                return { ...response};
+            });
+
+
         console.log('LOGIN ATTEMPT');
     };
 
