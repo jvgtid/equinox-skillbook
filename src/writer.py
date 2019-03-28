@@ -4,6 +4,6 @@ import os
 def write_file(file_name, json):
     path = os.path.dirname(__file__)
 
-    file = open(f"{path}/../reports/{file_name}.json", "w")
+    file = open(f"{path}/../reports/{file_name}", "w")
     file.write(json)
     file.close()

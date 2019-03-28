@@ -1,10 +1,10 @@
 import itertools
 import operator
 import re
-
-from github import Github
+from collections import defaultdict
 
 from src.github_connector.collaborators import Collaborator
+from src.github_connector.language import Language
 from src.github_connector.repository import Repository
 
 
@@ -76,61 +76,82 @@ def get_repo_class(g, repo_name):
     except:
         readme_title = ""
 
-    dependencies = get_dependencies(repo)
+    dependencies = ""
 
     return Repository(name, desc, cols, langs, created_at, latest_release_date, readme_title, dependencies)
 
 
-def get_languages(g, user, repos):
+def get_languages(g, user, repo):
     languages = []
 
-    for repo in repos:
-        commits = g.get_repo(repo).get_commits(author=user)
-        for commit in commits:
-            statuses = commit.get_statuses()
-            date = None
-            for status in statuses:
-                new_date = status.created_at
-                date = new_date if not date or new_date > date else date
-            date = date.strftime("%Y-%m-%d")
-            files = commit.files
+    pulls = g.get_repo(repo.id).get_pulls()
+    for pull in pulls:
+        if pull.user.login == user:
+            date = pull.created_at.strftime("%Y-%m-%d")
+            files = pull.get_files()
             for file in files:
-                ext = file.filename.strip(".")[1] if len(file.filename.strip(".")) >= 1 else ""
-                languages.append((ext, (date, repo)))
+                ext = file.filename.split(".")[1] if len(file.filename.split(".")) == 2 else ""
+                languages.append((ext, date))
 
-    reduced_dates = [(x[0] + (min(z[1] for z in y),) + (max(z[1] for z in y),) + x[2])
-     for (x, y) in itertools.groupby(sorted(languages, key=operator.itemgetter(0, 2)), key=operator.itemgetter(0, 2))]
+    exts = defaultdict(list)
+    for ext, date in languages:
+        exts[ext].append(date)
 
-    print(reduced_dates)
+    result = []
+    for ext, dates in exts.items():
+        sorted_dates = sorted(dates)
+        first = sorted_dates[0]
+        last = before_last = sorted_dates[-1]
+        n_dates = len(dates)
+        if n_dates >= 3:
+            before_last = sorted_dates[-2]
+        result.append(Language(ext, last, first, before_last, [repo.id]))
 
-    return languages
+    return result
 
 
-def get_collaborator_class(g, user_name):
-    user = g.get_user(login=user_name)
+def load_collaborators_for_repo(g, repo):
+    try:
+        cols = g.get_repo(repo.id).get_collaborators()
 
-    id = user.name
-    mail = user.email
-    picture = user.avatar_url
-    projects = [repo.full_name for repo in user.get_repos()]
-    coworkers = user.collaborators
-    languages_used = get_languages(g, user_name, projects)
+        all_cols = []
 
-    return Collaborator(id, mail, picture, projects, coworkers, )
+        for col in cols:
+            user = g.get_user(login=col.login)
+
+            id = user.name
+            mail = user.email
+            picture = user.avatar_url
+            projects = [repo.name]
+            coworkers = user.collaborators
+            languages_used = get_languages(g, user.login, repo)
+            login = col.login
+
+            all_cols.append(Collaborator(id, mail, picture, projects, coworkers, languages_used, login))
+    except:
+        all_cols = []
+
+    return all_cols
 
 
 def load_repositories(g):
 
-    #collaborators = get_user_collaborators(g)
-    #collaborators_repos = [repo for col in collaborators for repo in get_repos_for_user(g, col)]
-    #my_repos = get_repos(g)
-#
-    #[print(r) for r in set(collaborators_repos + my_repos)]
+    collaborators = get_user_collaborators(g)
+    collaborators_repos = [repo for col in collaborators for repo in get_repos_for_user(g, col)]
+    my_repos = get_repos(g)
 
-    #return [get_repo_class(g, r) for r in set(collaborators_repos + my_repos)]
-
-    return [get_repo_class(g, "Telefonica/luca-comms")]
+    return [get_repo_class(g, r) for r in set(collaborators_repos + my_repos)]
 
 
-def load_collaborators(g):
-    return [get_collaborator_class(g, "jvgtid")]
+def load(g):
+    repos = load_repositories(g)
+    cols = [col for repo in repos for col in load_collaborators_for_repo(g, repo)]
+
+    collaborators = {}
+    for collaborator in cols:
+        if collaborator.id in collaborators:
+            collaborators[collaborator.id] += collaborator
+        else:
+            collaborators[collaborator.id] = collaborator
+
+    return repos, list(collaborators.values())
