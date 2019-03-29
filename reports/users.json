@@ -46,10 +46,20 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 4,
+      "Python": 10,
+      "HTML": 10,
+      "CoffeeScript": 9,
+      "CSS": 7,
+      "JavaScript": 7,
+      "Batchfile": 2
+    },
     "projects": [
       "Analytics Charts",
-      "LUCA Python/Django starter",
+      "Django starter",
+      "LUCA Fleet",
       "HAL9000",
       "# Installation"
     ]
@@ -167,7 +177,7 @@
     "projects": [
       "HAL9000",
       "Analytics Charts",
-      "LUCA Python/Django starter",
+      "Django starter",
       "# Installation"
     ]
   },
@@ -233,7 +243,8 @@
     "projects": [
       "Analytics Charts",
       "HAL9000",
-      "# Installation"
+      "# Installation",
+      "LUCA Fleet"
     ]
   },
   "alvarosperez": {
@@ -291,14 +302,15 @@
       "PHP": 10,
       "JavaScript": 1,
       "HTML": 1,
-      "CSS": 3,
-      "Shell": 0
+      "CSS": 3
     },
     "projects": [
       "HAL9000",
       "Analytics Charts",
-      "LUCA Python/Django starter",
-      "# Installation"
+      "Django starter",
+      "# Installation",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "mgs95": {
@@ -360,14 +372,15 @@
       "",
       "HAL9000",
       "Publication-manager",
-      "LUCA Python/Django starter",
+      "Django starter",
       "c_projects",
       "# Installation",
-      "equinox-skillbook",
       "mi_pandilla",
       "Analytics Charts",
       "my_checkio_solutions",
-      "# Website Performance Optimization portfolio project"
+      "# Website Performance Optimization portfolio project",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "rnn245": {
@@ -429,7 +442,7 @@
     ],
     "languages": {},
     "projects": [
-      "LUCA Python/Django starter"
+      "Django starter"
     ]
   },
   "agustingarciaflores": {
@@ -484,7 +497,9 @@
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "jvgtid": {
@@ -515,15 +530,20 @@
       "rodvic"
     ],
     "languages": {
-      "JavaScript": 0,
-      "Python": 0,
+      "Java": 4,
+      "Scala": 10,
+      "Python": 10,
+      "HTML": 0,
+      "CoffeeScript": 2,
       "CSS": 0,
-      "HTML": 0
+      "JavaScript": 0,
+      "Batchfile": 9
     },
     "projects": [
-      "equinox-skillbook",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "fmrm": {
@@ -572,11 +592,22 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 10,
+      "Scala": 10,
+      "Python": 7,
+      "HTML": 0,
+      "CoffeeScript": 3,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 3
+    },
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Comms"
     ]
   },
   "carlosalvarezelo": {
@@ -661,7 +692,9 @@
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "abellosovic": {
@@ -728,7 +761,9 @@
     "projects": [
       "Analytics Charts",
       "HAL9000",
-      "# Installation"
+      "# Installation",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "franciscomoma": {
@@ -787,7 +822,7 @@
       "CSS": 0
     },
     "projects": [
-      "LUCA Python/Django starter",
+      "Django starter",
       "# Installation"
     ]
   },
@@ -878,10 +913,11 @@
     "languages": {
       "Perl": 10,
       "XSLT": 10,
-      "Python": 0
+      "Python": 0,
+      "JavaScript": 7
     },
     "projects": [
-      "LUCA Python/Django starter"
+      "Django starter"
     ]
   },
   "afgtid": {
@@ -931,9 +967,19 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 7,
+      "Python": 8,
+      "HTML": 0,
+      "CoffeeScript": 10,
+      "Shell": 6,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 3
+    },
     "projects": [
-      "LUCA Python/Django starter",
+      "Django starter",
       "# Installation"
     ]
   },
@@ -984,12 +1030,24 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 6,
+      "Python": 6,
+      "HTML": 8,
+      "CoffeeScript": 4,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 8,
+      "Batchfile": 4
+    },
     "projects": [
       "# Installation",
-      "LUCA Python/Django starter",
+      "Django starter",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "epgtid": {
@@ -1044,11 +1102,12 @@
       "Shell": 0,
       "Jupyter Notebook": 8,
       "HTML": 0,
-      "CSS": 0
+      "CSS": 0,
+      "JavaScript": 7
     },
     "projects": [
       "# Installation",
-      "LUCA Python/Django starter",
+      "Django starter",
       "HAL9000",
       "Analytics Charts"
     ]
@@ -1079,10 +1138,21 @@
       "contint",
       "CarlosAlvarezElo"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 3,
+      "Scala": 2,
+      "Python": 9,
+      "HTML": 3,
+      "CoffeeScript": 4,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 4,
+      "Batchfile": 4
+    },
     "projects": [
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet"
     ]
   },
   "albertobarbado": {
@@ -1131,12 +1201,22 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 6,
+      "Python": 9,
+      "HTML": 5,
+      "CoffeeScript": 6,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 5,
+      "Batchfile": 7
+    },
     "projects": [
       "# Installation",
-      "equinox-skillbook",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Comms"
     ]
   },
   "raulmaroto": {
@@ -1185,7 +1265,21 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 8,
+      "Python": 7,
+      "HTML": 0,
+      "JavaScript": 0,
+      "Go": 0,
+      "Makefile": 6,
+      "CSS": 1,
+      "Elixir": 10,
+      "PHP": 6,
+      "Swift": 10,
+      "Objective-C": 0,
+      "Java": 0,
+      "CoffeeScript": 0
+    },
     "projects": [
       "Analytics Charts",
       "HAL9000",
@@ -1269,7 +1363,7 @@
       "XSLT": 0
     },
     "projects": [
-      "LUCA Python/Django starter",
+      "Django starter",
       "# Installation"
     ]
   },
@@ -1326,7 +1420,7 @@
       "Scala": 0,
       "Shell": 0,
       "M": 10,
-      "JavaScript": 0,
+      "JavaScript": 5,
       "HTML": 0,
       "CSS": 2,
       "TypeScript": 10,
@@ -1411,8 +1505,7 @@
       "Arduino": 10
     },
     "projects": [
-      "equinox-skillbook",
-      "LUCA Python/Django starter",
+      "Django starter",
       "# Installation"
     ]
   },
@@ -1466,6 +1559,7 @@
       "Shell": 0,
       "Python": 1,
       "HTML": 0,
+      "JavaScript": 7,
       "Java": 0,
       "Groovy": 10
     },
@@ -1521,11 +1615,21 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 0,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 7,
+      "Java": 0,
+      "Groovy": 10,
+      "JavaScript": 7
+    },
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "pratid": {
@@ -1575,10 +1679,24 @@
       "CarlosAlvarezElo"
     ],
     "languages": {
-      "Python": 0
+      "Shell": 3,
+      "Python": 5,
+      "HTML": 0,
+      "JavaScript": 7,
+      "Go": 0,
+      "Makefile": 0,
+      "CSS": 1,
+      "Elixir": 10,
+      "PHP": 6,
+      "Swift": 10,
+      "Objective-C": 0,
+      "Scala": 7,
+      "Java": 8,
+      "CoffeeScript": 0
     },
     "projects": [
-      "# Installation"
+      "# Installation",
+      "GBIC-Engineering"
     ]
   },
   "villenavg": {
@@ -1642,7 +1760,7 @@
       "Erlang": 1
     },
     "projects": [
-      "LUCA Python/Django starter",
+      "Django starter",
       "# Installation"
     ]
   },
@@ -1727,7 +1845,7 @@
       "PowerShell": 0
     },
     "projects": [
-      "LUCA Python/Django starter"
+      "Django starter"
     ]
   },
   "dchimeno": {
@@ -1787,7 +1905,7 @@
       "HTML": 0
     },
     "projects": [
-      "LUCA Python/Django starter",
+      "Django starter",
       "# Installation"
     ]
   },
@@ -1820,7 +1938,14 @@
       "jvgtid",
       "CarlosAlvarezElo"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 3,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 3,
+      "Java": 8,
+      "Groovy": 10
+    },
     "projects": [
       "LUCA Fleet"
     ]
@@ -1851,10 +1976,18 @@
       "contint",
       "CarlosAlvarezElo"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 3,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 2,
+      "Java": 8,
+      "Groovy": 1
+    },
     "projects": [
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "GBIC-Engineering"
     ]
   },
   "oscar-marin": {
@@ -1882,7 +2015,7 @@
     ],
     "languages": {},
     "projects": [
-      "LUCA Python/Django starter"
+      "Django starter"
     ]
   },
   "davidllanos": {
@@ -1932,7 +2065,11 @@
       "CarlosAlvarezElo"
     ],
     "languages": {
-      "Java": 0
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 7,
+      "Java": 9,
+      "Groovy": 3
     },
     "projects": [
       "# Installation"
@@ -2036,7 +2173,14 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 4,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 3,
+      "Java": 7,
+      "Groovy": 10
+    },
     "projects": [
       "# Installation",
       "LUCA Fleet"
@@ -2090,12 +2234,11 @@
     ],
     "languages": {
       "R": 3,
-      "JavaScript": 1,
+      "JavaScript": 7,
       "CSS": 4,
       "TeX": 1,
       "Makefile": 0,
       "Prolog": 0,
-      "Shell": 0,
       "HTML": 0
     },
     "projects": [
@@ -2127,7 +2270,7 @@
     ],
     "languages": {},
     "projects": [
-      "LUCA Python/Django starter"
+      "Django starter"
     ]
   }
 }

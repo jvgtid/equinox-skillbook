@@ -1,5 +1,5 @@
 .box {
-    min-height: 150px;
+    min-height: 30px;
     width: 30%;
     margin: 10px;
     border-radius: 4px;
@@ -67,4 +67,8 @@ a.avatar > img {
 .user-profile-container .skills-container, .user-profile-container .badges-container {
     width: 240px;
     margin: auto;
+}
+
+.eye-icon path {
+    pointer-events: none;
 }
