@@ -70,7 +70,7 @@
   "luca-fleet": {
     "id": "Telefonica/luca-fleet",
     "name": "LUCA Fleet",
-    "description": null,
+    "description": "LUCA Fleet management and analytics",
     "date_creation": "2018-11-13",
     "date_last_release": "2019-02-26",
     "contributors": [
@@ -178,7 +178,7 @@
     "name": "HAL9000",
     "description": "Hubot Slack bot designed to create GitHub deployments",
     "date_creation": "2019-01-24",
-    "date_last_release": null,
+    "date_last_release": "2019-02-20",
     "contributors": [
       "epgtid",
       "Edorka",
@@ -219,8 +219,18 @@
     "name": "ONOS : Open Network Operating System",
     "description": "Open Network Operating System",
     "date_creation": "2019-03-08",
-    "date_last_release": null,
-    "contributors": [],
+    "date_last_release": "2019-03-26",
+    "contributors": [
+      "tomikazi",
+      "y-higuchi",
+      "ray-milkey",
+      "gunine",
+      "madjam",
+      "jonohart",
+      "bocon13",
+      "charlesmcchan",
+      "alshabib"
+    ],
     "libraries_used": [
       "junit",
       "hamcrest",
@@ -255,8 +265,19 @@
     "name": "Apache Spark",
     "description": "Apache Spark",
     "date_creation": "2019-01-15",
-    "date_last_release": null,
-    "contributors": [],
+    "date_last_release": "2019-03-10",
+    "contributors": [
+      "rxin",
+      "mateiz",
+      "pwendell",
+      "cloud-fan",
+      "JoshRosen",
+      "zsxwing",
+      "tdas",
+      "gatorsmile",
+      "viirya",
+      "mengxr"
+    ],
     "libraries_used": [
       "spark",
       "scalatest",
@@ -305,8 +326,10 @@
     "name": "nodejs-intro",
     "description": "My introduction presentation to node.js along with sample code at various stages of building a simple RESTful web service with journey, cradle, winston, optimist, and http-console.",
     "date_creation": "2012-03-24",
-    "date_last_release": null,
-    "contributors": [],
+    "date_last_release": "2017-10-15",
+    "contributors": [
+      "hmunfru"
+    ],
     "libraries_used": [
       "node-js"
     ],
