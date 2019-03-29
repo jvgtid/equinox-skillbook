@@ -11,7 +11,7 @@ if __name__ == '__main__':
                 with open(f"/Users/jvg/git/Telefonica/equinox-skillbook/reports/database/users/{filename}") as json_file:
                     user = json.load(json_file)
                     print(user)
-                    list_users[user["id"]] = user
+                    list_users[user["login"]] = user
 
     with open(f"/Users/jvg/git/Telefonica/equinox-skillbook/reports/database/users/users_all.json", 'w') as outfile:
         json.dump(list_users, outfile)
