@@ -13,6 +13,7 @@ from flask import request
 from flask_cors import CORS
 from flask_restful import reqparse 
 import json
+from collections import defaultdict
 
 # Librerías de los modelos
 import pickle
@@ -38,12 +39,40 @@ class UserInfo(Resource):
         users_all = json.loads(open('../reports/database/users/users_all.json').read())
         print(users_all)
         
-        user_final = {}
         mail = request.args.get('user_mail')
-        for user, values in users_all.items():
-            if values['mail'] == mail:
-                user_final = users_all[user]
-        
+
+        users = json.loads(open('../reports/users.json').read())
+        languages = defaultdict(int)
+        projects = defaultdict(int)
+        final_user = None
+        for user in users.values():
+            for language in user['languages']:
+                languages[language] += 1
+
+            for project in user['projects']:
+                projects[project] += sum(user['languages'].values())
+
+            if user['mail'] == mail:
+                final_user = user
+
+        languages_top = [(k, v) for k, v in languages.items()]
+        languages_top = list(sorted(languages_top, key=lambda x: x[1], reverse=True))
+        if len(languages_top) > 10:
+            languages_top = languages_top[:10]
+
+        projects_top = [(k, v) for k, v in projects.items()]
+        projects_top = list(filter(lambda x: x[1] != 0, projects_top))
+        projects_top = list(sorted(projects_top, key=lambda x: x[1], reverse=True))
+        projects_top.pop(0)
+        if len(projects_top) > 10:
+            projects_top = projects_top[:10]
+
+        return {
+            'user': final_user,
+            'languages': languages_top,
+            'projects': projects_top
+        }
+
         return user_final if len(user_final) > 0 else 404
     
     

@@ -59,6 +59,15 @@ class Landing extends React.Component {
     };
 
     render() {
+        const topLanguages = this.props.top_langs.map(el => ({
+            name: el[0],
+            value: el[1]
+        }));
+        const topProjects = this.props.top_projects.map(el => ({
+            name: el[0],
+            value: el[1]
+        }));
+
         return (
             <div className={'landing-container flex-horizontal'}>
                 <div className={'landing-chart'}>
@@ -67,7 +76,7 @@ class Landing extends React.Component {
                     </div>
                     <ResponsiveChart
                         Chart={ barChart }
-                        data={ barChartDataTech }
+                        data={ topLanguages }
                         otherProps={{ dataUnit: 'contribuidores' }}
                     />
                 </div>
@@ -83,7 +92,7 @@ class Landing extends React.Component {
                     </div>
                     <ResponsiveChart
                         Chart={ barChart }
-                        data={ barChartDataProjects }
+                        data={ topProjects }
                         otherProps={{ dataUnit: 'puntos de habilidad' }}
                     />
                 </div>

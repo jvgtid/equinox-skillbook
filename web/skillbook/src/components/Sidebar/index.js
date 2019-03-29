@@ -3,15 +3,6 @@ import Skills from './Skills';
 import Badges from './Badges';
 import './index.css';
 
-const skills = [
-    { name: 'Javascript', score: 9 },
-    { name: 'Python', score: 7 },
-    { name: 'React', score: 7 },
-    { name: 'Django', score: 6 },
-    { name: 'Scala', score: 2 },
-    { name: 'Spark', score: 2 },
-    { name: 'Elastic Search', score: 1 },
-];
 const badges = [
     { type: 'general', color: '#005a74', icon: 'JS', title: 'Mejor programador de Javascript' },
     { type: 'general', color: '#005a74', icon: 'Py', title: 'Mejor programador de Python' },
@@ -23,18 +14,30 @@ class Sidebar extends React.Component {
     state = {
 
     };
+    skills = [];
 
     render() {
+        for (let skill of Object.keys(this.props.user.languages)) {
+            this.skills.push({
+                name: skill,
+                score: this.props.user.languages[skill]
+            })
+        }
+        this.skills = this.skills.sort((a, b) => b.score - a.score);
+        this.picture = `url("${this.props.user.picture}")`;
+
+        console.log(this.picture)
+
         const width = window.innerWidth * 0.16 - 20;
         return (
             <div className={'sidebar-container flex-vertical'}>
                 <div className={ 'user-img' } style={{ height: width }}>
-                    <div className={'img'}></div>
+                    <div className={'img'} style={{backgroundImage: this.picture}} />
                 </div>
                 <div className={'user-name'}>
-                    { 'MARIANO GONZALEZ SALAZAR' }
+                    { this.props.user.name.toUpperCase() }
                 </div>
-                <Skills data={ skills }/>
+                <Skills data={ this.skills }/>
                 <Badges data={ badges }/>
             </div>
         );

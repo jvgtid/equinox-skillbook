@@ -91,23 +91,25 @@ def process_repos(login):
 
 
 def process_languages():
-    users = json.loads(open('../reports/finial_users_2.json').read())
+    users = json.loads(open('../reports/final_users.json').read())
     languages = defaultdict(int)
 
     for user in users.values():
-        for language in user['languages']:
-            languages['name'] = max(languages['name'], language['value'])
+        for language, value in user['languages'].items():
+            languages[language] = max(languages[language], value)
 
     save_to_json(path="../reports/languages.json", file=languages)
 
 
 def process_scores():
-    users = json.loads(open('../reports/finial_users_2.json').read())
+    users = json.loads(open('../reports/final_users.json').read())
     languages = json.loads(open('../reports/languages.json').read())
 
     for user, obj in users.items():
-        for language in obj['languages']:
-            users[user]['languages'][language] = 1 / users[user]['languages'][language]
+        for language, value in obj['languages'].items():
+            users[user]['languages'][language] = round(users[user]['languages'][language] / languages[language] * 10)
+    
+    save_to_json(path="../reports/users.json", file=users)
 
 def process_scoring():
     
@@ -142,5 +144,22 @@ def process_scoring():
     
     save_to_json(path="../reports/database/users/users_all.json", file=users_total)
 
+def process_users_projects():
+    users = json.loads(open('../reports/users.json').read())
+
+    list_users = listdir('../reports/users')
+
+    for path_user in list_users:
+        user = json.loads(open('../reports/users/' + path_user).read())
+        login = user['login'].lower()
+
+        if 'projects' not in users[login]:
+            users[login]['projects'] = user['projects']
+        else:
+            users[login]['projects'] = list(set(users[login]['projects']) | set(user['projects']))
+
+    save_to_json('../reports/users.json', users)
+    print('USERS:', users)
+
 if __name__ == '__main__':
-    process_users()
+    process_users_projects()

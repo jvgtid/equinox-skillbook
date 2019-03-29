@@ -4,6 +4,7 @@ import Header from '../Header';
 import Sidebar from '../Sidebar';
 import Landing from '../Landing';
 import Explore from '../Explore';
+import BG from './bg.jpg';
 import './index.css';
 
 
@@ -18,20 +19,22 @@ class Body extends React.Component {
         
     };
 
-    enterSite = () => {
-        this.setState({ login: false })
+    enterSite = (res) => {
+        this.setState({ login: false, user: res.user, top_langs: res.languages, top_projects: res.projects })
     };
 
     render() {
         let content = '';
+        const style = {};
         if (this.state.login) {
             content =  <LoginBox enterSite={ this.enterSite }/>;
+            style['backgroundImage'] = `url("./${BG}")`;
         } else {
             content = [<Header changeView={ this.changeView } />];
             if (this.state.view === 'home') {
                 content = content.concat([
-                    <Sidebar />,
-                    <Landing />
+                    <Sidebar user={this.state.user} />,
+                    <Landing top_langs={this.state.top_langs} top_projects={this.state.top_projects} />
                 ]);
             } else {
                 content = content.concat([
@@ -41,7 +44,7 @@ class Body extends React.Component {
         }
 
         return (
-            <div className={'body-container'}>
+            <div className={'body-container'} style={style}>
                 { content }
             </div>
         );

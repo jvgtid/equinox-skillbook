@@ -26,11 +26,11 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background-image: url("./duck.jpg");
-    background-size: 83%;
+    background-image: url(/static/media/duck.4e4af8d1.jpg);
+    background-size: 103%;
     transition: background-size linear 0.4s;
     background-repeat: no-repeat;
-    background-position-y: 14px;
+    background-position-y: 0px;
 }

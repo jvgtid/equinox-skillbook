@@ -18,13 +18,12 @@ class LoginBox extends React.Component {
     handleSubmit = e => {
         e.preventDefault();
 
-        this.props.enterSite();
-
         const onSuccess = (response) => {
             console.log('IT WORKS', response);
+            this.props.enterSite(response);
         };
 
-        makeRequest('user_info', { user_mail: 'marianogs_95@hotmail.com' }, onSuccess);
+        makeRequest('user_info', { user_mail: this.state.username }, onSuccess);
     };
 
     render() {
@@ -38,17 +37,17 @@ class LoginBox extends React.Component {
                 <div className="col-md-6 col-md-offset-3">
                     <form name="form" onSubmit={this.handleSubmit}>
                         <div className={'form-group flex-vertical'}>
-                            <label htmlFor="username">Username</label>
+                            <label htmlFor="username">Email</label>
                             <input type="text" className="form-control" name="username"
                                    value={username} onChange={this.handleChange}/>
                         </div>
                         <div className={'form-group flex-vertical'}>
-                            <label htmlFor="password">Password</label>
+                            <label htmlFor="password">Contraseña</label>
                             <input type="password" className="form-control" name="password"
                                    value={password} onChange={this.handleChange}/>
                         </div>
                         <div className="form-group">
-                            <button className="btn btn-primary">Login</button>
+                            <button className="btn btn-primary">Iniciar sesion</button>
                         </div>
                     </form>
                 </div>
