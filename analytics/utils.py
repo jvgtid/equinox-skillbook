@@ -9,7 +9,6 @@ import json
 from os import listdir
 
 import numpy as np
-from dateutil import parser
 
 
 def save_to_json(path, file):
@@ -42,6 +41,29 @@ def process_tags():
     project_all[project['id']] = project
     save_to_json(path="../reports/database/projects/projects_all.json", file=project_all)
     
+
+def process_users():
+    users = {}
+
+    list_users = listdir('../reports/users')
+
+    for path_user in list_users:
+        user = json.loads(open('../reports/users/' + path_user).read())
+        login = user['login'].lower()
+
+        if login not in users:
+            users[login] = {
+                'name': user['id'],
+                'mail': user['mail'],
+                'picture': user['picture'],
+                'coworkers': user['coworkers']
+            }
+        else:
+            users[login]['coworkers'] = list(set(users[login]['coworkers']) | set(user['coworkers']))
+
+    save_to_json('../reports/final_users.json', users)
+    print('USERS:', users)
+
 
 def process_scoring():
     
@@ -77,5 +99,4 @@ def process_scoring():
     save_to_json(path="../reports/database/users/users_all.json", file=users_total)
 
 if __name__ == '__main__':
-    process_scoring()
-    
+    process_users()
