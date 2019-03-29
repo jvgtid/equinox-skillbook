@@ -19,8 +19,9 @@ class LoginBox extends React.Component {
         e.preventDefault();
 
         const onSuccess = (response) => {
-            console.log('IT WORKS', response);
-            this.props.enterSite(response);
+            if (response.user !== null) {
+                this.props.enterSite(response);
+            }
         };
 
         makeRequest('user_info', { user_mail: this.state.username }, onSuccess);
