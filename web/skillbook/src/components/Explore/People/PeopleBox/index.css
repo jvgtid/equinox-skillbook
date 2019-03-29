@@ -39,3 +39,32 @@ a.avatar > img {
     top: 19px;
     cursor: pointer;
 }
+
+.user-profile-container {
+    height: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 363px;
+    padding: 20px;
+    background-color: #e2e2e2;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    z-index: 1;
+}
+.user-profile-container .user-img {
+    height: 150px;
+    flex-shrink: 0;
+    width: 150px;
+    margin: auto;
+}
+.user-profile-container .user-name {
+    margin-bottom: 10px;
+}
+
+.user-profile-container .skills-container, .user-profile-container .badges-container {
+    width: 240px;
+    margin: auto;
+}
