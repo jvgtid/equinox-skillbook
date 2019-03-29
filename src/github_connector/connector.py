@@ -1,7 +1,7 @@
 import re
 from collections import defaultdict
-
 import json
+import random
 
 from src.github_connector.collaborators import Collaborator
 from src.github_connector.language import Language
@@ -175,11 +175,15 @@ def load(g):
     repos = load_repositories(g)
     cols = [col for repo in repos for col in load_collaborators_for_repo(g, repo)]
 
-    collaborators = {}
-    for collaborator in cols:
-        if collaborator.id in collaborators:
-            collaborators[collaborator.id] = collaborator + collaborators[collaborator.id]
-        else:
-            collaborators[collaborator.id] = collaborator
+    [write_file(f"projects/{repo.id.replace('/', '')}.json", json.dumps(repo.__dict__)) for repo in repos]
 
-    return repos, list(collaborators.values())
+    for coll in cols:
+        n = random.random() * 100
+        write_file(f"users/{coll.login}_{n}.json", json.dumps(coll.to_object()))
+
+    #collaborators = {}
+    #for collaborator in cols:
+    #    if collaborator.id in collaborators:
+    #        collaborators[collaborator.id] = collaborator + collaborators[collaborator.id]
+    #    else:
+    #        collaborators[collaborator.id] = collaborator

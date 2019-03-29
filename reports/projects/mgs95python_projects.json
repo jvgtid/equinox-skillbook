@@ -4,7 +4,9 @@
   "description": null,
   "date_creation": "2017-01-18",
   "date_last_release": null,
-  "contributors": [],
+  "contributors": [
+    "mgs95"
+  ],
   "libraries_used": "",
   "tags_languages": {
     "Python": 35537

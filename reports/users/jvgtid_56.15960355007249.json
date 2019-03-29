@@ -1,0 +1,125 @@
+{
+  "id": "Javier Villar Gil",
+  "mail": "javier.villargil@telefonica.com",
+  "picture": "https://avatars1.githubusercontent.com/u/45091545?v=4",
+  "projects": [
+    "equinox-skillbook"
+  ],
+  "coworkers": [
+    "hugo19941994",
+    "mgs95",
+    "AlbertoBarbado",
+    "jvgtid"
+  ],
+  "languages_used": [
+    {
+      "key": "json",
+      "last_commit_date": "2019-03-29",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-29",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    },
+    {
+      "key": "py",
+      "last_commit_date": "2019-03-29",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-29",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    },
+    {
+      "key": "",
+      "last_commit_date": "2019-03-29",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-29",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    },
+    {
+      "key": "js",
+      "last_commit_date": "2019-03-29",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-29",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    },
+    {
+      "key": "css",
+      "last_commit_date": "2019-03-29",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-29",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    },
+    {
+      "key": "txt",
+      "last_commit_date": "2019-03-28",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-28",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    },
+    {
+      "key": "md",
+      "last_commit_date": "2019-03-28",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-28",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    },
+    {
+      "key": "gitkeep",
+      "last_commit_date": "2019-03-28",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-28",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    },
+    {
+      "key": "gitignore",
+      "last_commit_date": "2019-03-28",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-28",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    },
+    {
+      "key": "ico",
+      "last_commit_date": "2019-03-28",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-28",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    },
+    {
+      "key": "html",
+      "last_commit_date": "2019-03-28",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-28",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    },
+    {
+      "key": "svg",
+      "last_commit_date": "2019-03-28",
+      "first_commit_date": "2019-03-28",
+      "last_period": "2019-03-28",
+      "projects_used": [
+        "jvgtid/equinox-skillbook"
+      ]
+    }
+  ],
+  "login": "jvgtid"
+}

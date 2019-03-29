@@ -15,5 +15,5 @@ def load(r):
 
 
 if __name__ == '__main__':
-    redmine = Redmine('https://cdo.telefonica.com/redmine/projects', username="javier.villargil@telefonica.com", password="./92maiLcrTIDmar")
-    print(redmine.project.get('LUCA Fleet').created_on)
+    redmine = Redmine('https://cdo.telefonica.com/redmine/projects', key="39517b01a9af39247fad8d1d46f04df20c1538b1")
+    print(redmine.project.get(1))

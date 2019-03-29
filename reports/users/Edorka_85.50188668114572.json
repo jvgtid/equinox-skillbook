@@ -1,0 +1,48 @@
+{
+  "id": "Eduardo Orive Vinuesa",
+  "mail": null,
+  "picture": "https://avatars3.githubusercontent.com/u/1416563?v=4",
+  "projects": [
+    "LUCA Python/Django starter"
+  ],
+  "coworkers": [
+    "epgtid",
+    "Edorka",
+    "hmunfru",
+    "acgtid",
+    "alvarosperez",
+    "villenavg",
+    "hugo19941994",
+    "franciscomoma",
+    "afgtid",
+    "mgs95",
+    "rpellon",
+    "dchimeno",
+    "safuente",
+    "oscar-marin",
+    "joseangelmontesmeana",
+    "pmjtid",
+    "moasl"
+  ],
+  "languages_used": [
+    {
+      "key": "json",
+      "last_commit_date": "2019-02-18",
+      "first_commit_date": "2019-02-18",
+      "last_period": "2019-02-18",
+      "projects_used": [
+        "Telefonica/luca_pystarter"
+      ]
+    },
+    {
+      "key": "",
+      "last_commit_date": "2019-02-18",
+      "first_commit_date": "2019-02-18",
+      "last_period": "2019-02-18",
+      "projects_used": [
+        "Telefonica/luca_pystarter"
+      ]
+    }
+  ],
+  "login": "Edorka"
+}

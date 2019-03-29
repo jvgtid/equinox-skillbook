@@ -1,0 +1,68 @@
+{
+  "id": "Mariano Gonzalez Salazar",
+  "mail": null,
+  "picture": "https://avatars2.githubusercontent.com/u/23691885?v=4",
+  "projects": [
+    "Publication-manager"
+  ],
+  "coworkers": [
+    "mgs95"
+  ],
+  "languages_used": [
+    {
+      "key": "txt",
+      "last_commit_date": "2016-11-27",
+      "first_commit_date": "2016-11-27",
+      "last_period": "2016-11-27",
+      "projects_used": [
+        "mgs95/Publication-manager"
+      ]
+    },
+    {
+      "key": "out",
+      "last_commit_date": "2016-11-27",
+      "first_commit_date": "2016-11-27",
+      "last_period": "2016-11-27",
+      "projects_used": [
+        "mgs95/Publication-manager"
+      ]
+    },
+    {
+      "key": "c",
+      "last_commit_date": "2016-11-27",
+      "first_commit_date": "2016-11-27",
+      "last_period": "2016-11-27",
+      "projects_used": [
+        "mgs95/Publication-manager"
+      ]
+    },
+    {
+      "key": "h",
+      "last_commit_date": "2016-11-27",
+      "first_commit_date": "2016-11-27",
+      "last_period": "2016-11-27",
+      "projects_used": [
+        "mgs95/Publication-manager"
+      ]
+    },
+    {
+      "key": "",
+      "last_commit_date": "2016-11-27",
+      "first_commit_date": "2016-11-27",
+      "last_period": "2016-11-27",
+      "projects_used": [
+        "mgs95/Publication-manager"
+      ]
+    },
+    {
+      "key": "md",
+      "last_commit_date": "2016-11-27",
+      "first_commit_date": "2016-11-27",
+      "last_period": "2016-11-27",
+      "projects_used": [
+        "mgs95/Publication-manager"
+      ]
+    }
+  ],
+  "login": "mgs95"
+}

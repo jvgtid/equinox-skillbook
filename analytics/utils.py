@@ -5,13 +5,11 @@ Created on Thu Mar 28 19:14:22 2019
 
 @author: cx02355
 """
-import numpy as np
-import pandas as pd
-from os import listdir
 import json
-from datetime import datetime
-from dateutil import parser
+from os import listdir
 
+import numpy as np
+from dateutil import parser
 
 
 def save_to_json(path, file):
@@ -59,14 +57,14 @@ def process_scoring():
         # Load user
         user = json.loads(open('../reports/users/' + path_user).read())
         for language in user['languages_used']:
-            first_commit_date = user['languages_used'][language]['first_commit_date']
+            first_commit_date = language["first_commit_date"]
             first_commit_date = parser.parse(first_commit_date)
-            last_commit_date = user['languages_used'][language]['last_commit_date']
+            last_commit_date = language["last_commit_date"]
             last_commit_date = parser.parse(last_commit_date)
             diff_days = (last_commit_date - first_commit_date).days
-            projects_used = user['languages_used'][language]['projects_used']
-            last_period = user['languages_used'][language]['last_period']
-            reference = (diff_days*projects_used)/last_period
+            projects_used = language["projects_used"]
+            last_period = language["last_period"]
+            reference = (diff_days*len(projects_used))/last_period
             score = np.round((reference*3.33)/baseline)
             
             if score > 10:
@@ -78,5 +76,6 @@ def process_scoring():
     
     save_to_json(path="../reports/database/users/users_all.json", file=users_total)
 
-
+if __name__ == '__main__':
+    process_scoring()
     

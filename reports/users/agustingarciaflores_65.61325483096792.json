@@ -1,0 +1,311 @@
+{
+  "id": "Agust\u00edn Garc\u00eda",
+  "mail": null,
+  "picture": "https://avatars0.githubusercontent.com/u/12295280?v=4",
+  "projects": [
+    "HAL9000"
+  ],
+  "coworkers": [
+    "epgtid",
+    "Edorka",
+    "acgtid",
+    "RaulMaroto",
+    "fmrm",
+    "alvarosperez",
+    "abellosovic",
+    "ea2809",
+    "agustingarciaflores",
+    "rodvic",
+    "mpcr",
+    "mgs95",
+    "AlbertoBarbado",
+    "rpellon",
+    "jdvn21",
+    "rodrigopico",
+    "lolapayala",
+    "jvgtid",
+    "CarlosAlvarezElo"
+  ],
+  "languages_used": [
+    {
+      "key": "md",
+      "last_commit_date": "2019-01-25",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "yml",
+      "last_commit_date": "2019-01-25",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-25",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "",
+      "last_commit_date": "2019-01-25",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "json",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "bin/cake",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "bin/coffee",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "bin/hubot",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "bin/mime",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "bin/sshpk-conv",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "bin/sshpk-sign",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "bin/sshpk-verify",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "bin/uuid",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "eslintignore",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "eslintrc",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "lock",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "xml",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "html",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "js",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "hbs",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "jpg",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "key",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "pem",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "DS_Store",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "jst",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "def",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "ini",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "gitignore",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "cfg",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "py",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "txt",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    },
+    {
+      "key": "cmd",
+      "last_commit_date": "2019-01-24",
+      "first_commit_date": "2019-01-24",
+      "last_period": "2019-01-24",
+      "projects_used": [
+        "Telefonica/analytics-hal9000"
+      ]
+    }
+  ],
+  "login": "agustingarciaflores"
+}
