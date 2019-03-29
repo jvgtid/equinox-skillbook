@@ -7,6 +7,7 @@ Created on Thu Mar 28 19:14:22 2019
 """
 import json
 from os import listdir
+from collections import defaultdict
 
 import numpy as np
 
@@ -64,6 +65,25 @@ def process_users():
     save_to_json('../reports/final_users.json', users)
     print('USERS:', users)
 
+
+def process_languages():
+    users = json.loads(open('../reports/finial_users_2.json').read())
+    languages = defaultdict(int)
+
+    for user in users.values():
+        for language in user['languages']:
+            languages['name'] = max(languages['name'], language['value'])
+
+    save_to_json(path="../reports/languages.json", file=languages)
+
+
+def process_scores():
+    users = json.loads(open('../reports/finial_users_2.json').read())
+    languages = json.loads(open('../reports/languages.json').read())
+
+    for user, obj in users.items():
+        for language in obj['languages']:
+            users[user]['languages'][language] = 1 / users[user]['languages'][language]
 
 def process_scoring():
     
