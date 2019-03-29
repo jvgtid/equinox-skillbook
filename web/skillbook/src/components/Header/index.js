@@ -27,12 +27,15 @@ class Header extends React.Component {
     render() {
         return (
             <div className={'header-container flex-horizontal'}>
-                <div id='home' className={'header-button'} style={this.state.homeStyle} onClick={() => {return this.changeView('home')}}>
-                    Inicio
+                <div className={'flex-horizontal'}>
+                    <div id='home' className={'header-button'} style={this.state.homeStyle} onClick={() => {return this.changeView('home')}}>
+                        Inicio
+                    </div>
+                    <div id='explore' className={'header-button'} style={this.state.exploreStyle} onClick={() => {return this.changeView('explore')}}>
+                        Explorar
+                    </div>
                 </div>
-                <div id='explore' className={'header-button'} style={this.state.exploreStyle} onClick={() => {return this.changeView('explore')}}>
-                    Explorar
-                </div>
+                <div className={'avengers-icon'}></div>
             </div>
         );
     }

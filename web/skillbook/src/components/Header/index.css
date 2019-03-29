@@ -3,6 +3,7 @@
     color: #fff;
     height: 55px;
     box-shadow: 0px 1px 7px 1px rgba(1, 1, 1, 0.4);
+    justify-content: space-between;
 }
 
 .header-button {
@@ -18,4 +19,15 @@
 .header-button:hover {
     transition: background-color linear 0.3s;
     background-color: #696969;
+}
+
+.avengers-icon {
+    background-image: url("./image.png");
+    height: 100%;
+    width: 170px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-y: 3px;
+    filter: invert(1);
+    opacity: 0.94;
 }
