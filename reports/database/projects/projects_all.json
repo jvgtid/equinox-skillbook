@@ -62,7 +62,7 @@
       "machine learning",
       "technological computing",
       "technical computing",
-      "Operating-system-level virtualization",
+      "operating-system-level virtualization",
       "javascript library",
       "data analytics"
     ]
@@ -211,7 +211,7 @@
       "Batchfile": 154
     },
     "tags": [
-      "Configuration management"
+      "configuration management"
     ]
   },
   "Telefonica/onos": {
@@ -244,10 +244,10 @@
       "Makefile": 1435
     },
     "tags": [
-      "Unit Testing",
-      "Java",
-      "Testing",
-      "Metrics"
+      "unit Testing",
+      "java",
+      "testing",
+      "metrics"
     ]
   },
   "Telefonica/spark": {
@@ -292,12 +292,12 @@
       "C": 1493
     },
     "tags": [
-      "Data analytics",
-      "Machine learning",
-      "Unit Testing",
-      "Java",
-      "Testing",
-      "Metrics"
+      "data analytics",
+      "machine learning",
+      "unit testing",
+      "java",
+      "testing",
+      "metrics"
     ]
   },
   "hmunfru/nodejs-intro": {
@@ -314,7 +314,7 @@
       "JavaScript": 196695
     },
     "tags": [
-      "Runtime environment"
+      "runtime environment"
     ]
   }
 }
