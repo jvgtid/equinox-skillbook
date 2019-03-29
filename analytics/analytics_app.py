@@ -74,8 +74,31 @@ class UserInfo(Resource):
         }
 
         return user_final if len(user_final) > 0 else 404
-    
-    
+
+
+class User(Resource):
+    parser = reqparse.RequestParser()
+    parser.add_argument('user', type=str,
+                        required=False,
+                        help="None")
+
+    def get(self):
+        print(request.args.get('user'))
+        users_all = json.loads(open('../reports/database/users/users_all.json').read())
+        print(users_all)
+
+        mail = request.args.get('user')
+
+        users = json.loads(open('../reports/users.json').read())
+        final_user = None
+        for id, user in users.items():
+            if id == mail:
+                final_user = user
+
+        return final_user
+
+        return user_final if len(user_final) > 0 else 404
+
 # Change user current interest
 class UpdateUserInterest(Resource):
     
@@ -149,6 +172,7 @@ api.add_resource(UpdateUserInterest, '/update_user_interest/<int:user_id>')
 api.add_resource(CheckItem, '/check_item')
 api.add_resource(GenericInfo, '/generic_info')
 api.add_resource(GenericInfoProjects, '/generic_info_projects')
+api.add_resource(User, '/get_user')
 
 app.run(port = 5000, debug = True)
 
