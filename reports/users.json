@@ -377,7 +377,6 @@
       "LUCA Python/Django starter",
       "c_projects",
       "# Installation",
-      "equinox-skillbook",
       "mi_pandilla",
       "Analytics Charts",
       "my_checkio_solutions",
@@ -544,7 +543,6 @@
       "Batchfile": 9
     },
     "projects": [
-      "equinox-skillbook",
       "HAL9000",
       "Analytics Charts",
       "LUCA Fleet",
@@ -1217,7 +1215,6 @@
     },
     "projects": [
       "# Installation",
-      "equinox-skillbook",
       "HAL9000",
       "Analytics Charts",
       "LUCA Comms"
@@ -1509,7 +1506,6 @@
       "Arduino": 10
     },
     "projects": [
-      "equinox-skillbook",
       "LUCA Python/Django starter",
       "# Installation"
     ]
