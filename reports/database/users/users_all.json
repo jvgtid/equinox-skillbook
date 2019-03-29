@@ -1,1 +1,418 @@
-{"amv": {"id": "amv", "mail": "amv@telefonica.com", "picture": "url", "projects": ["luca-comms", "luca-fleet"], "languages_used": {"python": {"last_commit_date": "2019-03-03", "first_commit_date": "2018-02-01", "projects_used": 4, "last_period": 12, "score": 9.0}}, "coworkers": ["asp", "mgs"], "date_account": "2016-03-01"}}
+{
+  "Eduardo Orive Vinuesa": {
+    "id": "Eduardo Orive Vinuesa",
+    "mail": null,
+    "picture": "https://avatars3.githubusercontent.com/u/1416563?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "Edorka"
+  },
+  "Telef\u00f3nica I+D Continuous Integration Bot": {
+    "id": "Telef\u00f3nica I+D Continuous Integration Bot",
+    "mail": "e.contint@tid.es",
+    "picture": "https://avatars0.githubusercontent.com/u/5929983?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "contint"
+  },
+  "Arturo Canales": {
+    "id": "Arturo Canales",
+    "mail": "arturo.canalesgonzalez@telefonica.com",
+    "picture": "https://avatars1.githubusercontent.com/u/2330639?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "acgtid"
+  },
+  "Roberto Navarro": {
+    "id": "Roberto Navarro",
+    "mail": "roberto.navarronavares.ext@telefonica.com",
+    "picture": "https://avatars1.githubusercontent.com/u/44999814?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "rnn245"
+  },
+  "Mariano Gonzalez Salazar": {
+    "id": "Mariano Gonzalez Salazar",
+    "mail": null,
+    "picture": "https://avatars2.githubusercontent.com/u/23691885?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "mgs95"
+  },
+  "Santiago Alvarez": {
+    "id": "Santiago Alvarez",
+    "mail": "safuente@airongroup.net",
+    "picture": "https://avatars1.githubusercontent.com/u/40025316?v=4",
+    "projects": [
+      "LUCA Python/Django starter"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "safuente"
+  },
+  "Javier Villar Gil": {
+    "id": "Javier Villar Gil",
+    "mail": "javier.villargil@telefonica.com",
+    "picture": "https://avatars1.githubusercontent.com/u/45091545?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "jvgtid"
+  },
+  "jamm": {
+    "id": "jamm",
+    "mail": null,
+    "picture": "https://avatars3.githubusercontent.com/u/43060891?v=4",
+    "projects": [
+      "LUCA Python/Django starter"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "joseangelmontesmeana"
+  },
+  "Francisco Jos\u00e9 Molina": {
+    "id": "Francisco Jos\u00e9 Molina",
+    "mail": "franciscojose.molina@alten.es",
+    "picture": "https://avatars3.githubusercontent.com/u/7406129?v=4",
+    "projects": [
+      "LUCA Python/Django starter"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "franciscomoma"
+  },
+  "\u00c1lvaro S\u00e1nchez P\u00e9rez": {
+    "id": "\u00c1lvaro S\u00e1nchez P\u00e9rez",
+    "mail": "alvaro.sperez@gmail.com",
+    "picture": "https://avatars0.githubusercontent.com/u/3587153?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "alvarosperez"
+  },
+  "Alberto Barbado Gonz\u00e1lez": {
+    "id": "Alberto Barbado Gonz\u00e1lez",
+    "mail": null,
+    "picture": "https://avatars1.githubusercontent.com/u/25003872?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "AlbertoBarbado"
+  },
+  "Agust\u00edn Garc\u00eda": {
+    "id": "Agust\u00edn Garc\u00eda",
+    "mail": null,
+    "picture": "https://avatars0.githubusercontent.com/u/12295280?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "agustingarciaflores"
+  },
+  "Daniel Chimeno": {
+    "id": "Daniel Chimeno",
+    "mail": "daniel.chimenosantiago@telefonica.com",
+    "picture": "https://avatars3.githubusercontent.com/u/36852967?v=4",
+    "projects": [
+      "LUCA Python/Django starter"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "dchimeno"
+  },
+  "Javier del Val N\u00fa\u00f1ez": {
+    "id": "Javier del Val N\u00fa\u00f1ez",
+    "mail": "jdvn@outlook.es",
+    "picture": "https://avatars0.githubusercontent.com/u/39129044?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "jdvn21"
+  },
+  "Alejandro Rodr\u00edguez Vicente": {
+    "id": "Alejandro Rodr\u00edguez Vicente",
+    "mail": "alejandro.rodriguezvicente@telefonica.com",
+    "picture": "https://avatars1.githubusercontent.com/u/15360394?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "rodvic"
+  },
+  "xval": {
+    "id": "xval",
+    "mail": "xavier.valcanto@telefonica.com",
+    "picture": "https://avatars1.githubusercontent.com/u/4479644?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "XavierVal"
+  },
+  "amv": {
+    "id": "amv",
+    "mail": "amv@telefonica.com",
+    "picture": "url",
+    "projects": [
+      "luca-comms",
+      "luca-fleet"
+    ],
+    "languages_used": {
+      "python": {
+        "last_commit_date": "2019-03-03",
+        "first_commit_date": "2019-02-01",
+        "projects_used": 4,
+        "last_period": 12
+      },
+      "coworkers": [
+        "asp",
+        "mgs"
+      ]
+    }
+  },
+  "null": {
+    "id": null,
+    "mail": null,
+    "picture": "https://avatars2.githubusercontent.com/u/48585106?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "CarlosAlvarezElo"
+  },
+  "Rafael Pellon": {
+    "id": "Rafael Pellon",
+    "mail": "rafael.pellongomez-calcerrada@telefonica.com",
+    "picture": "https://avatars1.githubusercontent.com/u/36852209?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "rpellon"
+  },
+  "Ra\u00fal Maroto": {
+    "id": "Ra\u00fal Maroto",
+    "mail": "raul.marotocarrera@telefonica.com",
+    "picture": "https://avatars3.githubusercontent.com/u/2381069?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "RaulMaroto"
+  },
+  "\u00d3scar Mar\u00edn Mir\u00f3": {
+    "id": "\u00d3scar Mar\u00edn Mir\u00f3",
+    "mail": "oscar.marin.ext@alten.es",
+    "picture": "https://avatars2.githubusercontent.com/u/40423512?v=4",
+    "projects": [
+      "LUCA Python/Django starter"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "oscar-marin"
+  },
+  "Pilar Cantarero": {
+    "id": "Pilar Cantarero",
+    "mail": null,
+    "picture": "https://avatars2.githubusercontent.com/u/18593174?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "mpcr"
+  },
+  "Rodrigo Pico": {
+    "id": "Rodrigo Pico",
+    "mail": null,
+    "picture": "https://avatars1.githubusercontent.com/u/45006572?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "rodrigopico"
+  },
+  "Ferjopero": {
+    "id": "Ferjopero",
+    "mail": "fernando.perezrodriguez@telefonica.com",
+    "picture": "https://avatars1.githubusercontent.com/u/36072984?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "FerjoperoTEF"
+  },
+  "Alberto Flores Garc\u00eda": {
+    "id": "Alberto Flores Garc\u00eda",
+    "mail": null,
+    "picture": "https://avatars3.githubusercontent.com/u/17312911?v=4",
+    "projects": [
+      "LUCA Python/Django starter"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "afgtid"
+  },
+  "Hugo Ferrando Seage": {
+    "id": "Hugo Ferrando Seage",
+    "mail": "hugo.ferrandoseage@telefonica.com",
+    "picture": "https://avatars3.githubusercontent.com/u/6431131?v=4",
+    "projects": [
+      "equinox-skillbook",
+      "LUCA Python/Django starter"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "hugo19941994"
+  },
+  "Fran Reneses": {
+    "id": "Fran Reneses",
+    "mail": "franciscomanuel.renesesminguez@telefonica.com",
+    "picture": "https://avatars2.githubusercontent.com/u/2803027?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "fmrm"
+  },
+  "Enrique Garc\u00eda": {
+    "id": "Enrique Garc\u00eda",
+    "mail": "enrique.garciagalan@telefonica.com",
+    "picture": "https://avatars0.githubusercontent.com/u/9999104?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "ea2809"
+  },
+  "Alberto Villena Guerras": {
+    "id": "Alberto Villena Guerras",
+    "mail": null,
+    "picture": "https://avatars2.githubusercontent.com/u/5544218?v=4",
+    "projects": [
+      "LUCA Python/Django starter"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "villenavg"
+  },
+  "Lola Poyatos Ayala": {
+    "id": "Lola Poyatos Ayala",
+    "mail": "doloresmaria.poyatosayala@telefonica.com",
+    "picture": "https://avatars0.githubusercontent.com/u/45015033?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "lolapayala"
+  },
+  "EPG & Environments": {
+    "id": "EPG & Environments",
+    "mail": "listaepg@tid.es",
+    "picture": "https://avatars1.githubusercontent.com/u/968359?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "epgtid"
+  },
+  "Henar Mu\u00f1oz Frutos": {
+    "id": "Henar Mu\u00f1oz Frutos",
+    "mail": "henar.munozfrutos@telefonica.com",
+    "picture": "https://avatars3.githubusercontent.com/u/1541508?v=4",
+    "projects": [
+      "LUCA Python/Django starter"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "hmunfru"
+  },
+  "Antonio Belloso Vicente": {
+    "id": "Antonio Belloso Vicente",
+    "mail": null,
+    "picture": "https://avatars1.githubusercontent.com/u/5716167?v=4",
+    "projects": [
+      "Lucacomms Project",
+      "LUCA Fleet",
+      "HAL9000"
+    ],
+    "coworkers": [],
+    "languages_used": [],
+    "login": "abellosovic"
+  }
+}

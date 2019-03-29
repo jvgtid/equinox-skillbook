@@ -45,8 +45,8 @@ class Collaborator:
             self.id,
             self.mail,
             self.picture,
-            set(self.projects + other_collaborator.projects),
-            set(self.coworkers + other_collaborator.coworkers),
+            list(set(self.projects + other_collaborator.projects)),
+            list(set(self.coworkers + other_collaborator.coworkers)),
             languages,
             self.login
         )

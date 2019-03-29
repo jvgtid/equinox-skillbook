@@ -1,1 +1,21 @@
-{"id": "amv", "mail": "amv@telefonica.com", "picture": "url", "projects": ["luca-comms", "luca-fleet"], "languages_used": {"python": {"last_commit_date": "2019-03-03", "first_commit_date": "2018-02-01", "projects_used": 4, "last_period": 12, "score": 9.0}}, "coworkers": ["asp", "mgs"], "date_account": "2016-03-01"}
+{
+  "id": "amv",
+  "mail": "amv@telefonica.com",
+  "picture": "url",
+  "projects": [
+    "luca-comms",
+    "luca-fleet"
+  ],
+  "languages_used": {
+    "python": {
+      "last_commit_date": "2019-03-03",
+      "first_commit_date": "2019-02-01",
+      "projects_used": 4,
+      "last_period": 12
+    },
+    "coworkers": [
+      "asp",
+      "mgs"
+    ]
+  }
+}
