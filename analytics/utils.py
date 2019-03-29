@@ -10,6 +10,8 @@ from os import listdir
 from collections import defaultdict
 
 import numpy as np
+from dateutil.relativedelta import relativedelta
+from dateutil import parser
 
 
 def save_to_json(path, file):
@@ -160,6 +162,29 @@ def process_users_projects():
 
     save_to_json('../reports/users.json', users)
     print('USERS:', users)
+    
+    
+def projects_mockup():
+    projects_all = json.loads(open('../reports/database/projects/projects_all.json').read())
+    
+    # Mockup data
+    for name, project in projects_all.items():
+        if name == 'luca-comms':
+            projects_all[name]['libraries_used'] = ["ansible", "scikit-learn", "react", "pandas", "numpy", "azure-cli", "boto3", "docker", "scipy", "pyspark", "statsmodels", "configparser", "joblib", "awscli", "redux"]
+            projects_all[name]['tags'] = ["configuration management", "machine learning", "technological computing", "technical computing", "Operating-system-level virtualization", "javascript library", "data analytics"]
+            
+            try:
+                projects_all[name]['date_last_release'] = parser.parse(projects_all[name]['date_creation']) + relativedelta(months=4)
+                projects_all[name]['date_last_release'] = str(projects_all[name]['date_last_release'].date())
+            except:
+                pass
+        elif name == 'luca-fleet':
+            projects_all[name]['libraries_used'] = ["ansible", "react", "azure-cli", "boto3", "docker", "pyspark", "statsmodels", "configparser", "joblib", "awscli", "redux"]
+            projects_all[name]['tags'] = ["configuration management", "operating-system-level virtualization", "javascript library", "data analytics"]
+    
+    # Save modifications
+    save_to_json(path="../reports/database/projects/projects_all.json", file=projects_all)
+
 
 if __name__ == '__main__':
     process_users_projects()
