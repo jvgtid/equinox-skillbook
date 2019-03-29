@@ -25,7 +25,7 @@ class Projects extends React.Component {
             for (let myProject of this.props.myProjects) {
                 for (let project of Object.values(this.props.projects)) {
                     if (project.name === myProject || project.description === myProject) {
-                        for (let tag in project.tags) {
+                        for (let tag of project.tags) {
                             myTags.push(tag)
                         }
                     }
