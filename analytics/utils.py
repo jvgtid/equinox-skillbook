@@ -56,13 +56,37 @@ def process_users():
                 'name': user['id'],
                 'mail': user['mail'],
                 'picture': user['picture'],
-                'coworkers': user['coworkers']
+                'coworkers': user['coworkers'],
+                'languages': process_repos(login)
             }
         else:
             users[login]['coworkers'] = list(set(users[login]['coworkers']) | set(user['coworkers']))
 
     save_to_json('../reports/final_users.json', users)
     print('USERS:', users)
+
+
+def process_repos(login):
+    repos = {}
+
+    list_repos= listdir('../reports/projects')
+
+    langs = {}
+
+    for path_repo in list_repos:
+        repo = json.loads(open('../reports/projects/' + path_repo).read())
+        user = repo['id'].split("/")[0]
+
+        if login == user:
+            repo_langs = repo['tags_languages']
+            for lang in repo['tags_languages'].keys():
+                if lang in langs.keys():
+                    langs[lang] = langs[lang] + repo_langs[lang]
+                else:
+                    print(repo['tags_languages'], lang)
+                    langs[lang] = repo_langs[lang]
+
+    return langs
 
 
 def process_scoring():
