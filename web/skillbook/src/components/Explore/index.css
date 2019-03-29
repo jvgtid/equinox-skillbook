@@ -17,7 +17,7 @@
     transition-duration: 0.4s;
     background-color: #fff;
     color: #000;
-    border: 0 solid #63ace5;
+    border: 0 solid #80a696;
     border-top-width: 2px;
     border-bottom-width: 2px;
     height: 59px;
@@ -27,9 +27,18 @@
     border-radius: 0;
 }
 .explore-buttons button:hover {
-    background-color: #63ace5 !important;
+    background-color: #80a696 !important;
     color: white;
 }
 .active {
     background-color: #f1f1f1 !important;
+}
+
+strong {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.projects, .people {
+    margin: 30px 0px;
 }

@@ -23,12 +23,13 @@
 }
 .col-2 {
     text-align: right;
+    font-weight: 500;
 }
 .green {
-    color: #0abd0a;
+    color: #6d9282;
 }
 .red {
-    color: red;
+    color: #dc6b6b;
 }
 
 .row {

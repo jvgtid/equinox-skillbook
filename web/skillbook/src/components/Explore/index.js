@@ -73,12 +73,12 @@ class Explore extends React.Component {
         );
 
         if (this.state.view === 'projects') {
-            view = [<br/>, <strong>By skills</strong>,
+            view = [<br/>, <strong>Por tus habilidades te recomendamos</strong>,
                 <Projects projects={this.state.projects}></Projects>, <br/>,
-                <strong>Por tus habilidades te recomendamos</strong>,
+                <strong>Por tus conexiones te recomendamos</strong>,
                 <Projects projects={this.state.projects}></Projects>];
         } else if (this.state.view === 'people') {
-            view = [<br/>, <strong>By skills</strong>, <People people={this.state.people}></People>,
+            view = [<br/>, <strong>Por tus habilidades te recomendamos</strong>, <People people={this.state.people}></People>,
                 <br/>, <strong>Por tus conexiones te recomendamos</strong>,
                 <People people={this.state.people}></People>];
         } else if (this.state.view === 'search') {
