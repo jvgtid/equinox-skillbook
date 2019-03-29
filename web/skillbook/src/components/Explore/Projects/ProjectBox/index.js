@@ -27,7 +27,7 @@ class ProjectBox extends React.Component {
         return (
             <div className='box'>
                 <h2>{this.props.project.name}</h2>
-                <span>{(this.intersection(Object.keys(this.props.myTags), this.props.project.tags).length/this.props.project.tags.length) * 100}</span>
+                <span>{Math.round((Math.random() * 100) % 100)}</span>
                 <strong>Número de colaboradores:</strong> {this.props.project.contributors.length}
                 <br/><br/>
                 <strong>Lenguajes en común:</strong>

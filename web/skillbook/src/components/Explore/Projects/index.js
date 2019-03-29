@@ -36,7 +36,9 @@ class Projects extends React.Component {
         // filter projects which contains my tags
         let projects = [];
         for (let project of Object.values(this.props.projects)) {
+            if (this.intersection(myTags, project.tags).length) {
                 projects.push(<ProjectBox project={project} myTags={myTags}></ProjectBox>)
+            }
         }
 
 
