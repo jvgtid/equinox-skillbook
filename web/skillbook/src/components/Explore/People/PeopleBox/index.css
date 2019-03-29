@@ -68,3 +68,7 @@ a.avatar > img {
     width: 240px;
     margin: auto;
 }
+
+.eye-icon path {
+    pointer-events: none;
+}
