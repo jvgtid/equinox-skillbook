@@ -6,8 +6,8 @@ import './index.css';
 const badges = [
     { type: 'general', color: '#005a74', icon: 'JS', title: 'Javascript Master - Mejor programador de Javascript' },
     { type: 'general', color: '#005a74', icon: 'Py', title: 'Python Master - Mejor programador de Python' },
-    { type: 'expertise', color: '#80a696', icon: 'V', title: 'Veteran - Veterano de Telefonica' },
-    { type: 'expertise', color: '#80a696', icon: 'IK', title: 'Issue Killer - Rapidez en la resolucion de Issues' },
+    { type: 'expertise', color: '#80a696', icon: 'V', title: 'Veteran - Veterano de Telefónica' },
+    { type: 'expertise', color: '#80a696', icon: 'IK', title: 'Issue Killer - Rapidez en la resolución de Issues' },
     { type: 'app', color: '#f05f55', icon: 'Ac', title: 'Active - Miembro muy activo de SkillBook' },
 ];
 

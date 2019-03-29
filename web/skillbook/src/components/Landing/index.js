@@ -88,7 +88,7 @@ class Landing extends React.Component {
             <div className={'landing-container flex-horizontal'}>
                 <div className={'landing-chart'}>
                     <div>
-                        {'Top tecnologias'}
+                        {'Top tecnologías'}
                     </div>
                     <ResponsiveChart
                         Chart={ barChart1 }
@@ -118,7 +118,7 @@ class Landing extends React.Component {
                 </div>
                 <div className={'landing-chart'}>
                     <div>
-                        {'Tecnologias con actividad reciente'}
+                        {'Tecnologías con actividad reciente'}
                     </div>
                     <Table data={ tableDataTech } unit={ 'lineas '}/>
                 </div>
