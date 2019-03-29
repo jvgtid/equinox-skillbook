@@ -38,7 +38,7 @@ class Body extends React.Component {
                 ]);
             } else {
                 content = content.concat([
-                    <Explore />
+                    <Explore projects={this.state.user.projects} languages={this.state.user.languages} />
                 ]);
             }
         }

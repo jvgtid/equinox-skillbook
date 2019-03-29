@@ -2,26 +2,11 @@ import React from 'react';
 import Projects from './Projects';
 import People from './People';
 import Search from './Search';
+import {makeRequest} from "../../utils/request";
 import './index.css';
 
 class Explore extends React.Component {
     state = {
-        projects: [
-            {
-                name: 'Whatever',
-                affinity: 0,
-                members: 10,
-                url: 'https://github.com/tomekw/whatever',
-                common_tech: ['JS']
-            },
-            {
-                name: 'Whatever2',
-                affinity: 90,
-                members: 5,
-                url: 'https://github.com/tomekw/whatever',
-                common_tech: ['JS', 'Python']
-            }
-        ],
         people: [
             {
                 name: 'Hugo Ferrando Seage',
@@ -42,13 +27,17 @@ class Explore extends React.Component {
                 avatar: 'https://avatars1.githubusercontent.com/u/45091545?s=88&v=4'
             }
         ],
-        view: 'projects'
+        view: 'projects',
+        projects : ""
     };
 
     componentDidMount = () => {
-        // TODO: Fetch API
 
-        // TODO: rank projects & people by skills and connections
+        const onSuccess = (response) => {
+            this.setState({projects: response})
+        };
+
+        makeRequest('generic_info_projects', [], onSuccess)
     }
 
     setView = (name) => {
@@ -73,10 +62,13 @@ class Explore extends React.Component {
         );
 
         if (this.state.view === 'projects') {
-            view = [<br/>, <strong>Por tus habilidades te recomendamos</strong>,
-                <Projects projects={this.state.projects}></Projects>, <br/>,
-                <strong>Por tus conexiones te recomendamos</strong>,
-                <Projects projects={this.state.projects}></Projects>];
+            view = [
+                <br />,
+                <strong>Por tus habilidades te recomendamos</strong>,
+                <Projects myProjects={this.props.projects} projects={this.state.projects} tag={null}></Projects>,
+                <strong>Por tu interés en machine learning te recomendamos</strong>,
+                <Projects myProjects={this.props.projects} projects={this.state.projects} tag={'machine learning'}></Projects>,
+            ];
         } else if (this.state.view === 'people') {
             view = [<br/>, <strong>Por tus habilidades te recomendamos</strong>, <People people={this.state.people}></People>,
                 <br/>, <strong>Por tus conexiones te recomendamos</strong>,
