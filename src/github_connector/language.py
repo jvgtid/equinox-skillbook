@@ -20,8 +20,8 @@ class Language:
     def __add__(self, other_language):
         return Language(
             self.key,
-            max(self.last_commit_date, other_language.last_comit_date),
-            min(self.first_commit_date, other_language.first_comit_date),
+            max(self.last_commit_date, other_language.last_commit_date),
+            min(self.first_commit_date, other_language.first_commit_date),
             max(self.last_period, other_language.last_period),
             self.projects_used + other_language.projects_used
         )
