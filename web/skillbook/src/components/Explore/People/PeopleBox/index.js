@@ -73,7 +73,7 @@ class PeopleBox extends React.Component {
                 {userInfo}
                 <div className='pHeader'>
                     <a className='avatar' href={this.props.person.url}>
-                        <img src={this.props.person.avatar}></img>
+                        <img src={this.props.person.avatar} alt='user-avatar'></img>
                     </a>
                     <strong>{this.props.person.name}</strong>
                     <span>@{this.props.person.username}</span>
