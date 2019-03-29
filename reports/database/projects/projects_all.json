@@ -299,5 +299,22 @@
       "Testing",
       "Metrics"
     ]
+  },
+  "hmunfru/nodejs-intro": {
+    "id": "hmunfru/nodejs-intro",
+    "name": "nodejs-intro",
+    "description": "My introduction presentation to node.js along with sample code at various stages of building a simple RESTful web service with journey, cradle, winston, optimist, and http-console.",
+    "date_creation": "2012-03-24",
+    "date_last_release": null,
+    "contributors": [],
+    "libraries_used": [
+      "node-js"
+    ],
+    "tags_languages": {
+      "JavaScript": 196695
+    },
+    "tags": [
+      "Runtime environment"
+    ]
   }
 }
