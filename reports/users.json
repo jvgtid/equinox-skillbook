@@ -46,7 +46,17 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 4,
+      "Python": 10,
+      "HTML": 10,
+      "CoffeeScript": 9,
+      "Shell": 1,
+      "CSS": 7,
+      "JavaScript": 7,
+      "Batchfile": 2
+    },
     "projects": [
       "Analytics Charts",
       "LUCA Python/Django starter",
@@ -515,10 +525,15 @@
       "rodvic"
     ],
     "languages": {
-      "JavaScript": 0,
-      "Python": 0,
+      "Java": 4,
+      "Scala": 10,
+      "Python": 10,
+      "HTML": 0,
+      "CoffeeScript": 2,
+      "Shell": 7,
       "CSS": 0,
-      "HTML": 0
+      "JavaScript": 0,
+      "Batchfile": 9
     },
     "projects": [
       "equinox-skillbook",
@@ -572,7 +587,17 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 10,
+      "Scala": 10,
+      "Python": 7,
+      "HTML": 0,
+      "CoffeeScript": 3,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 3
+    },
     "projects": [
       "# Installation",
       "HAL9000",
@@ -931,7 +956,17 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 7,
+      "Python": 8,
+      "HTML": 0,
+      "CoffeeScript": 10,
+      "Shell": 6,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 3
+    },
     "projects": [
       "LUCA Python/Django starter",
       "# Installation"
@@ -984,7 +1019,17 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 6,
+      "Python": 6,
+      "HTML": 8,
+      "CoffeeScript": 4,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 4
+    },
     "projects": [
       "# Installation",
       "LUCA Python/Django starter",
@@ -1079,7 +1124,17 @@
       "contint",
       "CarlosAlvarezElo"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 3,
+      "Scala": 2,
+      "Python": 9,
+      "HTML": 3,
+      "CoffeeScript": 4,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 4
+    },
     "projects": [
       "HAL9000",
       "Analytics Charts"
@@ -1131,7 +1186,17 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 6,
+      "Python": 9,
+      "HTML": 5,
+      "CoffeeScript": 6,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 7
+    },
     "projects": [
       "# Installation",
       "equinox-skillbook",
@@ -1185,7 +1250,21 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 8,
+      "Python": 7,
+      "HTML": 0,
+      "JavaScript": 0,
+      "Go": 0,
+      "Makefile": 6,
+      "CSS": 1,
+      "Elixir": 10,
+      "PHP": 6,
+      "Swift": 10,
+      "Objective-C": 0,
+      "Java": 0,
+      "CoffeeScript": 0
+    },
     "projects": [
       "Analytics Charts",
       "HAL9000",
@@ -1521,7 +1600,14 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 0,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 7,
+      "Java": 0,
+      "Groovy": 10
+    },
     "projects": [
       "# Installation",
       "HAL9000",
@@ -1575,7 +1661,20 @@
       "CarlosAlvarezElo"
     ],
     "languages": {
-      "Python": 0
+      "Shell": 9,
+      "Python": 5,
+      "HTML": 0,
+      "JavaScript": 0,
+      "Go": 0,
+      "Makefile": 0,
+      "CSS": 1,
+      "Elixir": 10,
+      "PHP": 6,
+      "Swift": 10,
+      "Objective-C": 0,
+      "Scala": 7,
+      "Java": 8,
+      "CoffeeScript": 0
     },
     "projects": [
       "# Installation"
@@ -1820,7 +1919,14 @@
       "jvgtid",
       "CarlosAlvarezElo"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 9,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 3,
+      "Java": 8,
+      "Groovy": 10
+    },
     "projects": [
       "LUCA Fleet"
     ]
@@ -1851,7 +1957,14 @@
       "contint",
       "CarlosAlvarezElo"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 3,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 2,
+      "Java": 8,
+      "Groovy": 1
+    },
     "projects": [
       "HAL9000",
       "Analytics Charts"
@@ -1932,7 +2045,12 @@
       "CarlosAlvarezElo"
     ],
     "languages": {
-      "Java": 0
+      "Shell": 6,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 7,
+      "Java": 9,
+      "Groovy": 3
     },
     "projects": [
       "# Installation"
@@ -2036,7 +2154,14 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 8,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 3,
+      "Java": 7,
+      "Groovy": 10
+    },
     "projects": [
       "# Installation",
       "LUCA Fleet"
