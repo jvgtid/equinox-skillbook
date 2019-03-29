@@ -1,3 +1,4 @@
+from redminelib import Redmine
 
 
 def get_projects(r):
@@ -9,5 +10,10 @@ def get_users(r):
 
 
 def load(r):
-    print(get_projects(r))
-    print(get_users(r))
+    [print(p) for p in get_projects(r)]
+    [print(u) for u in get_users(r)]
+
+
+if __name__ == '__main__':
+    redmine = Redmine('https://cdo.telefonica.com/redmine/projects', username="javier.villargil@telefonica.com", password="./92maiLcrTIDmar")
+    print(redmine.project.get('LUCA Fleet').created_on)

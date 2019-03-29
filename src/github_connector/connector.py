@@ -1,9 +1,12 @@
 import re
 from collections import defaultdict
 
+import json
+
 from src.github_connector.collaborators import Collaborator
 from src.github_connector.language import Language
 from src.github_connector.repository import Repository
+from src.writer import write_file
 
 
 def get_repos(g):
@@ -79,17 +82,45 @@ def get_repo_class(g, repo_name):
     return Repository(name, desc, cols, langs, created_at, latest_release_date, readme_title, dependencies)
 
 
+#def get_languages(g, user, repo):
+#    languages = []
+#
+#    pulls = g.get_repo(repo.id).get_pulls()
+#    for pull in pulls:
+#        if pull.user.login == user:
+#            date = pull.created_at.strftime("%Y-%m-%d")
+#            files = pull.get_files()
+#            for file in files:
+#                ext = file.filename.split(".")[1] if len(file.filename.split(".")) == 2 else ""
+#                languages.append((ext, date))
+#
+#    exts = defaultdict(list)
+#    for ext, date in languages:
+#        exts[ext].append(date)
+#
+#    result = []
+#    for ext, dates in exts.items():
+#        sorted_dates = sorted(dates)
+#        first = sorted_dates[0]
+#        last = before_last = sorted_dates[-1]
+#        n_dates = len(dates)
+#        if n_dates >= 3:
+#            before_last = sorted_dates[-2]
+#        result.append(Language(ext, last, first, before_last, [repo.id]))
+#
+#    return result
+
+
 def get_languages(g, user, repo):
     languages = []
 
-    pulls = g.get_repo(repo.id).get_pulls()
-    for pull in pulls:
-        if pull.user.login == user:
-            date = pull.created_at.strftime("%Y-%m-%d")
-            files = pull.get_files()
-            for file in files:
-                ext = file.filename.split(".")[1] if len(file.filename.split(".")) == 2 else ""
-                languages.append((ext, date))
+    commits = g.get_repo(repo.id).get_commits(author=user)
+
+    for commit in list(commits):
+        date = commit.commit.author.date.strftime("%Y-%m-%d")
+        for file in commit.files:
+            ext = file.filename.split(".")[1] if len(file.filename.split(".")) == 2 else ""
+            languages.append((ext, date))
 
     exts = defaultdict(list)
     for ext, date in languages:
@@ -121,7 +152,7 @@ def load_collaborators_for_repo(g, repo):
             mail = user.email
             picture = user.avatar_url
             projects = [repo.name]
-            coworkers = [] if not user.collaborators else user.collaborators
+            coworkers = [col.login for col in cols]
             languages_used = get_languages(g, user.login, repo)
             login = col.login
 
@@ -133,7 +164,6 @@ def load_collaborators_for_repo(g, repo):
 
 
 def load_repositories(g):
-
     collaborators = get_user_collaborators(g)
     collaborators_repos = [repo for col in collaborators for repo in get_repos_for_user(g, col)]
     my_repos = get_repos(g)
