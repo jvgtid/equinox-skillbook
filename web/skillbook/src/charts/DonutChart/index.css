@@ -1,0 +1,65 @@
+.LucaDonutChart_container {
+    position: relative;
+    user-select: none;
+}
+
+.LucaDonutChart_tooltip {
+    position: absolute;
+    background-color: black;
+    opacity: 0;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    pointer-events: none;
+}
+
+.LucaDonutChart_tooltip:after {
+    content: '';
+    position: absolute;
+    left: calc(50% - 6px);
+    top: 100%;
+    border: 6px solid transparent;
+    border-top-color: #000;
+}
+
+.LucaDonutChart_centralText.title, .LucaDonutChart_centralText.body {
+    pointer-events: none;
+}
+
+.LucaDonutChart_legend {
+    font-size: 12px;
+}
+
+.LucaDonutChart_arc {
+    transition: opacity ease 0.4s;
+    stroke: white;
+    stroke-width: 1.5px;
+}
+
+.LucaDonutChart_arcDisabled {
+    opacity: 0.3;
+}
+
+.LucaDonutChart_legend text.label {
+    transition: font-weight linear 0.2s;
+}
+
+.LucaDonutChart_thin {
+    font-weight: 100;
+}
+
+.LucaDonutChart_bold {
+    font-weight: bold;
+}
+
+.LucaDonutChart_pointer{
+    cursor: pointer;
+}
+
+.LucaDonutChart_centralText {
+    font-weight: bold;
+    text-anchor: middle;
+    fill: #7d7d7d;
+    opacity: 0;
+}
