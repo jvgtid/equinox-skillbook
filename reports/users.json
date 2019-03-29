@@ -52,7 +52,6 @@
       "Python": 10,
       "HTML": 10,
       "CoffeeScript": 9,
-      "Shell": 1,
       "CSS": 7,
       "JavaScript": 7,
       "Batchfile": 2
@@ -303,8 +302,7 @@
       "PHP": 10,
       "JavaScript": 1,
       "HTML": 1,
-      "CSS": 3,
-      "Shell": 0
+      "CSS": 3
     },
     "projects": [
       "HAL9000",
@@ -537,7 +535,6 @@
       "Python": 10,
       "HTML": 0,
       "CoffeeScript": 2,
-      "Shell": 4,
       "CSS": 0,
       "JavaScript": 0,
       "Batchfile": 9
@@ -916,7 +913,8 @@
     "languages": {
       "Perl": 10,
       "XSLT": 10,
-      "Python": 0
+      "Python": 0,
+      "JavaScript": 7
     },
     "projects": [
       "Django starter"
@@ -1104,7 +1102,8 @@
       "Shell": 0,
       "Jupyter Notebook": 8,
       "HTML": 0,
-      "CSS": 0
+      "CSS": 0,
+      "JavaScript": 7
     },
     "projects": [
       "# Installation",
@@ -1560,6 +1559,7 @@
       "Shell": 0,
       "Python": 1,
       "HTML": 0,
+      "JavaScript": 7,
       "Java": 0,
       "Groovy": 10
     },
@@ -1621,7 +1621,8 @@
       "Python": 9,
       "HTML": 7,
       "Java": 0,
-      "Groovy": 10
+      "Groovy": 10,
+      "JavaScript": 7
     },
     "projects": [
       "# Installation",
@@ -2064,7 +2065,6 @@
       "CarlosAlvarezElo"
     ],
     "languages": {
-      "Shell": 2,
       "Scala": 8,
       "Python": 9,
       "HTML": 7,
@@ -2239,7 +2239,6 @@
       "TeX": 1,
       "Makefile": 0,
       "Prolog": 0,
-      "Shell": 0,
       "HTML": 0
     },
     "projects": [
