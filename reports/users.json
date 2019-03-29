@@ -361,12 +361,12 @@
       "dchimeno"
     ],
     "languages": {
-      "Python": 0,
-      "JavaScript": 0,
-      "HTML": 0,
-      "CSS": 0,
+      "Python": 10,
+      "JavaScript": 9,
+      "HTML": 9,
+      "CSS": 8,
       "C": 0,
-      "Java": 0
+      "Java": 5
     },
     "projects": [
       "",
@@ -1364,6 +1364,7 @@
     },
     "projects": [
       "Django starter",
+      "nodejs-intro",
       "# Installation"
     ]
   },
