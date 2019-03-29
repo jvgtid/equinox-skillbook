@@ -25,6 +25,10 @@ def process_tags():
     list_projects = listdir('../reports/projects')
     inventory = json.loads(open('../reports/inventory/' + "tags_inventory.json").read())
     
+    project_all = {}
+    # Hardcoded filter
+    filter_projects = ['Telefonicaluca-comms.json', 'Telefonicaluca-fleet.json']
+    
     # Add tags to projects
     for path_project in list_projects:
         # Load project
@@ -36,15 +40,20 @@ def process_tags():
             for library, params in inventory.items():
                 if language in params['languages']:
                     project['tags'] += [params['tags']]
-                    
-        save_to_json(path="../reports/database/projects/" + path_project, file=project)
-        
+         
+    project_all[project['id']] = project
+    save_to_json(path="../reports/database/projects/projects_all.json", file=project_all)
+    
 
 def process_scoring():
     
+    users_total = {}
     list_users = listdir('../reports/users')
     list_projects = listdir('../reports/projects')
     baseline = (360*2)/15 # 1 year in 2 projects and 15 days since last commit
+
+    # hardcocoded
+    filter_users = ['jvgtid.json']
     
     for path_user in list_users:
         # Load user
@@ -64,7 +73,10 @@ def process_scoring():
                 score = 10
             user['languages_used'][language]['score'] = score
             
-        save_to_json(path="../reports/database/users/" + path_user, file=user)
+        
+        users_total[user['id']] = user
+    
+    save_to_json(path="../reports/database/users/users_all.json", file=users_total)
 
 
     

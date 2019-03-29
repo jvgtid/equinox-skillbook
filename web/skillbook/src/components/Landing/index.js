@@ -15,7 +15,6 @@ const barChart = props => (
         yAxisMargin={ 15 }
         nLabels={ 6 }
         fontSize={ 12 }
-        dataUnit={ 'lineas' }
     />
 );
 
@@ -35,6 +34,7 @@ const tableDataTech = [
     { name: 'Go', value: 576 },
     { name: 'Python', value: -493 },
     { name: 'HTML', value: 364 },
+    { name: 'Django', value: -2 },
 ];
 const barChartDataProjects = [
     { name: 'Lucacomms', value: 100 },
@@ -48,6 +48,9 @@ const tableDataProject = [
     { name: 'Lucacomms', value: 11 },
     { name: 'Aura', value: 9 },
     { name: 'Smartsteps', value: 9 },
+    { name: 'Digits', value: 5 },
+    { name: 'Energy', value: 2 },
+    { name: 'Gaudi', value: 1 },
 ];
 
 class Landing extends React.Component {
@@ -60,16 +63,17 @@ class Landing extends React.Component {
             <div className={'landing-container flex-horizontal'}>
                 <div className={'landing-chart'}>
                     <div>
-                        {'Top technologias'}
+                        {'Top tecnologias'}
                     </div>
                     <ResponsiveChart
                         Chart={ barChart }
                         data={ barChartDataTech }
+                        otherProps={{ dataUnit: 'contribuidores' }}
                     />
                 </div>
                 <div className={'landing-chart'}>
                     <div>
-                        {'Technologias con actividad reciente'}
+                        {'Tecnologias con actividad reciente'}
                     </div>
                     <Table data={ tableDataTech } unit={ 'lineas '}/>
                 </div>
@@ -80,6 +84,7 @@ class Landing extends React.Component {
                     <ResponsiveChart
                         Chart={ barChart }
                         data={ barChartDataProjects }
+                        otherProps={{ dataUnit: 'puntos de habilidad' }}
                     />
                 </div>
                 <div className={'landing-chart'}>

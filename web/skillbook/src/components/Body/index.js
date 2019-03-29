@@ -30,8 +30,8 @@ class Body extends React.Component {
             content = [<Header changeView={ this.changeView } />];
             if (this.state.view === 'home') {
                 content = content.concat([
-                    <Landing />,
-                    <Sidebar />
+                    <Sidebar />,
+                    <Landing />
                 ]);
             } else {
                 content = content.concat([

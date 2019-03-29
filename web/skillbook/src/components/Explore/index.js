@@ -57,12 +57,30 @@ class Explore extends React.Component {
 
     render() {
         let view = '';
-        let button = <div><button onClick={() => { this.setView('projects') }} >Projects</button> <button onClick={() => { this.setView('people') }}>People</button></div>;
+        let button = (
+            <div className={'explore-buttons flex-horizontal'}>
+                <button onClick={() => {
+                    this.setView('projects')
+                }} className={this.state.view === 'projects' ? 'active' : ''}>
+                    Proyectos
+                </button>
+                <button onClick={() => {
+                    this.setView('people')
+                }} className={this.state.view === 'people' ? 'active' : ''}>
+                    Personas
+                </button>
+            </div>
+        );
 
         if (this.state.view === 'projects') {
-        view = [<br/>, <strong>By skills</strong>, <Projects projects={this.state.projects}></Projects>,<br/>, <strong>By connections</strong>, <Projects projects={this.state.projects}></Projects>];
+            view = [<br/>, <strong>By skills</strong>,
+                <Projects projects={this.state.projects}></Projects>, <br/>,
+                <strong>Por tus habilidades te recomendamos</strong>,
+                <Projects projects={this.state.projects}></Projects>];
         } else if (this.state.view === 'people') {
-        view = [<br/>, <strong>By skills</strong>, <People people={this.state.people}></People>, <br/>, <strong>By connections</strong>, <People people={this.state.people}></People>];
+            view = [<br/>, <strong>By skills</strong>, <People people={this.state.people}></People>,
+                <br/>, <strong>Por tus conexiones te recomendamos</strong>,
+                <People people={this.state.people}></People>];
         } else if (this.state.view === 'search') {
             view = <People people={this.state.people}></People>;
             button = null;
