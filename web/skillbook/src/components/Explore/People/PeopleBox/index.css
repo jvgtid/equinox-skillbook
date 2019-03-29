@@ -72,3 +72,20 @@ a.avatar > img {
 .eye-icon path {
     pointer-events: none;
 }
+
+.box .img {
+    margin-top: -25px;
+}
+
+.box .user-name {
+    margin-top: -45px;
+    font-weight: 600;
+}
+
+.box .user-email {
+    margin-bottom: 28px;
+}
+
+.box .user-profile-container {
+    box-shadow: 0px 1px 5px 0px rgba(1, 1, 1, 0.4);
+}

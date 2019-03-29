@@ -22,6 +22,7 @@ const badges = [
 ];
 let name = '';
 let picture = '';
+let contact = '';
 
 
 class PeopleBox extends React.Component {
@@ -42,6 +43,8 @@ class PeopleBox extends React.Component {
             }
             skills = skills.sort((a, b) => b.score - a.score);
             name = response.name.toUpperCase();
+            console.log(response);
+            contact = response.mail;
             picture = response.picture;
 
             this.setState({ showInfo: !this.state.showInfo })
@@ -61,6 +64,9 @@ class PeopleBox extends React.Component {
                     </div>
                     <div className={'user-name'}>
                         { name }
+                    </div>
+                    <div className={'user-email'}>
+                        { contact }
                     </div>
                     <Skills data={ skills }/>
                     <Badges data={ badges }/>

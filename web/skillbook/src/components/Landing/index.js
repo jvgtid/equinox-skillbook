@@ -6,7 +6,7 @@ import Table from '../Table';
 import './index.css';
 
 
-const barChart = props => (
+const barChart1 = props => (
     <BarChart
         { ...props }
         margin={{ top: 35, right: 50, bottom: 15, left: 0 }}
@@ -18,12 +18,25 @@ const barChart = props => (
         fontSize={ 12 }
     />
 );
+const barChart2 = props => (
+    <BarChart
+        { ...props }
+        margin={{ top: 35, right: 50, bottom: 15, left: 0 }}
+        customColors={ ['#63ace5'] }
+        customBarSize={ 0.55 }
+        endMargin={ 30 }
+        yAxisMargin={ 30 }
+        nLabels={ 6 }
+        fontSize={ 12 }
+    />
+);
 const donutChart = props => (
     <DonuChart
         { ...props }
         margin={{ top: 35, right: 50, bottom: 15, left: 0 }}
         customColors={ ['#005a74', '#80a696', '#f05f55', '#f3ce3d', '#5c2561', '#4fc2e9', '#de62ec'] }
         customTextAtCenter={(d, du) => [d.value, du]}
+        thickness={0.20}
         hideTooltip
     />
 );
@@ -78,7 +91,7 @@ class Landing extends React.Component {
                         {'Top tecnologias'}
                     </div>
                     <ResponsiveChart
-                        Chart={ barChart }
+                        Chart={ barChart1 }
                         data={ topLanguages }
                         otherProps={{ dataUnit: 'contribuidores' }}
                     />
@@ -88,7 +101,7 @@ class Landing extends React.Component {
                         {'Top proyectos'}
                     </div>
                     <ResponsiveChart
-                        Chart={ barChart }
+                        Chart={ barChart2 }
                         data={ topProjects }
                         otherProps={{ dataUnit: 'puntos de habilidad' }}
                     />
