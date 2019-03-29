@@ -1,8 +1,12 @@
 .box {
-    border-radius: 4px;
-    position:relative;
     min-height: 150px;
-    width: 31%;
+    width: 30%;
+    margin: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    padding: 15px;
+    box-shadow: 2px 1px 6px 0px rgba(0,0,0,0.2);
 }
 
 div.pHeader {
@@ -27,4 +31,11 @@ a.avatar > img {
     left: 10px;
     border-radius: 4px;
     max-width: 55px;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 35px;
+    top: 19px;
+    cursor: pointer;
 }

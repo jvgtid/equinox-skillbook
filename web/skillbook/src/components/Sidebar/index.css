@@ -28,4 +28,9 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    background-image: url("./duck.jpg");
+    background-size: 138px;
+    transition: background-size linear 0.4s;
+    background-repeat: no-repeat;
+    background-position-y: 14px;
 }

@@ -15,9 +15,9 @@ class ProjectBox extends React.Component {
             <div className='box'>
                 <h2>{this.props.project.name}</h2>
                 <span>{this.props.project.affinity}</span>
-                <strong>No. of members:</strong> {this.props.project.members}
+                <strong>Numero de colaboradores:</strong> {this.props.project.members}
                 <br/><br/>
-                <strong>Tech in common:</strong>
+                <strong>Tecnologias en comun:</strong>
                 <div className='techs'>{techs}</div>
             </div>
         );
