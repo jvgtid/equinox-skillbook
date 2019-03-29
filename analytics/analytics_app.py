@@ -64,8 +64,8 @@ class UserInfo(Resource):
         projects_top = list(filter(lambda x: x[1] != 0, projects_top))
         projects_top = list(sorted(projects_top, key=lambda x: x[1], reverse=True))
         projects_top.pop(0)
-        if len(projects_top) > 10:
-            projects_top = projects_top[:10]
+        if len(projects_top) > 6:
+            projects_top = projects_top[:6]
 
         return {
             'user': final_user,

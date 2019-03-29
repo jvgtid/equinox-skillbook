@@ -19,8 +19,9 @@ class LoginBox extends React.Component {
         e.preventDefault();
 
         const onSuccess = (response) => {
-            console.log('IT WORKS', response);
-            this.props.enterSite(response);
+            if (response.user !== null) {
+                this.props.enterSite(response);
+            }
         };
 
         makeRequest('user_info', { user_mail: this.state.username }, onSuccess);
@@ -37,7 +38,7 @@ class LoginBox extends React.Component {
                 <div className="col-md-6 col-md-offset-3">
                     <form name="form" onSubmit={this.handleSubmit}>
                         <div className={'form-group flex-vertical'}>
-                            <label htmlFor="username">Email</label>
+                            <label htmlFor="username">E-mail</label>
                             <input type="text" className="form-control" name="username"
                                    value={username} onChange={this.handleChange}/>
                         </div>
@@ -47,7 +48,7 @@ class LoginBox extends React.Component {
                                    value={password} onChange={this.handleChange}/>
                         </div>
                         <div className="form-group">
-                            <button className="btn btn-primary">Iniciar sesion</button>
+                            <button className="btn btn-primary">Iniciar sesión</button>
                         </div>
                     </form>
                 </div>
