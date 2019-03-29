@@ -1,7 +1,7 @@
 {
   "edorka": {
     "name": "Eduardo Orive Vinuesa",
-    "mail": null,
+    "mail": "eduardo.orive@aurigae.com",
     "picture": "https://avatars3.githubusercontent.com/u/1416563?v=4",
     "coworkers": [
       "abellosovic",
@@ -46,10 +46,21 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 4,
+      "Python": 10,
+      "HTML": 10,
+      "CoffeeScript": 9,
+      "Shell": 1,
+      "CSS": 7,
+      "JavaScript": 7,
+      "Batchfile": 2
+    },
     "projects": [
       "Analytics Charts",
       "LUCA Python/Django starter",
+      "LUCA Fleet",
       "HAL9000",
       "# Installation"
     ]
@@ -233,7 +244,8 @@
     "projects": [
       "Analytics Charts",
       "HAL9000",
-      "# Installation"
+      "# Installation",
+      "LUCA Fleet"
     ]
   },
   "alvarosperez": {
@@ -298,12 +310,14 @@
       "HAL9000",
       "Analytics Charts",
       "LUCA Python/Django starter",
-      "# Installation"
+      "# Installation",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "mgs95": {
     "name": "Mariano Gonzalez Salazar",
-    "mail": null,
+    "mail": "mariano.gonzalezsalazar@telefonica.com",
     "picture": "https://avatars2.githubusercontent.com/u/23691885?v=4",
     "coworkers": [
       "abellosovic",
@@ -367,7 +381,9 @@
       "mi_pandilla",
       "Analytics Charts",
       "my_checkio_solutions",
-      "# Website Performance Optimization portfolio project"
+      "# Website Performance Optimization portfolio project",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "rnn245": {
@@ -434,7 +450,7 @@
   },
   "agustingarciaflores": {
     "name": "Agust\u00edn Garc\u00eda",
-    "mail": null,
+    "mail": "agustin.garciaflores@telefonica.com",
     "picture": "https://avatars0.githubusercontent.com/u/12295280?v=4",
     "coworkers": [
       "abellosovic",
@@ -484,7 +500,9 @@
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "jvgtid": {
@@ -515,15 +533,22 @@
       "rodvic"
     ],
     "languages": {
-      "JavaScript": 0,
-      "Python": 0,
+      "Java": 4,
+      "Scala": 10,
+      "Python": 10,
+      "HTML": 0,
+      "CoffeeScript": 2,
+      "Shell": 7,
       "CSS": 0,
-      "HTML": 0
+      "JavaScript": 0,
+      "Batchfile": 9
     },
     "projects": [
       "equinox-skillbook",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "fmrm": {
@@ -572,11 +597,22 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 10,
+      "Scala": 10,
+      "Python": 7,
+      "HTML": 0,
+      "CoffeeScript": 3,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 3
+    },
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Comms"
     ]
   },
   "carlosalvarezelo": {
@@ -613,7 +649,7 @@
   },
   "mpcr": {
     "name": "Pilar Cantarero",
-    "mail": null,
+    "mail": "pilar.cantarerorecio@telefonica.com",
     "picture": "https://avatars2.githubusercontent.com/u/18593174?v=4",
     "coworkers": [
       "abellosovic",
@@ -661,12 +697,14 @@
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "abellosovic": {
     "name": "Antonio Belloso Vicente",
-    "mail": null,
+    "mail": "antonio.bellosovicente@telefonica.com",
     "picture": "https://avatars1.githubusercontent.com/u/5716167?v=4",
     "coworkers": [
       "abellosovic",
@@ -728,7 +766,9 @@
     "projects": [
       "Analytics Charts",
       "HAL9000",
-      "# Installation"
+      "# Installation",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "franciscomoma": {
@@ -886,7 +926,7 @@
   },
   "afgtid": {
     "name": "Alberto Flores Garc\u00eda",
-    "mail": null,
+    "mail": "agustin.garciaflores@telefonica.com",
     "picture": "https://avatars3.githubusercontent.com/u/17312911?v=4",
     "coworkers": [
       "abellosovic",
@@ -931,7 +971,17 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 7,
+      "Python": 8,
+      "HTML": 0,
+      "CoffeeScript": 10,
+      "Shell": 6,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 3
+    },
     "projects": [
       "LUCA Python/Django starter",
       "# Installation"
@@ -984,12 +1034,24 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 6,
+      "Python": 6,
+      "HTML": 8,
+      "CoffeeScript": 4,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 4
+    },
     "projects": [
       "# Installation",
       "LUCA Python/Django starter",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "epgtid": {
@@ -1055,7 +1117,7 @@
   },
   "rodrigopico": {
     "name": "Rodrigo Pico",
-    "mail": null,
+    "mail": "rodrigo.picoparedes@telefonica.com",
     "picture": "https://avatars1.githubusercontent.com/u/45006572?v=4",
     "coworkers": [
       "abellosovic",
@@ -1079,15 +1141,26 @@
       "contint",
       "CarlosAlvarezElo"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 3,
+      "Scala": 2,
+      "Python": 9,
+      "HTML": 3,
+      "CoffeeScript": 4,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 4
+    },
     "projects": [
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet"
     ]
   },
   "albertobarbado": {
     "name": "Alberto Barbado Gonz\u00e1lez",
-    "mail": null,
+    "mail": "alberto.barbadogonzalez@telefonica.com",
     "picture": "https://avatars1.githubusercontent.com/u/25003872?v=4",
     "coworkers": [
       "abellosovic",
@@ -1131,12 +1204,23 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Java": 7,
+      "Scala": 6,
+      "Python": 9,
+      "HTML": 5,
+      "CoffeeScript": 6,
+      "Shell": 1,
+      "CSS": 0,
+      "JavaScript": 0,
+      "Batchfile": 7
+    },
     "projects": [
       "# Installation",
       "equinox-skillbook",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Comms"
     ]
   },
   "raulmaroto": {
@@ -1185,7 +1269,21 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 8,
+      "Python": 7,
+      "HTML": 0,
+      "JavaScript": 0,
+      "Go": 0,
+      "Makefile": 6,
+      "CSS": 1,
+      "Elixir": 10,
+      "PHP": 6,
+      "Swift": 10,
+      "Objective-C": 0,
+      "Java": 0,
+      "CoffeeScript": 0
+    },
     "projects": [
       "Analytics Charts",
       "HAL9000",
@@ -1521,16 +1619,25 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 0,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 7,
+      "Java": 0,
+      "Groovy": 10
+    },
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "pratid": {
     "name": "Pablo Rodr\u00edguez Archilla",
-    "mail": null,
+    "mail": "pablo.rodriguezarchilla@telefonica.com",
     "picture": "https://avatars2.githubusercontent.com/u/2345596?v=4",
     "coworkers": [
       "santifinland",
@@ -1575,15 +1682,29 @@
       "CarlosAlvarezElo"
     ],
     "languages": {
-      "Python": 0
+      "Shell": 9,
+      "Python": 5,
+      "HTML": 0,
+      "JavaScript": 0,
+      "Go": 0,
+      "Makefile": 0,
+      "CSS": 1,
+      "Elixir": 10,
+      "PHP": 6,
+      "Swift": 10,
+      "Objective-C": 0,
+      "Scala": 7,
+      "Java": 8,
+      "CoffeeScript": 0
     },
     "projects": [
-      "# Installation"
+      "# Installation",
+      "GBIC-Engineering"
     ]
   },
   "villenavg": {
     "name": "Alberto Villena Guerras",
-    "mail": null,
+    "mail": "alberto.villenaguerras@telefonica.com",
     "picture": "https://avatars2.githubusercontent.com/u/5544218?v=4",
     "coworkers": [
       "abellosovic",
@@ -1820,7 +1941,14 @@
       "jvgtid",
       "CarlosAlvarezElo"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 9,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 3,
+      "Java": 8,
+      "Groovy": 10
+    },
     "projects": [
       "LUCA Fleet"
     ]
@@ -1851,10 +1979,18 @@
       "contint",
       "CarlosAlvarezElo"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 3,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 2,
+      "Java": 8,
+      "Groovy": 1
+    },
     "projects": [
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "GBIC-Engineering"
     ]
   },
   "oscar-marin": {
@@ -1887,7 +2023,7 @@
   },
   "davidllanos": {
     "name": "David Llanos Santos",
-    "mail": null,
+    "mail": "david.llanossantos@telefonica.com",
     "picture": "https://avatars3.githubusercontent.com/u/2376631?v=4",
     "coworkers": [
       "santifinland",
@@ -1932,7 +2068,12 @@
       "CarlosAlvarezElo"
     ],
     "languages": {
-      "Java": 0
+      "Shell": 6,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 7,
+      "Java": 9,
+      "Groovy": 3
     },
     "projects": [
       "# Installation"
@@ -2036,7 +2177,14 @@
       "davidllanos",
       "dchimeno"
     ],
-    "languages": {},
+    "languages": {
+      "Shell": 8,
+      "Scala": 8,
+      "Python": 9,
+      "HTML": 3,
+      "Java": 7,
+      "Groovy": 10
+    },
     "projects": [
       "# Installation",
       "LUCA Fleet"
@@ -2044,7 +2192,7 @@
   },
   "cesarggtid": {
     "name": "C\u00e9sar",
-    "mail": null,
+    "mail": "cesar.garciagomez@telefonica.com",
     "picture": "https://avatars1.githubusercontent.com/u/2570671?v=4",
     "coworkers": [
       "santifinland",
