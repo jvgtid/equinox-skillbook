@@ -60,6 +60,7 @@
     "projects": [
       "Analytics Charts",
       "LUCA Python/Django starter",
+      "LUCA Fleet",
       "HAL9000",
       "# Installation"
     ]
@@ -243,7 +244,8 @@
     "projects": [
       "Analytics Charts",
       "HAL9000",
-      "# Installation"
+      "# Installation",
+      "LUCA Fleet"
     ]
   },
   "alvarosperez": {
@@ -308,7 +310,9 @@
       "HAL9000",
       "Analytics Charts",
       "LUCA Python/Django starter",
-      "# Installation"
+      "# Installation",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "mgs95": {
@@ -377,7 +381,9 @@
       "mi_pandilla",
       "Analytics Charts",
       "my_checkio_solutions",
-      "# Website Performance Optimization portfolio project"
+      "# Website Performance Optimization portfolio project",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "rnn245": {
@@ -494,7 +500,9 @@
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "jvgtid": {
@@ -538,7 +546,9 @@
     "projects": [
       "equinox-skillbook",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "fmrm": {
@@ -601,7 +611,8 @@
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Comms"
     ]
   },
   "carlosalvarezelo": {
@@ -686,7 +697,9 @@
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "abellosovic": {
@@ -753,7 +766,9 @@
     "projects": [
       "Analytics Charts",
       "HAL9000",
-      "# Installation"
+      "# Installation",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "franciscomoma": {
@@ -1034,7 +1049,9 @@
       "# Installation",
       "LUCA Python/Django starter",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "epgtid": {
@@ -1137,7 +1154,8 @@
     },
     "projects": [
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet"
     ]
   },
   "albertobarbado": {
@@ -1201,7 +1219,8 @@
       "# Installation",
       "equinox-skillbook",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Comms"
     ]
   },
   "raulmaroto": {
@@ -1611,7 +1630,9 @@
     "projects": [
       "# Installation",
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "LUCA Fleet",
+      "LUCA Comms"
     ]
   },
   "pratid": {
@@ -1677,7 +1698,8 @@
       "CoffeeScript": 0
     },
     "projects": [
-      "# Installation"
+      "# Installation",
+      "GBIC-Engineering"
     ]
   },
   "villenavg": {
@@ -1967,7 +1989,8 @@
     },
     "projects": [
       "HAL9000",
-      "Analytics Charts"
+      "Analytics Charts",
+      "GBIC-Engineering"
     ]
   },
   "oscar-marin": {
