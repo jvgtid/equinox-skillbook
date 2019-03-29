@@ -1,1 +1,303 @@
-{"luca-comms": {"id": "Telefonica/luca-comms", "name": "Lucacomms Project", "description": "LUCA Comms", "date_creation": "2018-09-25", "date_last_release": "2019-01-25", "contributors": ["epgtid", "Edorka", "acgtid", "RaulMaroto", "fmrm", "alvarosperez", "XavierVal", "abellosovic", "contint", "ea2809", "agustingarciaflores", "rodvic", "mpcr", "mgs95", "AlbertoBarbado", "FerjoperoTEF", "rpellon", "jdvn21", "rnn245", "rodrigopico", "lolapayala", "jvgtid", "CarlosAlvarezElo"], "libraries_used": ["ansible", "scikit-learn", "react", "pandas", "numpy", "azure-cli", "boto3", "docker", "scipy", "pyspark", "statsmodels", "configparser", "joblib", "awscli", "redux"], "tags_languages": {"HTML": 917155, "JavaScript": 901824, "Python": 622589, "Scala": 367320, "CSS": 156838, "Gherkin": 46679, "Shell": 32912, "Dockerfile": 2153}, "tags": ["configuration management", "machine learning", "technological computing", "technical computing", "Operating-system-level virtualization", "javascript library", "data analytics"]}, "luca-fleet": {"id": "Telefonica/luca-fleet", "name": "LUCA Fleet", "description": null, "date_creation": "2018-11-13", "date_last_release": "2019-02-26", "contributors": ["epgtid", "Edorka", "acgtid", "RaulMaroto", "fmrm", "alvarosperez", "XavierVal", "abellosovic", "contint", "ea2809", "agustingarciaflores", "rodvic", "mpcr", "mgs95", "AlbertoBarbado", "FerjoperoTEF", "rpellon", "jdvn21", "rnn245", "rodrigopico", "lolapayala", "jvgtid", "CarlosAlvarezElo"], "libraries_used": ["ansible", "react", "azure-cli", "boto3", "docker", "pyspark", "statsmodels", "configparser", "joblib", "awscli", "redux"], "tags_languages": {"PLpgSQL": 10994725, "Python": 1142793, "JavaScript": 601577, "CSS": 234356, "Gherkin": 118436, "Shell": 57290, "HTML": 37625, "Dockerfile": 3338}, "tags": ["configuration management", "operating-system-level virtualization", "javascript library", "data analytics"]}}
+{
+  "luca-comms": {
+    "id": "Telefonica/luca-comms",
+    "name": "Lucacomms Project",
+    "description": "LUCA Comms",
+    "date_creation": "2018-09-25",
+    "date_last_release": "2019-01-25",
+    "contributors": [
+      "epgtid",
+      "Edorka",
+      "acgtid",
+      "RaulMaroto",
+      "fmrm",
+      "alvarosperez",
+      "XavierVal",
+      "abellosovic",
+      "contint",
+      "ea2809",
+      "agustingarciaflores",
+      "rodvic",
+      "mpcr",
+      "mgs95",
+      "AlbertoBarbado",
+      "FerjoperoTEF",
+      "rpellon",
+      "jdvn21",
+      "rnn245",
+      "rodrigopico",
+      "lolapayala",
+      "jvgtid",
+      "CarlosAlvarezElo"
+    ],
+    "libraries_used": [
+      "ansible",
+      "scikit-learn",
+      "react",
+      "pandas",
+      "numpy",
+      "azure-cli",
+      "boto3",
+      "docker",
+      "scipy",
+      "pyspark",
+      "statsmodels",
+      "configparser",
+      "joblib",
+      "awscli",
+      "redux"
+    ],
+    "tags_languages": {
+      "HTML": 917155,
+      "JavaScript": 901824,
+      "Python": 622589,
+      "Scala": 367320,
+      "CSS": 156838,
+      "Gherkin": 46679,
+      "Shell": 32912,
+      "Dockerfile": 2153
+    },
+    "tags": [
+      "configuration management",
+      "machine learning",
+      "technological computing",
+      "technical computing",
+      "Operating-system-level virtualization",
+      "javascript library",
+      "data analytics"
+    ]
+  },
+  "luca-fleet": {
+    "id": "Telefonica/luca-fleet",
+    "name": "LUCA Fleet",
+    "description": null,
+    "date_creation": "2018-11-13",
+    "date_last_release": "2019-02-26",
+    "contributors": [
+      "epgtid",
+      "Edorka",
+      "acgtid",
+      "RaulMaroto",
+      "fmrm",
+      "alvarosperez",
+      "XavierVal",
+      "abellosovic",
+      "contint",
+      "ea2809",
+      "agustingarciaflores",
+      "rodvic",
+      "mpcr",
+      "mgs95",
+      "AlbertoBarbado",
+      "FerjoperoTEF",
+      "rpellon",
+      "jdvn21",
+      "rnn245",
+      "rodrigopico",
+      "lolapayala",
+      "jvgtid",
+      "CarlosAlvarezElo"
+    ],
+    "libraries_used": [
+      "ansible",
+      "react",
+      "azure-cli",
+      "boto3",
+      "docker",
+      "pyspark",
+      "statsmodels",
+      "configparser",
+      "joblib",
+      "awscli",
+      "redux"
+    ],
+    "tags_languages": {
+      "PLpgSQL": 10994725,
+      "Python": 1142793,
+      "JavaScript": 601577,
+      "CSS": 234356,
+      "Gherkin": 118436,
+      "Shell": 57290,
+      "HTML": 37625,
+      "Dockerfile": 3338
+    },
+    "tags": [
+      "configuration management",
+      "operating-system-level virtualization",
+      "javascript library",
+      "data analytics"
+    ]
+  },
+  "Telefonica/analytics-charts": {
+    "id": "Telefonica/analytics-charts",
+    "name": "Analytics Charts",
+    "description": "React + D3 library for chart components. It stores different charts that follows the LUCA design model and allows a huge layer of customization",
+    "date_creation": "2018-11-19",
+    "date_last_release": "2019-03-22",
+    "contributors": [
+      "epgtid",
+      "Edorka",
+      "acgtid",
+      "RaulMaroto",
+      "fmrm",
+      "alvarosperez",
+      "abellosovic",
+      "contint",
+      "ea2809",
+      "agustingarciaflores",
+      "rodvic",
+      "mpcr",
+      "mgs95",
+      "AlbertoBarbado",
+      "rpellon",
+      "jdvn21",
+      "rodrigopico",
+      "lolapayala",
+      "jvgtid",
+      "CarlosAlvarezElo"
+    ],
+    "libraries_used": [
+      "react",
+      "d3",
+      "topojson-client",
+      "prop-types"
+    ],
+    "tags_languages": {
+      "JavaScript": 453812,
+      "CSS": 18769,
+      "HTML": 1572
+    },
+    "tags": [
+      "operating-system-level virtualization",
+      "javascript library",
+      "data analytics"
+    ]
+  },
+  "Telefonica/analytics-hal9000": {
+    "id": "Telefonica/analytics-hal9000",
+    "name": "HAL9000",
+    "description": "Hubot Slack bot designed to create GitHub deployments",
+    "date_creation": "2019-01-24",
+    "date_last_release": null,
+    "contributors": [
+      "epgtid",
+      "Edorka",
+      "acgtid",
+      "RaulMaroto",
+      "fmrm",
+      "alvarosperez",
+      "abellosovic",
+      "ea2809",
+      "agustingarciaflores",
+      "rodvic",
+      "mpcr",
+      "mgs95",
+      "AlbertoBarbado",
+      "rpellon",
+      "jdvn21",
+      "rodrigopico",
+      "lolapayala",
+      "jvgtid",
+      "CarlosAlvarezElo"
+    ],
+    "libraries_used": [
+      "ansible",
+      "boto3"
+    ],
+    "tags_languages": {
+      "Python": 73063,
+      "Dockerfile": 950,
+      "Shell": 154,
+      "Batchfile": 154
+    },
+    "tags": [
+      "Configuration management"
+    ]
+  },
+  "Telefonica/onos": {
+    "id": "Telefonica/onos",
+    "name": "ONOS : Open Network Operating System",
+    "description": "Open Network Operating System",
+    "date_creation": "2019-03-08",
+    "date_last_release": null,
+    "contributors": [],
+    "libraries_used": [
+      "junit",
+      "hamcrest",
+      "guava",
+      "concurrent-trees",
+      "metrics-core",
+      "easy-mock",
+      "jersey"
+    ],
+    "tags_languages": {
+      "Java": 45152442,
+      "JavaScript": 4025926,
+      "Python": 921041,
+      "TypeScript": 791649,
+      "CSS": 356626,
+      "Shell": 315569,
+      "HTML": 305281,
+      "P4": 153837,
+      "Ruby": 7784,
+      "Dockerfile": 2002,
+      "Makefile": 1435
+    },
+    "tags": [
+      "Unit Testing",
+      "Java",
+      "Testing",
+      "Metrics"
+    ]
+  },
+  "Telefonica/spark": {
+    "id": "Telefonica/spark",
+    "name": "Apache Spark",
+    "description": "Apache Spark",
+    "date_creation": "2019-01-15",
+    "date_last_release": null,
+    "contributors": [],
+    "libraries_used": [
+      "spark",
+      "scalatest",
+      "junit",
+      "jetty-http",
+      "guava",
+      "pmml-agent",
+      "ivy",
+      "selenium-java",
+      "netty",
+      "log4j"
+    ],
+    "tags_languages": {
+      "Scala": 27914609,
+      "Java": 3434507,
+      "Python": 2842525,
+      "HiveQL": 1823426,
+      "R": 1151675,
+      "Shell": 203315,
+      "JavaScript": 196695,
+      "PLpgSQL": 191716,
+      "q": 146878,
+      "HTML": 70197,
+      "ANTLR": 35161,
+      "Thrift": 33605,
+      "Batchfile": 30468,
+      "CSS": 26884,
+      "Roff": 15677,
+      "Makefile": 9397,
+      "Dockerfile": 8760,
+      "PowerShell": 3856,
+      "SQLPL": 3603,
+      "C": 1493
+    },
+    "tags": [
+      "Data analytics",
+      "Machine learning",
+      "Unit Testing",
+      "Java",
+      "Testing",
+      "Metrics"
+    ]
+  }
+}
