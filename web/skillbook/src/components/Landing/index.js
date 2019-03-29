@@ -1,6 +1,7 @@
 import React from 'react';
 import ResponsiveChart from '../ResponsiveChart';
 import BarChart from '../../charts/BarChart';
+import DonuChart from '../../charts/DonutChart';
 import Table from '../Table';
 import './index.css';
 
@@ -17,16 +18,16 @@ const barChart = props => (
         fontSize={ 12 }
     />
 );
+const donutChart = props => (
+    <DonuChart
+        { ...props }
+        margin={{ top: 35, right: 50, bottom: 15, left: 0 }}
+        customColors={ ['#005a74', '#80a696', '#f05f55', '#f3ce3d', '#5c2561', '#4fc2e9', '#de62ec'] }
+        customTextAtCenter={(d, du) => [d.value, du]}
+        hideTooltip
+    />
+);
 
-const barChartDataTech = [
-    { name: 'Js', value: 100 },
-    { name: 'Py', value: 90 },
-    { name: 'Go', value: 80 },
-    { name: 'React', value: 75 },
-    { name: 'jQuery', value: 48 },
-    { name: 'Node', value: 23 },
-    { name: 'Flask', value: 21 },
-];
 const tableDataTech = [
     { name: 'Javascript', value: -1576 },
     { name: 'CSV', value: 1276 },
@@ -36,13 +37,6 @@ const tableDataTech = [
     { name: 'HTML', value: 364 },
     { name: 'Django', value: -2 },
 ];
-const barChartDataProjects = [
-    { name: 'Lucacomms', value: 100 },
-    { name: 'Lucafleet', value: 90 },
-    { name: 'Aura', value: 80 },
-    { name: 'Smart Steps', value: 75 },
-    { name: 'Home', value: 48 },
-];
 const tableDataProject = [
     { name: 'Lucafleet', value: 12 },
     { name: 'Lucacomms', value: 11 },
@@ -51,6 +45,15 @@ const tableDataProject = [
     { name: 'Digits', value: 5 },
     { name: 'Energy', value: 2 },
     { name: 'Gaudi', value: 1 },
+];
+const donutChartData = [
+    { name: 'Madrid', surname: '', value: 8631 },
+    { name: 'Barcelona', surname: '', value: 5427 },
+    { name: 'London', surname: '', value: 3216 },
+    { name: 'Valencia', surname: '', value: 854 },
+    { name: 'Huesca', surname: '', value: 324 },
+    { name: 'Granada', surname: '', value: 319 },
+    { name: 'Boecillo', surname: '', value: 289 },
 ];
 
 class Landing extends React.Component {
@@ -82,12 +85,6 @@ class Landing extends React.Component {
                 </div>
                 <div className={'landing-chart'}>
                     <div>
-                        {'Tecnologias con actividad reciente'}
-                    </div>
-                    <Table data={ tableDataTech } unit={ 'lineas '}/>
-                </div>
-                <div className={'landing-chart'}>
-                    <div>
                         {'Top proyectos'}
                     </div>
                     <ResponsiveChart
@@ -98,9 +95,19 @@ class Landing extends React.Component {
                 </div>
                 <div className={'landing-chart'}>
                     <div>
-                        {'Proyectos con actividad reciente'}
+                        {'Skills por Sede'}
                     </div>
-                    <Table data={ tableDataProject } unit={ 'commits' }/>
+                    <ResponsiveChart
+                        Chart={ donutChart }
+                        data={ donutChartData }
+                        otherProps={{ dataUnit: 'puntos de habilidad' }}
+                    />
+                </div>
+                <div className={'landing-chart'}>
+                    <div>
+                        {'Tecnologias con actividad reciente'}
+                    </div>
+                    <Table data={ tableDataTech } unit={ 'lineas '}/>
                 </div>
             </div>
         );
